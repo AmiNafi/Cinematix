@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= curmovie.title %>
+    </title>
+</head>
+
+
+<body>
+    <h1>
+        <%= curmovie.title %> <br>
+    </h1>
+    <img src="<%= curmovie.poster %>" alt="Image not loaded" width="250" height="300">
+    <p>
+        <b>Rating: </b>
+        <%= curmovie.rating %> <br>
+            <b>Director: </b>
+            <%= curmovie.director %>
+    </p>
+    <p>
+        <%= curmovie.description%>
+    </p>
+    <footer>
+        <a href="/movielist">All Movies</a>
+        <a href="/movielist/<%= curmovie._id %>/editmovie">Edit</a>
+    </footer>
+</body>
+
+</html>

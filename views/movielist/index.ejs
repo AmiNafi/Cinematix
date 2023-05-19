@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+</head>
+
+<body>
+    <h1>All Movie List</h1>
+    <div>
+        <a href="/movielist/newmovie"> Add movie</a>
+    </div>
+    <ul>
+        <% for (let movie of movielist) {%>
+            <li>
+                <a href="/movielist/<%= movie._id%>">
+                    <%= movie.title %>
+                </a>
+            </li>
+            <% } %>
+    </ul>
+</body>
+
+</html>

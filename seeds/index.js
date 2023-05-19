@@ -24,4 +24,6 @@ const seedDB = async () => {
         await curmovie.save();
     }
 }
-seedDB();
+seedDB().then(() => {
+    mongoose.connection.close();
+});
