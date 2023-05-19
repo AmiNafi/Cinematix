@@ -4,10 +4,15 @@ import json
 
 # Function to fetch IMDb top 250 movies from TMDb API
 def fetch_top_250_movies(api_key):
-    url = f"https://api.themoviedb.org/3/movie/top_rated?api_key={api_key}&language=en-US&page=1"
-    response = requests.get(url)
-    data = response.json()
-    return data["results"]
+    movies = []
+    page = 1
+    while len(movies) < 250:
+        url = f"https://api.themoviedb.org/3/movie/top_rated?api_key={api_key}&language=en-US&page={page}"
+        response = requests.get(url)
+        data = response.json()
+        movies.extend(data["results"])
+        page += 1
+    return movies[:250]  # Return the first 250 movies
 
 
 # Function to fetch movie credits from TMDb API
@@ -18,22 +23,27 @@ def fetch_movie_credits(api_key, movie_id):
     return data
 
 
+# Function to escape apostrophes in a string
+def escape_apostrophes(string):
+    return string.replace("'", "\\'")
+
+
 # Function to generate JavaScript module with movie data
 def generate_javascript_module(movies):
-    module_template = "const movies = [{}];\n\nexport default movies;"
+    module_template = "module.exports = [{}];"
 
     movie_objects = []
     for movie in movies:
         movie_id = movie["id"]
         movie_credits = fetch_movie_credits(api_key, movie_id)
 
-        title = movie["title"].replace("'", "\\'")
+        title = escape_apostrophes(movie["title"])
         director = ""
         for crew in movie_credits["crew"]:
             if crew["job"] == "Director":
-                director = crew["name"].replace("'", "\\'")
+                director = escape_apostrophes(crew["name"])
                 break
-        description = movie["overview"].replace("'", "\\'")
+        description = escape_apostrophes(movie["overview"])
         rating = movie["vote_average"]
         poster = f"https://image.tmdb.org/t/p/original{movie['poster_path']}"
 
@@ -45,10 +55,10 @@ def generate_javascript_module(movies):
 
 
 # Main code
-api_key = "my_api_key"
+api_key = "***REMOVED***"
 movies = fetch_top_250_movies(api_key)
 javascript_module = generate_javascript_module(movies)
 
-# Save the JavaScript module to a file
+# Save the JavaScript module to a file with UTF-8 encoding
 with open("imdb_top_250_movies.js", "w", encoding="utf-8") as file:
     file.write(javascript_module)
