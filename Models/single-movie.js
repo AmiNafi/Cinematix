@@ -3,8 +3,10 @@ const Schema = mongoose.Schema;
 const SingleMovieSchema = new Schema({
     title: String,
     rating: Number,
-    description: String,
+    year: Number,
     director: String,
-    poster: String
+    genre: String,
+    summary: String,
+    poster: String,
 });
 module.exports = mongoose.model('SingleMovie', SingleMovieSchema);

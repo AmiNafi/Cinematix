@@ -1,1752 +1,253 @@
 module.exports = [
-    {
-        title: 'The Godfather',
-        director: 'Francis Ford Coppola',
-        description: 'Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.',
-        rating: 8.7,
-        poster: 'https://image.tmdb.org/t/p/original/3bhkrj58Vtu7enYsRolD1fZdja1.jpg'
-    },
-    {
-        title: 'The Shawshank Redemption',
-        director: 'Frank Darabont',
-        description: 'Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.',
-        rating: 8.7,
-        poster: 'https://image.tmdb.org/t/p/original/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg'
-    },
-    {
-        title: 'Cuando Sea Joven',
-        director: 'Raúl Martínez',
-        description: '70-year-old Malena gets a second chance at life when she magically turns into her 22-year-old self. Now, posing as "Maria" to hide her true identity, she becomes the lead singer of her grandson\'s band and tries to recover her dream of singing, which she had to give up at some point.',
-        rating: 8.6,
-        poster: 'https://image.tmdb.org/t/p/original/6gIJuFHh5Lj4dNaPG3TzIMl7L68.jpg'
-    },
-    {
-        title: 'The Godfather Part II',
-        director: 'Francis Ford Coppola',
-        description: 'In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.',
-        rating: 8.6,
-        poster: 'https://image.tmdb.org/t/p/original/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg'
-    },
-    {
-        title: 'Dilwale Dulhania Le Jayenge',
-        director: 'Aditya Chopra',
-        description: 'Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.',
-        rating: 8.6,
-        poster: 'https://image.tmdb.org/t/p/original/ktejodbcdCPXbMMdnpI9BUxW6O8.jpg'
-    },
-    {
-        title: 'Schindler\'s List',
-        director: 'Steven Spielberg',
-        description: 'The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.',
-        rating: 8.6,
-        poster: 'https://image.tmdb.org/t/p/original/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg'
-    },
-    {
-        title: 'Spirited Away',
-        director: 'Hayao Miyazaki',
-        description: 'A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg'
-    },
-    {
-        title: '12 Angry Men',
-        director: 'Sidney Lumet',
-        description: 'The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors\' prejudices and preconceptions about the trial, the accused, and each other.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/ow3wq89wM8qd5X7hWKxiRfsFf9C.jpg'
-    },
-    {
-        title: 'Your Name.',
-        director: 'Makoto Shinkai',
-        description: 'High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/q719jXXEzOoYaps6babgKnONONX.jpg'
-    },
-    {
-        title: 'Parasite',
-        director: 'Bong Joon-ho',
-        description: 'All unemployed, Ki-taek\'s family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg'
-    },
-    {
-        title: 'The Dark Knight',
-        director: 'Christopher Nolan',
-        description: 'Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg'
-    },
-    {
-        title: 'The Green Mile',
-        director: 'Frank Darabont',
-        description: 'A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people\'s ailments. When the cell block\'s head guard, Paul Edgecomb, recognizes Coffey\'s miraculous gift, he tries desperately to help stave off the condemned man\'s execution.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/o0lO84GI7qrG6XFvtsPOSV7CTNa.jpg'
-    },
-    {
-        title: 'Pulp Fiction',
-        director: 'Quentin Tarantino',
-        description: 'A burger-loving hit man, his philosophical partner, a drug-addled gangster\'s moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg'
-    },
-    {
-        title: 'The Good, the Bad and the Ugly',
-        director: 'Sergio Leone',
-        description: 'While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg'
-    },
-    {
-        title: 'Forrest Gump',
-        director: 'Robert Zemeckis',
-        description: 'A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg'
-    },
-    {
-        title: 'Dou kyu sei – Classmates',
-        director: 'Shouko Nakamura',
-        description: 'Rihito Sajo, an honor student with a perfect score on the entrance exam and Hikaru Kusakabe, in a band and popular among girls, would have never crossed paths. Until one day they started talking at the practice for their school’s upcoming chorus festival. After school, the two meet regularly, as Hikaru helps Rihito to improve his singing skills. While they listen to each other’s voice and harmonize, their hearts start to beat together.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/cIfRCA5wEvj9tApca4UDUagQEiM.jpg'
-    },
-    {
-        title: 'The Lord of the Rings: The Return of the King',
-        director: 'Peter Jackson',
-        description: 'Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron\'s forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord\'s realm.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg'
-    },
-    {
-        title: 'GoodFellas',
-        director: 'Martin Scorsese',
-        description: 'The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg'
-    },
-    {
-        title: 'Primal: Tales of Savagery',
-        director: 'Genndy Tartakovsky',
-        description: 'Genndy Tartakovsky\'s Primal: Tales of Savagery features a caveman and a dinosaur on the brink of extinction. Bonded by tragedy, this unlikely friendship becomes the only hope of survival.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/9NBBkdxH0TjQEBSN2AzeE1sgsF9.jpg'
-    },
-    {
-        title: 'Seven Samurai',
-        director: 'Akira Kurosawa',
-        description: 'A samurai answers a village\'s request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/8OKmBV5BUFzmozIC3pPWKHy17kx.jpg'
-    },
-    {
-        title: 'Gabriel\'s Inferno',
-        director: 'Tosca Musk',
-        description: 'An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel\'s Inferno is a captivating and wildly passionate tale of one man\'s escape from his own personal hell as he tries to earn the impossible--forgiveness and love.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg'
-    },
-    {
-        title: 'Cinema Paradiso',
-        director: 'Giuseppe Tornatore',
-        description: 'A filmmaker recalls his childhood, when he fell in love with the movies at his village\'s theater and formed a deep friendship with the theater\'s projectionist.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/8SRUfRUi6x4O68n0VCbDNRa6iGL.jpg'
-    },
-    {
-        title: 'Life Is Beautiful',
-        director: 'Roberto Benigni',
-        description: 'A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/mfnkSeeVOBVheuyn2lo4tfmOPQb.jpg'
-    },
-    {
-        title: 'The Boy, the Mole, the Fox and the Horse',
-        director: 'Peter Baynton',
-        description: 'The unlikely friendship of a boy, a mole, a fox and a horse traveling together in the boy’s search for home.',
-        rating: 8.5,
-        poster: 'https://image.tmdb.org/t/p/original/oQRgyQCzcyZvE6w5heM9ktVY0LT.jpg'
-    },
-    {
-        title: 'Grave of the Fireflies',
-        director: 'Isao Takahata',
-        description: 'In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg'
-    },
-    {
-        title: 'Once Upon a Time in America',
-        director: 'Sergio Leone',
-        description: 'A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/i0enkzsL5dPeneWnjl1fCWm6L7k.jpg'
-    },
-    {
-        title: 'Psycho',
-        director: 'Alfred Hitchcock',
-        description: 'When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg'
-    },
-    {
-        title: 'Gabriel\'s Inferno: Part II',
-        director: 'Tosca Musk',
-        description: 'Professor Gabriel Emerson finally learns the truth about Julia Mitchell\'s identity, but his realization comes a moment too late. Julia is done waiting for the well-respected Dante specialist to remember her and wants nothing more to do with him. Can Gabriel win back her heart before she finds love in another\'s arms?',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg'
-    },
-    {
-        title: 'Fight Club',
-        director: 'David Fincher',
-        description: 'A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground "fight clubs" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg'
-    },
-    {
-        title: 'Impossible Things',
-        director: 'Ernesto Contreras',
-        description: 'Matilde is a woman who, after the death of her husband - a man who constantly abused her - finds her new best friend in Miguel, her young, insecure, disoriented and even dealer neighbor',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/t2Ew8NZ8Ci2kqmoecZUNQUFDJnQ.jpg'
-    },
-    {
-        title: 'The Quintessential Quintuplets Movie',
-        director: 'Masato Jimbo',
-        description: 'When five lovely young girls who hate studying hire part-time tutor Futaro, he guides not only their education but also their hearts. Time spent has brought them all closer, with feelings growing within the girls and Futaro. As they finish their third year of high school and their last school festival approaches, they set their sights on what’s next. Is there a future with one of them and Futaro?',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/sg7klpt1xwK1IJirBI9EHaqQwJ5.jpg'
-    },
-    {
-        title: 'Gabriel\'s Inferno: Part III',
-        director: 'Tosca Musk',
-        description: 'The final part of the film adaption of the erotic romance novel Gabriel\'s Inferno written by an anonymous Canadian author under the pen name Sylvain Reynard.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/fYtHxTxlhzD4QWfEbrC1rypysSD.jpg'
-    },
-    {
-        title: 'City of God',
-        director: 'Fernando Meirelles',
-        description: 'In the slums of Rio, two kids\' paths diverge as one struggles to become a photographer and the other a kingpin.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg'
-    },
-    {
-        title: 'One Flew Over the Cuckoo\'s Nest',
-        director: 'Miloš Forman',
-        description: 'A petty criminal fakes insanity to serve his sentence in a mental ward rather than prison. He soon finds himself as a leader to the other patients—and an enemy to the cruel, domineering nurse who runs the ward.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/3jcbDmRFiQ83drXNOvRDeKHxS0C.jpg'
-    },
-    {
-        title: 'The Legend of Hei',
-        director: 'MTJJ',
-        description: 'When cat spirit Luo Xiaohei\'s home is deforested by humans, he must find a new one. He runs into a group of other spirit creatures who take him under their wing with dreams of reconquering the land they say is rightfully theirs. However, they run into a human known as Wuxian who separates Luo Xiaohei from the other spirits and the two go on a journey, with the cat spirit learning to control his abilities as well as forming his own thoughts on whether or not he should ally with the spirits or the humans.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/4efytN4Bki4VlqnAMjsWdEGj4Sb.jpg'
-    },
-    {
-        title: 'Harakiri',
-        director: 'Masaki Kobayashi',
-        description: 'Down-on-his-luck veteran Tsugumo Hanshirō enters the courtyard of the prosperous House of Iyi. Unemployed, and with no family, he hopes to find a place to commit seppuku—and a worthy second to deliver the coup de grâce in his suicide ritual. The senior counselor for the Iyi clan questions the ronin’s resolve and integrity, suspecting Hanshirō of seeking charity rather than an honorable end. What follows is a pair of interlocking stories which lay bare the difference between honor and respect, and promises to examine the legendary foundations of the Samurai code.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/5konZnIbcAxZjP616Cz5o9bKEfW.jpg'
-    },
-    {
-        title: 'Spider-Man: Into the Spider-Verse',
-        director: 'Rodney Rothman',
-        description: 'Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson "Kingpin" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg'
-    },
-    {
-        title: 'Howl\'s Moving Castle',
-        director: 'Hayao Miyazaki',
-        description: 'When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/yeJ5Nj1k2NA0bBZjkZ10PvQKjTD.jpg'
-    },
-    {
-        title: 'Interstellar',
-        director: 'Christopher Nolan',
-        description: 'The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg'
-    },
-    {
-        title: 'A Silent Voice: The Movie',
-        director: 'Naoko Yamada',
-        description: 'Shouya Ishida starts bullying the new girl in class, Shouko Nishimiya, because she is deaf. But as the teasing continues, the rest of the class starts to turn on Shouya for his lack of compassion. When they leave elementary school, Shouko and Shouya do not speak to each other again... until an older, wiser Shouya, tormented by his past behaviour, decides he must see Shouko once more. He wants to atone for his sins, but is it already too late...?',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/tuFaWiqX0TXoWu7DGNcmX3UW7sT.jpg'
-    },
-    {
-        title: 'The Lord of the Rings: The Fellowship of the Ring',
-        director: 'Peter Jackson',
-        description: 'Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg'
-    },
-    {
-        title: 'A Dog\'s Will',
-        director: 'Guel Arraes',
-        description: 'The lively João Grilo and the sly Chicó are poor guys living in the hinterland who cheat a bunch of people in a small in Northeastern Brazil. When they die, they have to be judged by Christ, the Devil and the Virgin Mary before they are admitted to paradise.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/imcOp1kJsCsAFCoOtY5OnPrFbAf.jpg'
-    },
-    {
-        title: 'The Empire Strikes Back',
-        director: 'Irvin Kershner',
-        description: 'The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/2l05cFWJacyIsTpsqSgH0wQXe4V.jpg'
-    },
-    {
-        title: 'Hotarubi no Mori e',
-        director: 'Takahiro Omori',
-        description: 'One hot summer day a little girl gets lost in an enchanted forest of the mountain god where spirits reside. A young boy appears before her, but she cannot touch him for fear of making him disappear. And so a wondrous adventure awaits...',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/mDqzHV8UXWWNpZkoAbKmKX1ZxEE.jpg'
-    },
-    {
-        title: 'The Pianist',
-        director: 'Roman Polanski',
-        description: 'The true story of pianist Władysław Szpilman\'s experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg'
-    },
-    {
-        title: 'Burn the Stage: The Movie',
-        director: 'Park Jun-soo',
-        description: 'A documentary following the worldwide famous music group BTS, as they tour the world and share their experience along with their beloved band friends and fans.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/pJKy1yvnKh8UjcuYeG3Rt35xHFA.jpg'
-    },
-    {
-        title: 'The Lord of the Rings: The Two Towers',
-        director: 'Peter Jackson',
-        description: 'Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg'
-    },
-    {
-        title: 'Whiplash',
-        director: 'Damien Chazelle',
-        description: 'Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/7fn624j5lj3xTme2SgiLCeuedmO.jpg'
-    },
-    {
-        title: 'Neon Genesis Evangelion: The End of Evangelion',
-        director: 'Hideaki Anno',
-        description: 'The second of two theatrically released follow-ups to the Neon Genesis Evangelion series. Comprising of two alternate episodes which were first intended to take the place of episodes 25 and 26, this finale answers many of the questions surrounding the series, while also opening up some new possibilities.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/j6G24dqI4WgUtChhWjfnI4lnmiK.jpg'
-    },
-    {
-        title: 'Se7en',
-        director: 'David Fincher',
-        description: 'Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the "seven deadly sins" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer\'s mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/6yoghtyTpznpBik8EngEmJskVUO.jpg'
-    },
-    {
-        title: 'Inception',
-        director: 'Christopher Nolan',
-        description: 'Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: "inception", the implantation of another person\'s idea into a target\'s subconscious.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg'
-    },
-    {
-        title: 'Sunset Boulevard',
-        director: 'Billy Wilder',
-        description: 'A hack screenwriter writes a screenplay for a former silent film star who has faded into Hollywood obscurity.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/sC4Dpmn87oz9AuxZ15Lmip0Ftgr.jpg'
-    },
-    {
-        title: 'Rear Window',
-        director: 'Alfred Hitchcock',
-        description: 'A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/qitnZcLP7C9DLRuPpmvZ7GiEjJN.jpg'
-    },
-    {
-        title: 'Josee, the Tiger and the Fish',
-        director: 'Kotaro Tamura',
-        description: 'With dreams of diving abroad, Tsuneo gets a job assisting Josee, an artist whose imagination takes her far beyond her wheelchair. But when the tide turns against them, they push each other to places they never thought possible, and inspire a love fit for a storybook.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/xAbSLi61npWyVs5M0yxin3dKcGO.jpg'
-    },
-    {
-        title: 'Hope',
-        director: 'Lee Joon-ik',
-        description: 'After 8-year-old So-won narrowly survives a brutal sexual assault, her family labors to help her heal while coping with their own rage and grief.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/x9yjkm9gIz5qI5fJMUTfBnWiB2o.jpg'
-    },
-    {
-        title: 'American History X',
-        director: 'Tony Kaye',
-        description: 'Derek Vineyard is paroled after serving 3 years in prison for killing two African-American men. Through his brother, Danny Vineyard\'s narration, we learn that before going to prison, Derek was a skinhead and the leader of a violent white supremacist gang that committed acts of racial crime throughout L.A. and his actions greatly influenced Danny. Reformed and fresh out of prison, Derek severs contact with the gang and becomes determined to keep Danny from going down the same violent path as he did.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/c2gsmSQ2Cqv8zosqKOCwRS0GFBS.jpg'
-    },
-    {
-        title: 'Ikiru',
-        director: 'Akira Kurosawa',
-        description: 'Kanji Watanabe is a middle-aged man who has worked in the same monotonous bureaucratic position for decades. Learning he has cancer, he starts to look for the meaning of his life.',
-        rating: 8.4,
-        poster: 'https://image.tmdb.org/t/p/original/dgNTS4EQDDVfkzJI5msKuHu2Ei3.jpg'
-    },
-    {
-        title: 'Taylor Swift: Reputation Stadium Tour',
-        director: 'Paul Dugdale',
-        description: 'Taylor Swift takes the stage in Dallas for the Reputation Stadium Tour and celebrates a monumental night of music, memories and visual magic.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/u6oXUTtOuJRPdUgUuPAVVJPSKCo.jpg'
-    },
-    {
-        title: 'The Great Dictator',
-        director: 'Charlie Chaplin',
-        description: 'Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel\'s regime.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/1QpO9wo7JWecZ4NiBuu625FiY1j.jpg'
-    },
-    {
-        title: 'The Silence of the Lambs',
-        director: 'Jonathan Demme',
-        description: 'Clarice Starling is a top student at the FBI\'s training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg'
-    },
-    {
-        title: 'Princess Mononoke',
-        director: 'Hayao Miyazaki',
-        description: 'Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/cMYCDADoLKLbB83g4WnJegaZimC.jpg'
-    },
-    {
-        title: '20th Century Girl',
-        director: 'Bang Woo-ri',
-        description: 'Yeon-du asks her best friend Bora to collect all the information she can about Baek Hyun-jin while she is away in the U.S. for heart surgery. Bora decides to get close to Baek\'s best friend, Pung Woon-ho first. However, Bora\'s clumsy plan unfolds in an unexpected direction. In 1999, a year before the new century, Bora, who turns seventeen, falls into the fever of first love.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/od22ftNnyag0TTxcnJhlsu3aLoU.jpg'
-    },
-    {
-        title: 'Violet Evergarden: The Movie',
-        director: 'Taichi Ishidate',
-        description: 'As the world moves on from the war and technological advances bring changes to her life, Violet still hopes to see her lost commanding officer again.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/fwSonK8WrAEqWY7sqjvGRCgzIij.jpg'
-    },
-    {
-        title: 'City Lights',
-        director: 'Charlie Chaplin',
-        description: 'In this sound-era silent film, a tramp falls in love with a beautiful blind flower seller.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg'
-    },
-    {
-        title: 'High and Low',
-        director: 'Akira Kurosawa',
-        description: 'A shoe company executive who has mortgaged everything he has becomes a victim of extortion when his chauffeur\'s son is kidnapped and is conflicted over whether he should pay the ransom.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/tgNjemQPG96uIezpiUiXFcer5ga.jpg'
-    },
-    {
-        title: 'Léon: The Professional',
-        director: 'Luc Besson',
-        description: 'Léon, the top hit man in New York, has earned a rep as an effective "cleaner". But when his next-door neighbors are wiped out by a loose-cannon DEA agent, he becomes the unwilling custodian of 12-year-old Mathilda. Before long, Mathilda\'s thoughts turn to revenge, and she considers following in Léon\'s footsteps.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/yI6X2cCM5YPJtxMhUd3dPGqDAhw.jpg'
-    },
-    {
-        title: 'Dedicated to my ex',
-        director: 'Jorge Ulloa',
-        description: 'The film tells the story of Ariel, a 21-year-old who decides to form a rock band to compete for a prize of ten thousand dollars in a musical band contest, this as a last option when trying to get money to save their relationship and reunite with his ex-girlfriend, which breaks due to the trip she must make to Finland for an internship. Ariel with her friend Ortega, decides to make a casting to find the other members of the band, although they do not know nothing about music, thus forming a band with members that have diverse and opposite personalities.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/xc4bTXVwYNXi10jG9dwcaYt5IpU.jpg'
-    },
-    {
-        title: 'Dead Poets Society',
-        director: 'Peter Weir',
-        description: 'At an elite, old-fashioned boarding school in New England, a passionate English teacher inspires his students to rebel against convention and seize the potential of every day, courting the disdain of the stern headmaster.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/ai40gM7SUaGA6fthvsd87o8IQq4.jpg'
-    },
-    {
-        title: 'Back to the Future',
-        director: 'Robert Zemeckis',
-        description: 'Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents\' first meeting and attracting his mother\'s romantic interest. Marty must repair the damage to history by rekindling his parents\' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg'
-    },
-    {
-        title: 'BTS World Tour: Love Yourself in Seoul',
-        director: 'Son Sung-deuk',
-        description: 'Shot at the Olympic Stadium in Seoul during the BTS World Tour ‘Love Yourself’ to celebrate the seven members of the global boyband and their unprecedented international phenomenon.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/1u0rtWPgYfAWmqveXOsQDvMRODD.jpg'
-    },
-    {
-        title: 'Modern Times',
-        director: 'Charlie Chaplin',
-        description: 'The Tramp struggles to live in modern industrial society with the help of a young homeless woman.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/smggAeGHRjKy85h6BzF0eTeDrFW.jpg'
-    },
-    {
-        title: 'The Shop Around the Corner',
-        director: 'Ernst Lubitsch',
-        description: 'Two employees at a gift shop can barely stand one another, without realising that they are falling in love through the post as each other\'s anonymous pen pal.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/dZ1aEzGYRiqJwPfjS6VL7wUkHmF.jpg'
-    },
-    {
-        title: 'Five Feet Apart',
-        director: 'Justin Baldoni',
-        description: 'Seventeen-year-old Stella spends most of her time in the hospital as a cystic fibrosis patient. Her life is full of routines, boundaries and self-control — all of which get put to the test when she meets Will, an impossibly charming teen who has the same illness. There\'s an instant flirtation, though restrictions dictate that they must maintain a safe distance between them. As their connection intensifies, so does the temptation to throw the rules out the window and embrace that attraction.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/kreTuJBkUjVWePRfhHZuYfhNE1T.jpg'
-    },
-    {
-        title: 'Clouds',
-        director: 'Justin Baldoni',
-        description: 'Young musician Zach Sobiech discovers his cancer has spread, leaving him just a few months to live. With limited time, he follows his dream and makes an album, unaware that it will soon be a viral music phenomenon.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/d0OdD1I8qAfETvE9Rp9Voq7R8LR.jpg'
-    },
-    {
-        title: 'Come and See',
-        director: 'Elem Klimov',
-        description: 'The invasion of a village in Byelorussia by German forces sends young Florya into the forest to join the weary Resistance fighters, against his family\'s wishes. There he meets a girl, Glasha, who accompanies him back to his village. On returning home, Florya finds his family and fellow peasants massacred. His continued survival amidst the brutal debris of war becomes increasingly nightmarish, a battle between despair and hope.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/qNbMsKVzigERgJUbwf8pKyZogpb.jpg'
-    },
-    {
-        title: 'Life in a Year',
-        director: 'Mitja Okorn',
-        description: 'A 17 year old finds out that his girlfriend is dying, so he sets out to give her an entire life, in the last year she has left.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/bP7u19opmHXYeTCUwGjlLldmUMc.jpg'
-    },
-    {
-        title: 'Woman in the Dunes',
-        director: 'Hiroshi Teshigahara',
-        description: 'An entomologist suffers extreme psychological and sexual torture after being taken captive by the residents of a poor seaside village.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/f0JpsMQ9oEjKBD66Ky3qK3z7LGT.jpg'
-    },
-    {
-        title: 'Once Upon a Time in the West',
-        director: 'Sergio Leone',
-        description: 'As the railroad builders advance unstoppably through the Arizona desert on their way to the sea, Jill arrives in the small town of Flagstone with the intention of starting a new life.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/qbYgqOczabWNn2XKwgMtVrntD6P.jpg'
-    },
-    {
-        title: 'Top Gun: Maverick',
-        director: 'Joseph Kosinski',
-        description: 'After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/62HCnUTziyWcpDaBO2i1DX17ljH.jpg'
-    },
-    {
-        title: 'Puss in Boots: The Last Wish',
-        director: 'Joel Crawford',
-        description: 'Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/kuf6dutpsT0vSVehic3EZIqkOBt.jpg'
-    },
-    {
-        title: 'Evangelion: 3.0+1.0 Thrice Upon a Time',
-        director: 'Hideaki Anno',
-        description: 'In the aftermath of the Fourth Impact, stranded without their Evangelions, Shinji, Asuka and Rei find refuge in one of the rare pockets of humanity that still exist on the ruined planet Earth. There, each lives a life far different from their days as an Evangelion pilot. However, the danger to the world is far from over. A new impact is looming on the horizon—one that will prove to be the true end of Evangelion.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/md5wZRRj8biHrGtyitgBZo7674t.jpg'
-    },
-    {
-        title: 'Green Snake',
-        director: 'Amp Wong',
-        description: 'While trying to free her sister from Fahai\'s clutches, Xiao Qing winds up in a dystopian city and meets a mysterious man who can\'t recall his past life.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/1zs5zsQDP5KuWwxIg9EUULLFEV.jpg'
-    },
-    {
-        title: 'Wolfwalkers',
-        director: 'Tomm Moore',
-        description: 'In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and transform her into the very thing her father is tasked to destroy.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/ehAKuE48okTuonq6TpsNQj8vFTC.jpg'
-    },
-    {
-        title: 'Given',
-        director: 'Hikaru Yamaguchi',
-        description: 'The relationship between a band\'s bassist, their drummer, and the drummer’s roommate and ex-boyfriend, who is a professional violinist.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/3trPz7muDOv4AHjDZiD3MLGls2Q.jpg'
-    },
-    {
-        title: 'Perfect Blue',
-        director: 'Satoshi Kon',
-        description: 'A retired pop singer turned actress\' sense of reality is shaken when she is stalked by an obsessed fan and seemingly a ghost of her past.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/hwCTlm990H6NlrG8W7sk3pxdMtf.jpg'
-    },
-    {
-        title: 'Apocalypse Now',
-        director: 'Francis Ford Coppola',
-        description: 'At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, "does not exist, nor will it ever exist." His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg'
-    },
-    {
-        title: 'Le Trou',
-        director: 'Jacques Becker',
-        description: 'Four prison inmates have been hatching a plan to literally dig out of jail when another prisoner, Claude Gaspard, is moved into their cell. They take a risk and share their plan with the newcomer. Over the course of three days, the prisoners and friends break through the concrete floor using a bed post and begin to make their way through the sewer system -- yet their escape is anything but assured.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/8kxtOm7D992iAaOzUoWmNQwbXjs.jpg'
-    },
-    {
-        title: 'Justice League Dark: Apokolips War',
-        director: 'Matt Peters',
-        description: 'Earth is decimated after intergalactic tyrant Darkseid has devastated the Justice League in a poorly executed war by the DC Super Heroes. Now the remaining bastions of good – the Justice League, Teen Titans, Suicide Squad and assorted others – must regroup, strategize and take the war to Darkseid in order to save the planet and its surviving inhabitants.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/c01Y4suApJ1Wic2xLmaq1QYcfoZ.jpg'
-    },
-    {
-        title: 'Miracle in Cell No. 7',
-        director: 'Mehmet Ada Öztekin',
-        description: 'Separated from his daughter, a father with an intellectual disability must prove his innocence when he is jailed for the death of a commander\'s child.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/bOth4QmNyEkalwahfPCfiXjNh1r.jpg'
-    },
-    {
-        title: 'The Legend of 1900',
-        director: 'Giuseppe Tornatore',
-        description: 'The story of a virtuoso piano player who lives his entire life aboard an ocean liner. Born and raised on the ship, 1900 (Tim Roth) learned about the outside world through interactions with passengers, never setting foot on land, even for the love of his life. Years later, the ship may be destroyed, and a former band member fears that 1900 may still be aboard, willing to go down with the ship.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/iOcbJ5pxokOPDRgieVDbsFMrCc6.jpg'
-    },
-    {
-        title: 'Paths of Glory',
-        director: 'Stanley Kubrick',
-        description: 'A commanding officer defends three scapegoats on trial for a failed offensive that occurred within the French Army in 1916.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/l2IY0gOHHmCWM90LjteFssxIV1G.jpg'
-    },
-    {
-        title: 'The Intouchables',
-        director: 'Éric Toledano',
-        description: 'A true story of two men who should never have met – a quadriplegic aristocrat who was injured in a paragliding accident and a young man from the projects.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/323BP0itpxTsO0skTwdnVmf7YC9.jpg'
-    },
-    {
-        title: 'Steven Universe: The Movie',
-        director: 'Rebecca Sugar',
-        description: 'Two years after bringing peace to the galaxy, Steven Universe sees his past come back to haunt him in the form of a deranged Gem who wants to destroy the Earth.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/8mRgpubxHqnqvENK4Bei30xMDvy.jpg'
-    },
-    {
-        title: 'A Brighter Summer Day',
-        director: 'Edward Yang',
-        description: 'A boy experiences first love, friendships and injustices growing up in 1960s Taiwan.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/3l8fOAwiN3N5n3hHnZ51eog7Zu2.jpg'
-    },
-    {
-        title: 'Oldboy',
-        director: 'Park Chan-wook',
-        description: 'With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate businessman seeks revenge on his captors.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/kKMuZ5hOXSbesbM1Ba1hGugJEro.jpg'
-    },
-    {
-        title: 'Mommy',
-        director: 'Xavier Dolan',
-        description: 'A peculiar neighbor offers hope to a recent widow who is struggling to raise a teenager who is unpredictable and, sometimes, violent.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/3zyQtPg3avKprmJP2gBiYgyWUQC.jpg'
-    },
-    {
-        title: 'Avengers: Endgame',
-        director: 'Anthony Russo',
-        description: 'After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos\' actions and restore order to the universe once and for all, no matter what consequences may be in store.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/or06FN3Dka5tukK1e9sl16pB3iy.jpg'
-    },
-    {
-        title: 'Avengers: Infinity War',
-        director: 'Anthony Russo',
-        description: 'As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg'
-    },
-    {
-        title: 'Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train',
-        director: 'Haruo Sotozaki',
-        description: 'Tanjiro Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar\'s head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Kyojuro Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg'
-    },
-    {
-        title: 'Better Days',
-        director: 'Derek Tsang',
-        description: 'A bullied teenage girl forms an unlikely friendship with a mysterious young man who protects her from her assailants, while she copes with the pressures of her final examinations.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/csVZ2ZQCj98XdZoCuW1aixMYJ0W.jpg'
-    },
-    {
-        title: 'Klaus',
-        director: 'Sergio Pablos',
-        description: 'When Jesper distinguishes himself as the Postal Academy\'s worst student, he is sent to Smeerensburg, a small village located on an icy island above the Arctic Circle, where grumpy inhabitants barely exchange words, let alone letters. Jesper is about to give up and abandon his duty as a postman when he meets local teacher Alva and Klaus, a mysterious carpenter who lives alone in a cabin full of handmade toys.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/q125RHUDgR4gjwh1QkfYuJLYkL.jpg'
-    },
-    {
-        title: 'The Lion King',
-        director: 'Roger Allers',
-        description: 'A young lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron paw, the prince grows up beyond the Savannah, living by a philosophy: No worries for the rest of your days. But when his past comes to haunt him, the young prince must decide his fate: Will he remain an outcast or face his demons and become what he needs to be?',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg'
-    },
-    {
-        title: 'It\'s a Wonderful Life',
-        director: 'Frank Capra',
-        description: 'A holiday favourite for generations...  George Bailey has spent his entire life giving to the people of Bedford Falls.  All that prevents rich skinflint Mr. Potter from taking over the entire town is George\'s modest building and loan company.  But on Christmas Eve the business\'s $8,000 is lost and George\'s troubles begin.',
-        rating: 8.3,
-        poster: 'https://image.tmdb.org/t/p/original/mV3VcmMJN6Zwahj42dy9WwPUyRI.jpg'
-    },
-    {
-        title: 'Persona',
-        director: 'Ingmar Bergman',
-        description: 'A young nurse, Alma, is put in charge of Elisabeth Vogler: an actress who is seemingly healthy in all respects, but will not talk. As they spend time together, Alma speaks to Elisabeth constantly, never receiving any answer. The time they spend together only strengthens the crushing realization that one does not exist.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/bdXbfUir63TQHA5NTNcXPICZCW8.jpg'
-    },
-    {
-        title: 'We All Loved Each Other So Much',
-        director: 'Ettore Scola',
-        description: 'Three partisans bound by a strong friendship return home after the war, but the clash with everyday reality puts a strain on their bond.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/zGGWYpiKNwjpKxelPxOMqJnUgDs.jpg'
-    },
-    {
-        title: 'The Handmaiden',
-        director: 'Park Chan-wook',
-        description: 'In 1930s Korea, a swindler and a young woman pose as a Japanese count and a handmaiden to seduce a Japanese heiress and steal her fortune.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/x2lZKoKPqVodhYTYbVaCC3NjhdK.jpg'
-    },
-    {
-        title: 'I Want to Eat Your Pancreas',
-        director: 'Shinichiro Ushijima',
-        description: 'After his classmate and crush is diagnosed with a pancreatic disease, an average high schooler sets out to make the most of her final days.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/qpV8kvRfAntV7D4aOOsLIz7OdPc.jpg'
-    },
-    {
-        title: 'Green Book',
-        director: 'Peter Farrelly',
-        description: 'Tony Lip, a bouncer in 1962, is hired to drive pianist Don Shirley on a tour through the Deep South in the days when African Americans, forced to find alternate accommodations and services due to segregation laws below the Mason-Dixon Line, relied on a guide called The Negro Motorist Green Book.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg'
-    },
-    {
-        title: 'Wolf Children',
-        director: 'Mamoru Hosoda',
-        description: 'After her werewolf lover unexpectedly dies in an accident, a woman must find a way to raise the son and daughter that she had with him. However, their inheritance of their father\'s traits prove to be a challenge for her.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/vHMvBkr42Gh3OORcnmfCFfqJ1E.jpg'
-    },
-    {
-        title: 'Hamilton',
-        director: 'Thomas Kail',
-        description: 'Presenting the tale of American founding father Alexander Hamilton, this filmed version of the original Broadway smash hit is the story of America then, told by America now.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/h1B7tW0t399VDjAcWJh8m87469b.jpg'
-    },
-    {
-        title: 'Satantango',
-        director: 'Béla Tarr',
-        description: 'Inhabitants of a small village in Hungary deal with the effects of the fall of Communism. The town\'s source of revenue, a factory, has closed, and the locals, who include a doctor and three couples, await a cash payment offered in the wake of the shuttering. Irimias, a villager thought to be dead, returns and, unbeknownst to the locals, is a police informant. In a scheme, he persuades the villagers to form a commune with him.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/y38z0v4HJ12MHiKddLEoFlvPiBt.jpg'
-    },
-    {
-        title: 'Il Sorpasso',
-        director: 'Dino Risi',
-        description: 'Roberto, a shy law student in Rome, meets Bruno, a forty-year-old exuberant, capricious man, who takes him for a drive through the Roman and Tuscany countries in the summer. When their journey starts to blend into their daily lives though, the pair’s newfound friendship is tested.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/9ItdJzfdHK5LJ3KrlopGjVLABY4.jpg'
-    },
-    {
-        title: 'Bicycle Thieves',
-        director: 'Vittorio De Sica',
-        description: 'Unemployed Antonio is elated when he finally finds work hanging posters around war-torn Rome. However on his first day, his bicycle—essential to his work—gets stolen. His job is doomed unless he can find the thief. With the help of his son, Antonio combs the city, becoming desperate for justice.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/ihLPR2hiHljvvdTzHk6NeNTVMXf.jpg'
-    },
-    {
-        title: 'Rascal Does Not Dream of a Dreaming Girl',
-        director: 'Souichi Masui',
-        description: 'In Fujisawa, Sakuta Azusagawa is in his second year of high school. Blissful days with his girlfriend and upperclassman, Mai Sakurajima, are interrupted by the appearance of his first crush, Shoko Makinohara.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/pvdBzHOWjrLl69lUswPiVnI8szv.jpg'
-    },
-    {
-        title: 'Simone, The Journey of the Century',
-        director: 'Olivier Dahan',
-        description: 'Simone Veil\'s life story through the pivotal events of Twentieth Century. Her childhood, her political battles, her tragedies. An intimate and epic portrait of an extraordinary woman who eminently challenged and transformed her era defending a humanist message still keenly relevant today.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/lhPz5QuVvA220M7ZqTbShmb5Pxl.jpg'
-    },
-    {
-        title: 'Witness for the Prosecution',
-        director: 'Billy Wilder',
-        description: 'When Leonard Vole is arrested for the sensational murder of a rich, middle-aged widow, the famous Sir Wilfrid Robarts agrees to appear on his behalf. Sir Wilfrid, recovering from a near-fatal heart attack, is supposed to be on a diet of bland, civil suits—but the lure of the criminal courts is too much for him, especially when the case is so difficult.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/mM5Cad2ESBprh6ucPnMzMfI34Cu.jpg'
-    },
-    {
-        title: 'Coco',
-        director: 'Lee Unkrich',
-        description: 'Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel\'s family history.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg'
-    },
-    {
-        title: 'The Art of Racing in the Rain',
-        director: 'Simon Curtis',
-        description: 'A family dog - with a near-human soul and a philosopher\'s mind - evaluates his life through the lessons learned by his human owner, a race-car driver.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/mi5VN4ww0JZgRFJIaPxxTGKjUg7.jpg'
-    },
-    {
-        title: 'The Apartment',
-        director: 'Billy Wilder',
-        description: 'Bud Baxter is a minor clerk in a huge New York insurance company, until he discovers a quick way to climb the corporate ladder. He lends out his apartment to the executives as a place to take their mistresses. Although he often has to deal with the aftermath of their visits, one night he\'s left with a major problem to solve.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/dmaRf8ROeSmg4duvFeMLq2ULnk3.jpg'
-    },
-    {
-        title: 'Guillermo del Toro\'s Pinocchio',
-        director: 'Guillermo del Toro',
-        description: 'During the rise of fascism in Mussolini\'s Italy, a wooden boy brought magically to life struggles to live up to his father\'s expectations.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/vx1u0uwxdlhV2MUzj4VlcMB0N6m.jpg'
-    },
-    {
-        title: 'Tokyo Story',
-        director: 'Yasujirō Ozu',
-        description: 'The elderly Shukishi and his wife, Tomi, take the long journey from their small seaside village to visit their adult children in Tokyo. Their elder son, Koichi, a doctor, and their daughter, Shige, a hairdresser, don\'t have much time to spend with their aged parents, and so it falls to Noriko, the widow of their younger son who was killed in the war, to keep her in-laws company.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/g2YbTYKpY7N2yDSk7BfXZ18I5QV.jpg'
-    },
-    {
-        title: 'The Shining',
-        director: 'Stanley Kubrick',
-        description: 'Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren\'t prepared for the madness that lurks within.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/nRj5511mZdTl4saWEPoj9QroTIu.jpg'
-    },
-    {
-        title: 'Legend Quest: The Origin',
-        director: 'Ricardo Arnaiz',
-        description: 'When a human baby crosses the Eternal Mirror, the portal between the living and the death opens its path to the beings from the underworld.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/fR49hZdFJ6ZtRS23JW79VYmZgI7.jpg'
-    },
-    {
-        title: 'A Clockwork Orange',
-        director: 'Stanley Kubrick',
-        description: 'In a near-future Britain, young Alexander DeLarge and his pals get their kicks beating and raping anyone they please. When not destroying the lives of others, Alex swoons to the music of Beethoven. The state, eager to crack down on juvenile crime, gives an incarcerated Alex the option to undergo an invasive procedure that\'ll rob him of all personal agency. In a time when conscience is a commodity, can Alex change his tune?',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/4sHeTAp65WrSSuc05nRBKddhBxO.jpg'
-    },
-    {
-        title: 'The Seventh Seal',
-        director: 'Ingmar Bergman',
-        description: 'When disillusioned Swedish knight Antonius Block returns home from the Crusades to find his country in the grips of the Black Death, he challenges Death to a chess match for his life. Tormented by the belief that God does not exist, Block sets off on a journey, meeting up with traveling players Jof and his wife, Mia, and becoming determined to evade Death long enough to commit one redemptive act while he still lives.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/wcZ21zrOsy0b52AfAF50XpTiv75.jpg'
-    },
-    {
-        title: 'Violet Evergarden: Eternity and the Auto Memory Doll',
-        director: 'Haruka Fujita',
-        description: 'Isabella, the daughter of the noble York family, is enrolled in an all-girls academy to be groomed into a dame worthy of nobility. However, she has given up on her future, seeing the prestigious school as nothing more than a prison from the outside world. Her family notices her struggling in her lessons and decides to hire Violet Evergarden to personally tutor her under the guise of a handmaiden.  At first, Isabella treats Violet coldly. Violet seems to be able to do everything perfectly, leading Isabella to assume that she was born with a silver spoon. After some time, Isabella begins to realize that Violet has had her own struggles and starts to open up to her. Isabella soon reveals that she has lost contact with her beloved younger sister, whom she yearns to see again.  Having experienced the power of words through her past clientele, Violet asks if Isabella wishes to write a letter to Taylor. Will Violet be able to help Isabella convey her feelings to her long-lost sister?',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/zjaSw6Ok0MhXjrruPrA27VHyUYC.jpg'
-    },
-    {
-        title: 'Inglourious Basterds',
-        director: 'Quentin Tarantino',
-        description: 'In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as "The Basterds" are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg'
-    },
-    {
-        title: 'Zack Snyder\'s Justice League',
-        director: 'Zack Snyder',
-        description: 'Determined to ensure Superman\'s ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg'
-    },
-    {
-        title: 'My Hero Academia: Heroes Rising',
-        director: 'Kenji Nagasaki',
-        description: 'Class 1-A visits Nabu Island where they finally get to do some real hero work. The place is so peaceful that it\'s more like a vacation … until they\'re attacked by a villain with an unfathomable Quirk! His power is eerily familiar, and it looks like Shigaraki had a hand in the plan. But with All Might retired and citizens\' lives on the line, there\'s no time for questions. Deku and his friends are the next generation of heroes, and they\'re the island\'s only hope.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/zGVbrulkupqpbwgiNedkJPyQum4.jpg'
-    },
-    {
-        title: 'Saving Private Ryan',
-        director: 'Steven Spielberg',
-        description: 'As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg'
-    },
-    {
-        title: 'Star Wars',
-        director: 'George Lucas',
-        description: 'Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg'
-    },
-    {
-        title: 'The Kid',
-        director: 'Charlie Chaplin',
-        description: 'A tramp cares for a boy after he\'s abandoned as a newborn by his mother. Later the mother has a change of heart and aches to be reunited with her son.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/drgMcyTsySQBnUPGaBThCHGdlWT.jpg'
-    },
-    {
-        title: 'Miraculous World: New York, United HeroeZ',
-        director: 'Thomas Astruc',
-        description: 'Teen Parisian superheroes Ladybug and Chat Noir visit New York on a field trip and discover that superheroes exist in the United States too.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/9YbyvcrHmY2SVbdfXpb8mC4Fy0g.jpg'
-    },
-    {
-        title: 'Stalker',
-        director: 'Andrei Tarkovsky',
-        description: 'Near a gray and unnamed city is the Zone, a place guarded by barbed wire and soldiers, and where the normal laws of physics are victim to frequent anomalies. A stalker guides two men into the Zone, specifically to an area in which deep-seated desires are granted.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/rem87AyEochEuhn9VvAGoMQpigz.jpg'
-    },
-    {
-        title: 'Gladiator',
-        director: 'Ridley Scott',
-        description: 'In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos.  Maximus is one of the Roman army\'s most capable and trusted generals and a key advisor to the emperor.  As Marcus\' devious son Commodus ascends to the throne, Maximus is set to be executed.  He escapes, but is captured by slave traders.  Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg'
-    },
-    {
-        title: 'The Prestige',
-        director: 'Christopher Nolan',
-        description: 'A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/bdN3gXuIZYaJP7ftKK2sU0nPtEA.jpg'
-    },
-    {
-        title: 'The Matrix',
-        director: 'Lilly Wachowski',
-        description: 'Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg'
-    },
-    {
-        title: 'Doctor Who: The Day of the Doctor',
-        director: 'Nick Hurran',
-        description: 'In 2013, something terrible is awakening in London\'s National Gallery; in 1562, a murderous plot is afoot in Elizabethan England; and somewhere in space an ancient battle reaches its devastating conclusion. All of reality is at stake as the Doctor\'s own dangerous past comes back to haunt him.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/qkhP3bhxQQjs1bGEWNts64DOUkK.jpg'
-    },
-    {
-        title: 'The Help',
-        director: 'Tate Taylor',
-        description: 'Aibileen Clark is a middle-aged African-American maid who has spent her life raising white children and has recently lost her only son; Minny Jackson is an African-American maid who has often offended her employers despite her family\'s struggles with money and her desperate need for jobs; and Eugenia "Skeeter" Phelan is a young white woman who has recently moved back home after graduating college to find out her childhood maid has mysteriously disappeared. These three stories intertwine to explain how life in Jackson, Mississippi revolves around "the help"; yet they are always kept at a certain distance because of racial lines.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/3kmfoWWEc9Vtyuaf9v5VipRgdjx.jpg'
-    },
-    {
-        title: '8½',
-        director: 'Federico Fellini',
-        description: 'Guido Anselmi, a film director, finds himself creatively barren at the peak of his career. Urged by his doctors to rest, Anselmi heads for a luxurious resort, but a sorry group gathers—his producer, staff, actors, wife, mistress, and relatives—each one begging him to get on with the show. In retreat from their dependency, he fantasizes about past women and dreams of his childhood.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/60rbYRidGzWjb6cjZ2elIiztvpp.jpg'
-    },
-    {
-        title: 'The Usual Suspects',
-        director: 'Bryan Singer',
-        description: 'Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord\'s almost supernatural prowess.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/bUPmtQzrRhzqYySeiMpv7GurAfm.jpg'
-    },
-    {
-        title: 'Along with the Gods: The Last 49 Days',
-        director: 'Kim Yong-hwa',
-        description: 'As the deceased soul Ja-hong and his three afterlife guardians prepare for their remaining trials for reincarnation, the guardians soon come face to face with the truth of their tragic time on Earth 1,000 years earlier.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/9BnqBHFGDv3WlCPB2qQwzAWdy7y.jpg'
-    },
-    {
-        title: 'Shutter Island',
-        director: 'Martin Scorsese',
-        description: 'World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg'
-    },
-    {
-        title: 'Jujutsu Kaisen 0',
-        director: 'Sunghoo Park',
-        description: 'Yuta Okkotsu is a nervous high school student who is suffering from a serious problem—his childhood friend Rika has turned into a curse and won\'t leave him alone. Since Rika is no ordinary curse, his plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling exorcists learn how to combat curses. Gojo convinces Yuta to enroll, but can he learn enough in time to confront the curse that haunts him?',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/23oJaeBh0FDk2mQ2P240PU9Xxfh.jpg'
-    },
-    {
-        title: 'Purple Hearts',
-        director: 'Elizabeth Allen Rosenbaum',
-        description: 'An aspiring musician agrees to a marriage of convenience with a soon-to-deploy Marine, but a tragedy soon turns their fake relationship all too real.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/4JyNWkryifWbWXJyxcWh3pVya6N.jpg'
-    },
-    {
-        title: 'Maquia: When the Promised Flower Blooms',
-        director: 'Mari Okada',
-        description: 'Maquia is a member of a special race called the Iorph who can live for hundreds of years. However, Maquia has always felt lonely despite being surrounded by her people, as she was orphaned from a young age. She daydreams about the outside world, but dares not travel from her home due to the warnings of the clan\'s chief.  One day the kingdom of Mezarte invades her homeland. They already have what is left of the giant dragons, the Renato, under their control, and now their king wishes to add the immortality to his bloodline.  They ravage the Iorph homeland and kill most of its inhabitants. Caught in the midst of the attack, Maquia is carried off by one of the Renato. It soon dies, and she is left deserted in a forest, now truly alone save for the cries of a single baby off in the distance. Maquia finds the baby in a destroyed village and decides to raise him as her own, naming him Ariel. Although she knows nothing of the human world, how to raise a child that ages much faster than her.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/hL3NqRE2ccR4Y2sYSJTrmalRjrz.jpg'
-    },
-    {
-        title: 'Hacksaw Ridge',
-        director: 'Mel Gibson',
-        description: 'WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first Conscientious Objector in American history to receive the Congressional Medal of Honor.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/jhWbYeUNOA5zAb6ufK6pXQFXqTX.jpg'
-    },
-    {
-        title: 'Vertigo',
-        director: 'Alfred Hitchcock',
-        description: 'A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend\'s wife, all the while becoming dangerously obsessed with her.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg'
-    },
-    {
-        title: 'Memento',
-        director: 'Christopher Nolan',
-        description: 'Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife\'s killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he\'s going, or why.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/yuNs09hvpHVU1cBTCAk9zxsL2oW.jpg'
-    },
-    {
-        title: 'Investigation of a Citizen Above Suspicion',
-        director: 'Elio Petri',
-        description: 'Rome, Italy. After committing a heinous crime, a senior police officer exposes evidence incriminating him because his moral commitment prevents him from circumventing the law and the social order it protects.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/vPTZwlq1IC4o1DCsEZEl2uGljzm.jpg'
-    },
-    {
-        title: 'Mortal Kombat Legends: Scorpion\'s Revenge',
-        director: 'Ethan Spaulding',
-        description: 'After the vicious slaughter of his family by stone-cold mercenary Sub-Zero, Hanzo Hasashi is exiled to the torturous Netherrealm. There, in exchange for his servitude to the sinister Quan Chi, he’s given a chance to avenge his family – and is resurrected as Scorpion, a lost soul bent on revenge. Back on Earthrealm, Lord Raiden gathers a team of elite warriors – Shaolin monk Liu Kang, Special Forces officer Sonya Blade and action star Johnny Cage – an unlikely band of heroes with one chance to save humanity. To do this, they must defeat Shang Tsung’s horde of Outworld gladiators and reign over the Mortal Kombat tournament.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/4VlXER3FImHeFuUjBShFamhIp9M.jpg'
-    },
-    {
-        title: 'Abraham Lincoln Vampire Hunter: The Great Calamity',
-        director: 'Javier Soto',
-        description: 'A motion comic follow-up to a chapter from Abraham Lincoln Vampire Hunter novel where Abe\'s friend, Edgar Allan Poe, tells him the tale of historical Hungarian countess Elizabeth Bathory, often tied to vampire legends due to her brutality.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/9kD8bohNKE1truudhmeOtOjfNeH.jpg'
-    },
-    {
-        title: 'Portrait of a Lady on Fire',
-        director: 'Céline Sciamma',
-        description: 'On an isolated island in Brittany at the end of the eighteenth century, a female painter is obliged to paint a wedding portrait of a young woman.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/2LquGwEhbg3soxSCs9VNyh5VJd9.jpg'
-    },
-    {
-        title: 'Scenes from a Marriage',
-        director: 'Ingmar Bergman',
-        description: 'Johan and Marianne are married and seem to have it all. Their happiness, however, is a façade for a troubled relationship, which becomes even rockier when Johan admits that he\'s having an affair. Before long, the spouses separate and move towards finalizing their divorce, but they make attempts at reconciling. Even as they pursue other relationships, Johan and Marianne realize that they have a significant bond, but also many issues that hinder that connection.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/ArKEdvJesIktFX8OAhcdKAOLl6I.jpg'
-    },
-    {
-        title: 'Children of Paradise',
-        director: 'Marcel Carné',
-        description: 'Nathalie falls for Baptiste Debureau, a mime. But his heart is set on Garance, who is also coveted by Frederick Lemaitre and the Count of Montray.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/yiy9stl1jjVhW44ypkWMFDT8Ix3.jpg'
-    },
-    {
-        title: 'Capernaum',
-        director: 'Nadine Labaki',
-        description: 'Zain, a 12-year-old boy scrambling to survive on the streets of Beirut, sues his parents for having brought him into such an unjust world, where being a refugee with no documents means that your rights can easily be denied.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/cqkqrIDzvkFRWVbRRQLqtkXQoPu.jpg'
-    },
-    {
-        title: 'The Hate U Give',
-        director: 'George Tillman, Jr.',
-        description: 'Raised in a poverty-stricken slum, a 16-year-old girl named Starr now attends a suburban prep school. After she witnesses a police officer shoot her unarmed best friend, she\'s torn between her two very different worlds as she tries to speak her truth.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/2icwBom0t5nmOuZI9FVXF3gkMK0.jpg'
-    },
-    {
-        title: 'Out of the Clear Blue Sky',
-        director: 'Pepe Bojórquez',
-        description: 'Returning to Earth as an imitator, the legendary Mexican artist Pedro Infante must prove that he is no longer a womanizer to enter paradise.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/xg6QZdlHrq2dtSK8cfnQQMnmpeY.jpg'
-    },
-    {
-        title: 'Sansho the Bailiff',
-        director: 'Kenji Mizoguchi',
-        description: 'In medieval Japan, a woman and his children journey to find the family\'s patriarch, who was exiled years before.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/rSlZ8iM4vRM0sZrrJNmjln4kZir.jpg'
-    },
-    {
-        title: 'Casablanca',
-        director: 'Michael Curtiz',
-        description: 'In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/5K7cOHoay2mZusSLezBOY0Qxh8a.jpg'
-    },
-    {
-        title: 'Piper',
-        director: 'Alan Barillaro',
-        description: 'A mother bird tries to teach her little one how to find food by herself. In the process, she encounters a traumatic experience that she must overcome in order to survive.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/9tzpqQic0VJt4JCAJ5ZGrfs1qWV.jpg'
-    },
-    {
-        title: 'Call Me by Your Name',
-        director: 'Luca Guadagnino',
-        description: 'In 1980s Italy, a relationship begins between seventeen-year-old teenage Elio and the older adult man hired as his father\'s research assistant.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/mZ4gBdfkhP9tvLH1DO4m4HYtiyi.jpg'
-    },
-    {
-        title: 'Joker',
-        director: 'Todd Phillips',
-        description: 'During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg'
-    },
-    {
-        title: 'Bo Burnham: Inside',
-        director: 'Bo Burnham',
-        description: 'Stuck in COVID-19 lockdown, US comedian and musician Bo Burnham attempts to stay sane and happy by writing, shooting and performing a one-man comedy special.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/ku1UvTWYvhFQbSesOD6zteY7bXT.jpg'
-    },
-    {
-        title: 'Singin\' in the Rain',
-        director: 'Stanley Donen',
-        description: 'In 1927 Hollywood, a silent film production company and cast make a difficult transition to sound.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/zjrpWniKbzu0zFR5sUI1Ptdfl9y.jpg'
-    },
-    {
-        title: 'My Mom is a Character 3',
-        director: 'Susana Garcia',
-        description: 'Dona Hermínia will have to rediscover and reinvent herself because her children are forming new families. This supermom will have to deal with a new life scenario: Marcelina is pregnant and Juliano is getting married.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/zw77BFPGJ73Lig8GwRzYj1XHq53.jpg'
-    },
-    {
-        title: 'The Departed',
-        director: 'Martin Scorsese',
-        description: 'To take down South Boston\'s Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there\'s a mole among them.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/nT97ifVT2J1yMQmeq20Qblg61T.jpg'
-    },
-    {
-        title: 'Scarface',
-        director: 'Brian De Palma',
-        description: 'After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg'
-    },
-    {
-        title: 'Taxi Driver',
-        director: 'Martin Scorsese',
-        description: 'A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feed his urge for violent action.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/ekstpH614fwDX8DUln1a2Opz0N8.jpg'
-    },
-    {
-        title: 'Django Unchained',
-        director: 'Quentin Tarantino',
-        description: 'With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg'
-    },
-    {
-        title: 'Togo',
-        director: 'Ericson Core',
-        description: 'The untold true story set in the winter of 1925 that takes you across the treacherous terrain of the Alaskan tundra for an exhilarating and uplifting adventure that will test the strength, courage and determination of one man, Leonhard Seppala, and his lead sled dog, Togo.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/921q4gPNN4J6UxvKaw6SCNBe3F8.jpg'
-    },
-    {
-        title: 'Wonder',
-        director: 'Stephen Chbosky',
-        description: 'The story of August Pullman – a boy with facial differences – who enters fifth grade, attending a mainstream elementary school for the first time.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/ouYgAatYH4JzIThj6FI3UYf31RI.jpg'
-    },
-    {
-        title: 'Michael Jackson\'s Thriller',
-        director: 'John Landis',
-        description: 'A night at the movies turns into a nightmare when Michael and his date are attacked by a horde of bloody-thirsty zombies.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/djv4LM6uanJriwpsOyJzaaSp4gf.jpg'
-    },
-    {
-        title: 'Soul',
-        director: 'Pete Docter',
-        description: 'Joe Gardner is a middle school teacher with a love for jazz music. After a successful audition at the Half Note Club, he suddenly gets into an accident that separates his soul from his body and is transported to the You Seminar, a center in which souls develop and gain passions before being transported to a newborn child. Joe must enlist help from the other souls-in-training, like 22, a soul who has spent eons in the You Seminar, in order to get back to Earth.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg'
-    },
-    {
-        title: 'KONOSUBA – God\'s blessing on this wonderful world! Legend of Crimson',
-        director: 'Takaomi Kanasaki',
-        description: 'It is not strange that the Demon Lord\'s forces fear the Crimson Demons, the clan from which Megumin and Yunyun originate. Even if the Demon Lord\'s generals attack their village, the Crimson Demons can just easily brush them off with their supreme mastery of advanced and overpowered magic.  When Yunyun receives a seemingly serious letter regarding a potential disaster coming to her hometown, she immediately informs Kazuma Satou and the rest of his party. After a series of wacky misunderstandings, it turns out to be a mere prank by her fellow demon who wants to be an author. Even so, Megumin becomes worried about her family and sets out toward the Crimson Demons\' village with the gang.  There, Kazuma and the others decide to sightsee the wonders of Megumin\'s birthplace. However, they soon come to realize that the nonsense threat they received might have been more than just a joke.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/fv5BgcfkpWh3V6Pb1qVlXESBOdl.jpg'
-    },
-    {
-        title: 'Metropolis',
-        director: 'Fritz Lang',
-        description: 'In a futuristic city sharply divided between the rich and the poor, the son of the city\'s mastermind meets a prophet who predicts the coming of a savior to mediate their differences.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/pxbGZewX327IbTvrCVRJgcLJTSQ.jpg'
-    },
-    {
-        title: 'All About Eve',
-        director: 'Joseph L. Mankiewicz',
-        description: 'From the moment she glimpses her idol at the stage door, Eve Harrington is determined to take the reins of power away from the great actress Margo Channing. Eve maneuvers her way into Margo\'s Broadway role, becomes a sensation and even causes turmoil in the lives of Margo\'s director boyfriend, her playwright and his wife. Only the cynical drama critic sees through Eve, admiring her audacity and perfect pattern of deceit.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/6numIZH6uR3NlJgY9m7nGH0jhs.jpg'
-    },
-    {
-        title: 'The Father',
-        director: 'Florian Zeller',
-        description: 'A man refuses all assistance from his daughter as he ages and, as he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/pr3bEQ517uMb5loLvjFQi8uLAsp.jpg'
-    },
-    {
-        title: 'Central Station',
-        director: 'Walter Salles',
-        description: 'An emotive journey of a former school teacher, who writes letters for illiterate people, and a young boy, whose mother has just died, as they search for the father he never knew.',
-        rating: 8.2,
-        poster: 'https://image.tmdb.org/t/p/original/zJvp7XjQ2LhPbDVYhFXyucs40vR.jpg'
-    },
-    {
-        title: 'My Friends',
-        director: 'Mario Monicelli',
-        description: 'Four middle-aged friends in Florence organize together idle pranks (called zingarate, "gypsy shenanigans") in a continuous attempt to prolong childhood during their adult life.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/8Pm8SLjq2UHCwisd56ipHtzvZI1.jpg'
-    },
-    {
-        title: 'Guardians of the Galaxy Vol. 3',
-        director: 'James Gunn',
-        description: 'Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg'
-    },
-    {
-        title: 'Good Will Hunting',
-        director: 'Gus Van Sant',
-        description: 'Will Hunting has a genius-level IQ but chooses to work as a janitor at MIT. When he solves a difficult graduate-level math problem, his talents are discovered by Professor Gerald Lambeau, who decides to help the misguided youth reach his potential. When Will is arrested for attacking a police officer, Professor Lambeau makes a deal to get leniency for him if he will get treatment from therapist Sean Maguire.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/bABCBKYBK7A5G1x0FzoeoNfuj2.jpg'
-    },
-    {
-        title: 'Double Indemnity',
-        director: 'Billy Wilder',
-        description: 'A rich woman and a calculating insurance agent plot to kill her unsuspecting husband after he signs a double indemnity policy. Against a backdrop of distinctly Californian settings, the partners in crime plan the perfect murder to collect the insurance, which pays double if the death is accidental.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/kkfKLeOTo7RjS9TxHKpknlL7huS.jpg'
-    },
-    {
-        title: 'Wild Strawberries',
-        director: 'Ingmar Bergman',
-        description: 'Crotchety retired doctor Isak Borg travels from Stockholm to Lund, Sweden, with his pregnant and unhappy daughter-in-law, Marianne, in order to receive an honorary degree from his alma mater. Along the way, they encounter a series of hitchhikers, each of whom causes the elderly doctor to muse upon the pleasures and failures of his own life. These include the vivacious young Sara, a dead ringer for the doctor\'s own first love.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/iyTD2QnySNMPUPE3IedZQipSWfz.jpg'
-    },
-    {
-        title: 'La Dolce Vita',
-        director: 'Federico Fellini',
-        description: 'Journalist and man-about-town Marcello struggles to find his place in the world, torn between the allure of Rome\'s elite social scene and the stifling domesticity offered by his girlfriend, all the while searching for a way to become a serious writer.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/kZF1akNxeNJiCiMRWdF0fe0x48H.jpg'
-    },
-    {
-        title: 'Innocent Voices',
-        director: 'Luis Mandoki',
-        description: 'A young boy, in an effort to have a normal childhood in 1980s El Salvador, is caught up in a dramatic fight for his life as he desperately tries to avoid the war which is raging all around him',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/hvwB4LdMCLzqXsk5ZjR77vzPkGk.jpg'
-    },
-    {
-        title: 'Believe Me: The Abduction of Lisa McVey',
-        director: 'Jim Donovan',
-        description: 'On the night she plans on taking her own life, 17-year-old \'Lisa McVey\' is kidnapped and finds herself fighting to stay alive and manages to be a victim of rape. She manages to talk her attacker into releasing her, but when she returns home, no one believes her story except for one detective, who suspects she was abducted by a serial killer. Based on horrifying true events.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/qbJEzCzEKDHPZDiRvSSBiYEKaAH.jpg'
-    },
-    {
-        title: 'Yojimbo',
-        director: 'Akira Kurosawa',
-        description: 'A nameless ronin, or samurai with no master, enters a small village in feudal Japan where two rival businessmen are struggling for control of the local gambling trade. Taking the name Sanjuro Kuwabatake, the ronin convinces both silk merchant Tazaemon and sake merchant Tokuemon to hire him as a personal bodyguard, then artfully sets in motion a full-scale gang war between the two ambitious and unscrupulous men.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/tN7kYPjRhDolpui9sc9Eq9n5b2O.jpg'
-    },
-    {
-        title: 'Alien',
-        director: 'Ridley Scott',
-        description: 'During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg'
-    },
-    {
-        title: 'The Great War',
-        director: 'Mario Monicelli',
-        description: 'Italy, 1916. Oreste Jacovacci and Giovanni Busacca are called, as all the Italian youths, to serve the army in the WWI. They both try in every way to avoid serving the army.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/aDvKsUb5y7GMNMz2HHNtuGww5t8.jpg'
-    },
-    {
-        title: 'Reservoir Dogs',
-        director: 'Quentin Tarantino',
-        description: 'A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/n8O9WOAL1DVOMEQJpYatNqpNauK.jpg'
-    },
-    {
-        title: 'Full Metal Jacket',
-        director: 'Stanley Kubrick',
-        description: 'A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/kMKyx1k8hWWscYFnPbnxxN4Eqo4.jpg'
-    },
-    {
-        title: 'Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb',
-        director: 'Stanley Kubrick',
-        description: 'After the insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/7SixLzxcqezkZEYU8pcHZgbkmjp.jpg'
-    },
-    {
-        title: 'Far from the Tree',
-        director: 'Natalie Nourigat',
-        description: 'On an idyllic beach in the Pacific Northwest, curiosity gets the better of a young raccoon whose frustrated parent attempts to keep them both safe.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/39oaQUS0KxyXL6KYJ2o2u03PpHz.jpg'
-    },
-    {
-        title: 'Rashomon',
-        director: 'Akira Kurosawa',
-        description: 'Brimming with action while incisively examining the nature of truth, "Rashomon" is perhaps the finest film ever to investigate the philosophy of justice. Through an ingenious use of camera and flashbacks, Kurosawa reveals the complexities of human nature as four people recount different versions of the story of a man\'s murder and the rape of his wife.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/vL7Xw04nFMHwnvXRFCmYYAzMUvY.jpg'
-    },
-    {
-        title: 'Lock, Stock and Two Smoking Barrels',
-        director: 'Guy Ritchie',
-        description: 'A card shark and his unwillingly-enlisted friends need to make a lot of cash quick after losing a sketchy poker match. To do this they decide to pull a heist on a small-time gang who happen to be operating out of the flat next door.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/8kSerJrhrJWKLk1LViesGcnrUPE.jpg'
-    },
-    {
-        title: 'Me Against You: Mr. S\'s Vendetta',
-        director: 'Gianluca Leuzzi',
-        description: 'A young couple who makes popular YouTube videos for children sets out to win an award, but an evil mastermind stands in the way of their success.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/sfeQTIRkJjWt8IPDSBcPqkrcaas.jpg'
-    },
-    {
-        title: 'The Truman Show',
-        director: 'Peter Weir',
-        description: 'Truman Burbank is the star of The Truman Show, a 24-hour-a-day reality TV show that broadcasts every aspect of his life without his knowledge. His entire life has been an unending soap opera for consumption by the rest of the world. And everyone he knows, including his wife and his best friend is really an actor, paid to be part of his life.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/vuza0WqY239yBXOadKlGwJsZJFE.jpg'
-    },
-    {
-        title: 'Ayla: The Daughter of War',
-        director: 'Can Ulkay',
-        description: 'In 1950, amidst the ravages of the Korean War, Sergeant Süleyman stumbles upon a a half-frozen little girl, with no parents and no help in sight and he risks his own life to save her, smuggling her into his army base and out of harm’s way.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/dETDsjBNtWyzdrqi0DFSielMWk5.jpg'
-    },
-    {
-        title: 'The Invisible Guest',
-        director: 'Oriol Paulo',
-        description: 'Barcelona, Spain. Adrián Doria, a young and successful businessman accused of murder, meets one night with Virginia Goodman, an expert interrogation lawyer, in order to devise a defense strategy.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/fptnZJbLzKUHeNlYrAynbyoL5YJ.jpg'
-    },
-    {
-        title: 'Andrei Rublev',
-        director: 'Andrei Tarkovsky',
-        description: 'An expansive Russian drama, this film focuses on the life of revered religious icon painter Andrei Rublev. Drifting from place to place in a tumultuous era, the peace-seeking monk eventually gains a reputation for his art. But after Rublev witnesses a brutal battle and unintentionally becomes involved, he takes a vow of silence and spends time away from his work. As he begins to ease his troubled soul, he takes steps towards becoming a painter once again.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/910xRIUmNJrWH2hkQifBJtoPp5R.jpg'
-    },
-    {
-        title: 'Prayers for Bobby',
-        director: 'Russell Mulcahy',
-        description: 'Bobby Griffith was his mother\'s favorite son, the perfect all-American boy growing up under deeply religious influences in Walnut Creek, California. Bobby was also gay. Struggling with a conflict no one knew of, much less understood, Bobby finally came out to his family.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/1viFwXluAettogGDsTrSUUg29lZ.jpg'
-    },
-    {
-        title: 'Sherlock Jr.',
-        director: 'Buster Keaton',
-        description: 'A film projectionist longs to be a detective, and puts his meagre skills to work when he is framed by a rival for stealing his girlfriend\'s father\'s pocketwatch.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/1G9r3rqtbFAQuyWKOZm4Y5J5s7Q.jpg'
-    },
-    {
-        title: 'In the Mood for Love',
-        director: 'Wong Kar-wai',
-        description: 'Two neighbors become intimate after discovering that their spouses are having an affair with one another.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/iYypPT4bhqXfq1b6EnmxvRt6b2Y.jpg'
-    },
-    {
-        title: 'Some Like It Hot',
-        director: 'Billy Wilder',
-        description: 'Two musicians witness a mob hit and struggle to find a way out of the city before they are found by the gangsters. Their only opportunity is to join an all-girl band as they leave on a tour. To make their getaway they must first disguise themselves as women, then keep their identities secret and deal with the problems this brings - such as an attractive bandmate and a very determined suitor.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/hVIKyTK13AvOGv7ICmJjK44DTzp.jpg'
-    },
-    {
-        title: 'Bo Burnham: Make Happy',
-        director: 'Bo Burnham',
-        description: 'Combining his trademark wit and self-deprecating humor with original music, Bo Burnham offers up his unique twist on life in this stand-up special about  life, death, sexuality, hypocrisy, mental illness and Pringles cans.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/1RqDE7X2rGjxKOklweUFd2U7Vn0.jpg'
-    },
-    {
-        title: 'Big Deal on Madonna Street',
-        director: 'Mario Monicelli',
-        description: 'Best friends Peppe and Mario are thieves, but they\'re not very good at it. Still, Peppe thinks that he\'s finally devised a master heist that will make them rich. With the help of some fellow criminals, he plans to dig a tunnel from a rented apartment to the pawnshop next door, where they can rob the safe. But his plan is far from foolproof, and the fact that no one in the group has any experience digging tunnels proves to be the least of their problems.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/f5OxD8Nl0pR3DcYHtYhHRfpsmjl.jpg'
-    },
-    {
-        title: 'Along with the Gods: The Two Worlds',
-        director: 'Kim Yong-hwa',
-        description: 'Having died unexpectedly, firefighter Ja-hong is taken to the afterlife by 3 afterlife guardians. Only when he passes 7 trials over 49 days and proves he was innocent in human life, he’s able to reincarnate, and his 3 afterlife guardians are by his side to defend him in trial.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/gJSvIsI6oQfFim0PGyuuiCYfqKs.jpg'
-    },
-    {
-        title: 'Black Beauty',
-        director: 'Ashley Avis',
-        description: 'Born free in the American West, Black Beauty is a horse rounded up and brought to Birtwick Stables, where she meets spirited teenager Jo Green. The two forge a bond that carries Beauty through the different chapters, challenges and adventures.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/5ZjMNJJabwBEnGVQoR2yoMEL9um.jpg'
-    },
-    {
-        title: 'I corti',
-        director: 'Arturo Brachetti',
-        description: 'I corti ("shorts") by Aldo, Giovanni & Giacomo was the first stage show of the comedy trio, with the participation of Marina Massironi. It was recorded live at the Teatro Nuovo in Ferrara on 28 and 29 March 1996. Produced by Agidi, with the theatre direction of Arturo Brachetti.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/9uZhgmOAH7eW4uWGL49HgIA0JtE.jpg'
-    },
-    {
-        title: 'Harry Potter and the Deathly Hallows: Part 2',
-        director: 'David Yates',
-        description: 'Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort\'s formidable skills.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/c54HpQmuwXjHq2C9wmoACjxoom3.jpg'
-    },
-    {
-        title: 'Scooby-Doo! and KISS: Rock and Roll Mystery',
-        director: 'Tony Cervone',
-        description: 'Get ready to Rock! Scooby-Doo and the Mystery Inc. Gang team up with the one and only KISS in this all-new, out-of-this-world adventure! We join the Gang at KISS World – the all-things-KISS theme park, as they investigate a series of strange hauntings. With help from KISS, they discover that the Crimson Witch has returned to summon The Destroyer from the alternate dimension of Kissteria! The evil duos ghastly plan, to destroy the earth! Can the Gang\'s cunning and KISS\'s power of rock save the day?!',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/nTkQZPXZl9yx3tfPS9TSDZBdhHC.jpg'
-    },
-    {
-        title: 'Bound by Honor',
-        director: 'Taylor Hackford',
-        description: 'Based on the true life experiences of poet Jimmy Santiago Baca, the film focuses on half-brothers Paco and Cruz, and their bi-racial cousin Miklo. It opens in 1972, as the three are members of an East L.A. gang known as the "Vatos Locos", and the story focuses on how a violent crime and the influence of narcotics alter their lives. Miklo is incarcerated and sent to San Quentin, where he makes a "home" for himself. Cruz becomes an exceptional artist, but a heroin addiction overcomes him with tragic results. Paco becomes a cop and an enemy to his "carnal", Miklo.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/gvP6R6juhe2IpCG7QGDgjyUvm0g.jpg'
-    },
-    {
-        title: 'Red Beard',
-        director: 'Akira Kurosawa',
-        description: 'Aspiring to an easy job as personal physician to a wealthy family, Noboru Yasumoto is disappointed when his first post after medical school takes him to a small country clinic under the gruff doctor Red Beard. Yasumoto rebels in numerous ways, but Red Beard proves a wise and patient teacher. He gradually introduces his student to the unglamorous side of the profession, ultimately assigning him to care for a prostitute rescued from a local brothel.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/fo800fRcWtl3Zhs6tPHfXP4KBak.jpg'
-    },
-    {
-        title: 'Silenced',
-        director: 'Hwang Dong-hyuk',
-        description: 'Based on actual events that took place at Gwangju Inhwa School for the hearing-impaired, where young deaf students were the victims of repeated sexual assaults by faculty members over a period of five years in the early 2000s.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/mbMp0oIFmYnw0i5gzRoKt8cH5ve.jpg'
-    },
-    {
-        title: 'The Tale of The Princess Kaguya',
-        director: 'Isao Takahata',
-        description: 'Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady. The mysterious young princess enthrals all who encounter her. But, ultimately, she must confront her fate.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/mWRQNlWXYYfd2z4FRm99MsgHgiA.jpg'
-    },
-    {
-        title: 'Anne of Green Gables',
-        director: 'Kevin Sullivan',
-        description: 'At the turn of the century on Prince Edward Island, Matthew Cuthbert and his sister Marilla decide to take on an orphan boy as help for their farm. But they get an unexpected jolt when they\'re mistakenly sent a girl instead: Anne Shirley.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/pwhhq0uXe9siLYZdz3P1UnYV6Os.jpg'
-    },
-    {
-        title: 'Paris, Texas',
-        director: 'Wim Wenders',
-        description: 'A man wanders out of the desert not knowing who he is. His brother finds him, and helps to pull his memory back of the life he led before he walked out on his family and disappeared four years earlier.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/7G6ea5djDvCxfqfoMAX8479T4UB.jpg'
-    },
-    {
-        title: 'M',
-        director: 'Fritz Lang',
-        description: 'In this classic German thriller, Hans Beckert, a serial killer who preys on children, becomes the focus of a massive Berlin police manhunt. Beckert\'s heinous crimes are so repellant and disruptive to city life that he is even targeted by others in the seedy underworld network. With both cops and criminals in pursuit, the murderer soon realizes that people are on his trail, sending him into a tense, panicked attempt to escape justice.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/slsS6jT6SXjcTPOrsFcLIrHboXA.jpg'
-    },
-    {
-        title: 'Eternal Sunshine of the Spotless Mind',
-        director: 'Michel Gondry',
-        description: 'Joel Barish, heartbroken that his girlfriend underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realises that he still loves her, and may be too late to correct his mistake.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg'
-    },
-    {
-        title: 'Incendies',
-        director: 'Denis Villeneuve',
-        description: 'A mother\'s last wishes send twins Jeanne and Simon on a journey to Middle East in search of their tangled roots. Adapted from Wajdi Mouawad\'s acclaimed play, Incendies tells the powerful and moving tale of two young adults\' voyage to the core of deep-rooted hatred, never-ending wars and enduring love.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/eULmcIWvkWYifAJcQr7dzt9maPh.jpg'
-    },
-    {
-        title: 'Terminator 2: Judgment Day',
-        director: 'James Cameron',
-        description: 'Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/5M0j0B18abtBI5gi2RhfjjurTqb.jpg'
-    },
-    {
-        title: 'There Will Be Blood',
-        director: 'Paul Thomas Anderson',
-        description: 'Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview\'s motives and intentions, starting a slow-burning feud that threatens both their lives.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/fa0RDkAlCec0STeMNAhPaF89q6U.jpg'
-    },
-    {
-        title: 'The Hunt',
-        director: 'Thomas Vinterberg',
-        description: 'A teacher lives a lonely life, all the while struggling over his son’s custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/jkixsXzRh28q3PCqFoWcf7unghT.jpg'
-    },
-    {
-        title: 'Three Billboards Outside Ebbing, Missouri',
-        director: 'Martin McDonagh',
-        description: 'After seven months have passed without a culprit in her daughter\'s murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at Bill Willoughby, the town\'s revered chief of police. When his second-in-command Officer Jason Dixon, an immature mother\'s boy with a penchant for violence, gets involved, the battle between Mildred and Ebbing\'s law enforcement is only exacerbated.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/pZRhqJj0DBy4ghB7g6pU7MGHsWJ.jpg'
-    },
-    {
-        title: 'Lion',
-        director: 'Garth Davis',
-        description: 'A five-year-old Indian boy gets lost on the streets of Calcutta, thousands of kilometers from home. He survives many challenges before being adopted by a couple in Australia; 25 years later, he sets out to find his lost family.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/iBGRbLvg6kVc7wbS8wDdVHq6otm.jpg'
-    },
-    {
-        title: '2001: A Space Odyssey',
-        director: 'Stanley Kubrick',
-        description: 'Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world\'s most advanced super computer.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg'
-    },
-    {
-        title: 'Digimon Adventure: Last Evolution Kizuna',
-        director: 'Tomohisa Taguchi',
-        description: 'Tai is now a university student, living alone, working hard at school, and working every day, but with his future still undecided. Meanwhile, Matt and others continue to work on Digimon incidents and activities that help people with their partner Digimon. When an unprecedented phenomenon occurs, the DigiDestined discover that when they grow up, their relationship with their partner Digimon will come closer to an end.  As a countdown timer activates on the Digivice, they realize that the more they fight with their partner Digimon, the faster their bond breaks. Will they fight for others and lose their partner? The time to choose and decide is approaching fast. There is a short time before “chosen children” will become adults. This is the last adventure of Tai and Agumon.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/z3l5iwWQLxcInVnNkC8k8hxqZ60.jpg'
-    },
-    {
-        title: 'Pride & Prejudice',
-        director: 'Joe Wright',
-        description: 'A story of love and life among the landed English gentry during the Georgian era. Mr. Bennet is a gentleman living in Hertfordshire with his overbearing wife and five daughters, but if he dies their house will be inherited by a distant cousin whom they have never met, so the family\'s future happiness and security is dependent on the daughters making good marriages.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/sGjIvtVvTlWnia2zfJfHz81pZ9Q.jpg'
-    },
-    {
-        title: 'New Gods: Nezha Reborn',
-        director: 'Zhao Ji',
-        description: 'While living as an ordinary deliveryman and motor racing fan, Nezha encounters old nemeses and must rediscover his powers to protect his loved ones.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/lBfBMeNJFfUvpkQsXsMwjcbNcp2.jpg'
-    },
-    {
-        title: 'Hannah Gadsby: Nanette',
-        director: 'Jon Olb',
-        description: 'The Australian comedian Hannah Gadsby is taking an anti-comedy stance in her newest special.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/xyDapdXEqic7pkLFvvvEW5dI3or.jpg'
-    },
-    {
-        title: 'Prisoners',
-        director: 'Denis Villeneuve',
-        description: 'Keller Dover faces a parent\'s worst nightmare when his 6-year-old daughter, Anna, and her friend go missing. The only lead is an old motorhome that had been parked on their street. The head of the investigation, Detective Loki, arrests the driver, but a lack of evidence forces Loki to release his only suspect. Dover, knowing that his daughter\'s life is at stake, decides that he has no choice but to take matters into his own hands.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/tuZhZ6biFMr5n9YSVuHOJnNL1uU.jpg'
-    },
-    {
-        title: 'Das Boot',
-        director: 'Wolfgang Petersen',
-        description: 'A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their limits.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/fSI5yoee0mBxwNyCvf8m3B5tFMu.jpg'
-    },
-    {
-        title: 'Cruella',
-        director: 'Craig Gillespie',
-        description: 'In 1970s London amidst the punk rock revolution, a young grifter named Estella is determined to make a name for herself with her designs. She befriends a pair of young thieves who appreciate her appetite for mischief, and together they are able to build a life for themselves on the London streets. One day, Estella’s flair for fashion catches the eye of the Baroness von Hellman, a fashion legend who is devastatingly chic and terrifyingly haute. But their relationship sets in motion a course of events and revelations that will cause Estella to embrace her wicked side and become the raucous, fashionable and revenge-bent Cruella.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/wToO8opxkGwKgSfJ1JK8tGvkG6U.jpg'
-    },
-    {
-        title: 'How to Train Your Dragon: Homecoming',
-        director: 'Tim Johnson',
-        description: 'It\'s been ten years since the dragons moved to the Hidden World, and even though Toothless doesn\'t live in New Berk anymore, Hiccup continues the holiday traditions he once shared with his best friend. But the Vikings of New Berk were beginning to forget about their friendship with dragons. Hiccup, Astrid, and Gobber know just what to do to keep the dragons in the villagers\' hearts. And across the sea, the dragons have a plan of their own...',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/kXj2Qrfm994yLeuADqbOieU1mUH.jpg'
-    },
-    {
-        title: 'WALL·E',
-        director: 'Andrew Stanton',
-        description: 'WALL·E is the last robot left on an Earth that has been overrun with garbage and all humans have fled to outer space. For 700 years he has continued to try and clean up the mess, but has developed some rather interesting human-like qualities. When a ship arrives with a sleek new type of robot, WALL·E thinks he\'s finally found a friend and stows away on the ship when it leaves.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/Agc6lw8pb6BIGVeguvdjDT0p9Mb.jpg'
-    },
-    {
-        title: 'La Haine',
-        director: 'Mathieu Kassovitz',
-        description: 'After a chaotic night of rioting in a marginal suburb of Paris, three young friends, Vinz, Hubert and Saïd, wander around unoccupied waiting for news about the state of health of a mutual friend who has been seriously injured when confronting the police.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/8rgPyWjYZhsphSSxbXguMnhN7H0.jpg'
-    },
-    {
-        title: 'The 400 Blows',
-        director: 'François Truffaut',
-        description: 'For young Parisian boy Antoine Doinel, life is one difficult situation after another. Surrounded by inconsiderate adults, including his neglectful parents, Antoine spends his days with his best friend, Rene, trying to plan for a better life. When one of their schemes goes awry, Antoine ends up in trouble with the law, leading to even more conflicts with unsympathetic authority figures.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/12PuU23kkDLvTd0nb8hMlE3oShB.jpg'
-    },
-    {
-        title: 'Elite Squad',
-        director: 'José Padilha',
-        description: 'In 1997, before the visit of the pope to Rio de Janeiro, Captain Nascimento from BOPE (Special Police Operations Battalion) is assigned to eliminate the risks of the drug dealers in a dangerous slum nearby where the pope intends to be lodged.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/lwIXz785N2fXi8hsBr1IXciFlkM.jpg'
-    },
-    {
-        title: 'A Taxi Driver',
-        director: 'Jang Hoon',
-        description: 'May, 1980. Man-seob is a taxi driver in Seoul who lives from hand to mouth, raising his young daughter alone. One day, he hears that there is a foreigner who will pay big money for a drive down to Gwangju city. Not knowing that he’s a German journalist with a hidden agenda, Man-seob takes the job.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/iXVaWbxmyPk4KZGZk5GGDGFieMX.jpg'
-    },
-    {
-        title: 'My Neighbor Totoro',
-        director: 'Hayao Miyazaki',
-        description: 'Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg'
-    },
-    {
-        title: 'Veinteañera, Divorciada y Fantástica',
-        director: 'Noé Santillán-López',
-        description: 'Regina, our young protagonist, always dreamed of getting married. And she did it - but the dream lasted much less than she thought and now she has to face life in a very funny way as a divorcee.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/wpC0bIYYfAY0wLa8sjlzIspMQr4.jpg'
-    },
-    {
-        title: 'Memories of Murder',
-        director: 'Bong Joon-ho',
-        description: 'During the late 1980s, two detectives in a South Korean province attempt to solve the nation\'s first series of rape-and-murder cases.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/jcgUjx1QcupGzjntTVlnQ15lHqy.jpg'
-    },
-    {
-        title: 'The Best of Youth',
-        director: 'Marco Tullio Giordana',
-        description: 'Spanning nearly four decades, this generational epic follows two Italian brothers from a middle-class family through some of the most significant events of postwar Italian history after their life paths diverge thanks to one fateful encounter during the summer of 1966.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/ltmcFRvTeAgBgMLUGa15KzDSQqs.jpg'
-    },
-    {
-        title: 'Ran',
-        director: 'Akira Kurosawa',
-        description: 'With Ran, legendary director Akira Kurosawa reimagines Shakespeare\'s King Lear as a singular historical epic set in sixteenth-century Japan. Majestic in scope, the film is Kurosawa\'s late-life masterpiece, a profound examination of the folly of war and the crumbling of one family under the weight of betrayal, greed, and the insatiable thirst for power.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/jQnUtWaHYfqnXPOIf77K7Ycqk4M.jpg'
-    },
-    {
-        title: 'A Special Day',
-        director: 'Ettore Scola',
-        description: 'In Rome, fascist supporter Emanuele attends a parade commemorating Adolf Hitler\'s historic meeting with Italian leader Benito Mussolini, leaving his apolitical wife, Antonietta, to tend to household duties. Antonietta encounters a man, Gabriele, who appears surprisingly nonplussed by the political event. Over the course of the day, the two forge a close friendship that will forever change their perceptions of life, love and politics.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/jzRn7N1mFowkQ5IkUkfWoxXJtYU.jpg'
-    },
-    {
-        title: 'Rocco and His Brothers',
-        director: 'Luchino Visconti',
-        description: 'When a impoverished widow’s family moves to the big city, two of her five sons become romantic rivals with deadly results.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/pngL8AraChIDOiWnKF2o3S9kJzJ.jpg'
-    },
-    {
-        title: 'El mesero',
-        director: 'Raúl Martínez',
-        description: 'A waiter pretends to be an important businessman in order to reach the upper class through his entrepreneurial dreams.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/zvGC5jX5wQmU1GgPc0VGZz7Mtcs.jpg'
-    },
-    {
-        title: 'Toto, Peppino, and the Hussy',
-        director: 'Camillo Mastrocinque',
-        description: 'Antonio, Peppino and Lucia are three brothers who live in the country near Naples. Lucia\'s son, Gianni, goes to Naples to study medicine, but there he knows a ballet dancer. They fall in love and, when she goes to Milan, Gianni follows her. Informed of this and afraid that their nephew will stop studying, the three Caponi brothers leave for Milan to persuade Gianni to come back and continue studying and abandon the "Malafemmina" (bad girl).',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/rHsc35TLPliJAvbnmu8dvddiu96.jpg'
-    },
-    {
-        title: 'The Elephant Man',
-        director: 'David Lynch',
-        description: 'A Victorian surgeon rescues a heavily disfigured man being mistreated by his "owner" as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity. Based on the true story of Joseph Merrick (called John Merrick in the film), a severely deformed man in 19th century London.',
-        rating: 8.1,
-        poster: 'https://image.tmdb.org/t/p/original/rk2lKgEtjF9HO9N2UFMRc2cMGdj.jpg'
-    }];
+    { rank: "1", title: "The Shawshank Redemption", rating: 9.2, year: 1994, director: "Frank Darabont", genre: "Drama, Crime", summary: "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.", poster: "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg" },
+    { rank: "2", title: "The Godfather", rating: 9.2, year: 1972, director: "Francis Ford Coppola", genre: "Drama, Crime", summary: "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.", poster: "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg" },
+    { rank: "3", title: "The Dark Knight", rating: 9.0, year: 2008, director: "Christopher Nolan", genre: "Drama, Action, Crime, Thriller", summary: "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.", poster: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg" },
+    { rank: "4", title: "The Godfather Part II", rating: 9.0, year: 1974, director: "Francis Ford Coppola", genre: "Drama, Crime", summary: "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.", poster: "https://image.tmdb.org/t/p/w500/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg" },
+    { rank: "5", title: "12 Angry Men", rating: 9.0, year: 1957, director: "Sidney Lumet", genre: "Drama", summary: "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors\\' prejudices and preconceptions about the trial, the accused, and each other.", poster: "https://image.tmdb.org/t/p/w500/ow3wq89wM8qd5X7hWKxiRfsFf9C.jpg" },
+    { rank: "6", title: "Schindler\\'s List", rating: 8.9, year: 1993, director: "Steven Spielberg", genre: "Drama, History, War", summary: "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.", poster: "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg" },
+    { rank: "7", title: "The Lord of the Rings: The Return of the King", rating: 8.9, year: 2003, director: "Peter Jackson", genre: "Adventure, Fantasy, Action", summary: "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron\\'s forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord\\'s realm.", poster: "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg" },
+    { rank: "8", title: "Pulp Fiction", rating: 8.8, year: 1994, director: "Quentin Tarantino", genre: "Thriller, Crime", summary: "A burger-loving hit man, his philosophical partner, a drug-addled gangster\\'s moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.", poster: "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg" },
+    { rank: "9", title: "The Lord of the Rings: The Fellowship of the Ring", rating: 8.8, year: 2001, director: "Peter Jackson", genre: "Adventure, Fantasy, Action", summary: "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.", poster: "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg" },
+    { rank: "10", title: "The Good, the Bad and the Ugly", rating: 8.8, year: 1966, director: "Sergio Leone", genre: "Western", summary: "While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.", poster: "https://image.tmdb.org/t/p/w500/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg" },
+    { rank: "11", title: "Forrest Gump", rating: 8.8, year: 1994, director: "Robert Zemeckis", genre: "Comedy, Drama, Romance", summary: "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.", poster: "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg" },
+    { rank: "12", title: "Fight Club", rating: 8.7, year: 1999, director: "David Fincher", genre: "Drama, Thriller, Comedy", summary: "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.", poster: "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg" },
+    { rank: "13", title: "The Lord of the Rings: The Two Towers", rating: 8.7, year: 2002, director: "Peter Jackson", genre: "Adventure, Fantasy, Action", summary: "Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.", poster: "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg" },
+    { rank: "14", title: "Inception", rating: 8.7, year: 2010, director: "Christopher Nolan", genre: "Action, Science Fiction, Adventure", summary: "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person\\'s idea into a target\\'s subconscious.", poster: "https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg" },
+    { rank: "15", title: "Star Wars: Episode V - The Empire Strikes Back", rating: 8.7, year: 1980, director: "Irvin Kershner", genre: "Adventure, Action, Science Fiction", summary: "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.", poster: "https://image.tmdb.org/t/p/w500/2l05cFWJacyIsTpsqSgH0wQXe4V.jpg" },
+    { rank: "16", title: "The Matrix", rating: 8.7, year: 1999, director: "Lilly Wachowski", genre: "Action, Science Fiction", summary: "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.", poster: "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg" },
+    { rank: "17", title: "Goodfellas", rating: 8.7, year: 1990, director: "Martin Scorsese", genre: "Drama, Crime", summary: "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.", poster: "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg" },
+    { rank: "18", title: "One Flew Over the Cuckoo\\'s Nest", rating: 8.6, year: 1975, director: "Miloš Forman", genre: "Drama", summary: "A petty criminal fakes insanity to serve his sentence in a mental ward rather than prison. He soon finds himself as a leader to the other patients—and an enemy to the cruel, domineering nurse who runs the ward.", poster: "https://image.tmdb.org/t/p/w500/3jcbDmRFiQ83drXNOvRDeKHxS0C.jpg" },
+    { rank: "19", title: "Se7en", rating: 8.6, year: 1995, director: "David Fincher", genre: "Crime, Mystery, Thriller", summary: "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer\\'s mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.", poster: "https://image.tmdb.org/t/p/w500/6yoghtyTpznpBik8EngEmJskVUO.jpg" },
+    { rank: "20", title: "It\\'s a Wonderful Life", rating: 8.6, year: 1946, director: "Frank Capra", genre: "Drama, Family, Fantasy", summary: "A holiday favourite for generations...  George Bailey has spent his entire life giving to the people of Bedford Falls.  All that prevents rich skinflint Mr. Potter from taking over the entire town is George\\'s modest building and loan company.  But on Christmas Eve the business\\'s $8,000 is lost and George\\'s troubles begin.", poster: "https://image.tmdb.org/t/p/w500/mV3VcmMJN6Zwahj42dy9WwPUyRI.jpg" },
+    { rank: "21", title: "Seven Samurai", rating: 8.6, year: 1954, director: "Akira Kurosawa", genre: "Action, Drama", summary: "A samurai answers a village\\'s request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food.", poster: "https://image.tmdb.org/t/p/w500/8OKmBV5BUFzmozIC3pPWKHy17kx.jpg" },
+    { rank: "22", title: "The Silence of the Lambs", rating: 8.6, year: 1991, director: "Jonathan Demme", genre: "Crime, Drama, Thriller", summary: "Clarice Starling is a top student at the FBI\\'s training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.", poster: "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg" },
+    { rank: "23", title: "Saving Private Ryan", rating: 8.6, year: 1998, director: "Steven Spielberg", genre: "Drama, History, War", summary: "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.", poster: "https://image.tmdb.org/t/p/w500/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg" },
+    { rank: "24", title: "City of God", rating: 8.6, year: 2002, director: "Fernando Meirelles", genre: "Drama, Crime", summary: "In the slums of Rio, two kids\\' paths diverge as one struggles to become a photographer and the other a kingpin.", poster: "https://image.tmdb.org/t/p/w500/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg" },
+    { rank: "25", title: "Interstellar", rating: 8.6, year: 2014, director: "Christopher Nolan", genre: "Adventure, Drama, Science Fiction", summary: "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.", poster: "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" },
+    { rank: "26", title: "Life Is Beautiful", rating: 8.6, year: 1997, director: "Roberto Benigni", genre: "Comedy, Drama", summary: "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.", poster: "https://image.tmdb.org/t/p/w500/mfnkSeeVOBVheuyn2lo4tfmOPQb.jpg" },
+    { rank: "27", title: "The Green Mile", rating: 8.6, year: 1999, director: "Frank Darabont", genre: "Fantasy, Drama, Crime", summary: "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people\\'s ailments. When the cell block\\'s head guard, Paul Edgecomb, recognizes Coffey\\'s miraculous gift, he tries desperately to help stave off the condemned man\\'s execution.", poster: "https://image.tmdb.org/t/p/w500/o0lO84GI7qrG6XFvtsPOSV7CTNa.jpg" },
+    { rank: "28", title: "Star Wars: Episode IV - A New Hope", rating: 8.5, year: 1977, director: "George Lucas", genre: "Adventure, Action, Science Fiction", summary: "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.", poster: "https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg" },
+    { rank: "29", title: "Terminator 2: Judgment Day", rating: 8.5, year: 1991, director: "James Cameron", genre: "Action, Thriller, Science Fiction", summary: "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.", poster: "https://image.tmdb.org/t/p/w500/5M0j0B18abtBI5gi2RhfjjurTqb.jpg" },
+    { rank: "30", title: "Back to the Future", rating: 8.5, year: 1985, director: "Robert Zemeckis", genre: "Adventure, Comedy, Science Fiction", summary: "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents\\' first meeting and attracting his mother\\'s romantic interest. Marty must repair the damage to history by rekindling his parents\\' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.", poster: "https://image.tmdb.org/t/p/w500/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg" },
+    { rank: "31", title: "Spirited Away", rating: 8.5, year: 2001, director: "Hayao Miyazaki", genre: "Animation, Family, Fantasy", summary: "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.", poster: "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg" },
+    { rank: "32", title: "The Pianist", rating: 8.5, year: 2002, director: "Roman Polanski", genre: "Drama, War", summary: "The true story of pianist Władysław Szpilman\\'s experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.", poster: "https://image.tmdb.org/t/p/w500/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg" },
+    { rank: "33", title: "Psycho", rating: 8.5, year: 1960, director: "Alfred Hitchcock", genre: "Horror, Drama, Thriller", summary: "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.", poster: "https://image.tmdb.org/t/p/w500/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg" },
+    { rank: "34", title: "Parasite", rating: 8.5, year: 2019, director: "Bong Joon-ho", genre: "Comedy, Thriller, Drama", summary: "All unemployed, Ki-taek\\'s family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.", poster: "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg" },
+    { rank: "35", title: "Léon: The Professional", rating: 8.5, year: 1994, director: "Luc Besson", genre: "Crime, Drama, Action", summary: "Léon, the top hit man in New York, has earned a rep as an effective \"cleaner\". But when his next-door neighbors are wiped out by a loose-cannon DEA agent, he becomes the unwilling custodian of 12-year-old Mathilda. Before long, Mathilda\\'s thoughts turn to revenge, and she considers following in Léon\\'s footsteps.", poster: "https://image.tmdb.org/t/p/w500/yI6X2cCM5YPJtxMhUd3dPGqDAhw.jpg" },
+    { rank: "36", title: "Gladiator", rating: 8.5, year: 2000, director: "Ridley Scott", genre: "Action, Drama, Adventure", summary: "In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos.  Maximus is one of the Roman army\\'s most capable and trusted generals and a key advisor to the emperor.  As Marcus\\' devious son Commodus ascends to the throne, Maximus is set to be executed.  He escapes, but is captured by slave traders.  Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences.", poster: "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg" },
+    { rank: "37", title: "The Lion King", rating: 8.5, year: 1994, director: "Roger Allers", genre: "Family, Animation, Drama", summary: "A young lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron paw, the prince grows up beyond the Savannah, living by a philosophy: No worries for the rest of your days. But when his past comes to haunt him, the young prince must decide his fate: Will he remain an outcast or face his demons and become what he needs to be?", poster: "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg" },
+    { rank: "38", title: "American History X", rating: 8.5, year: 1998, director: "Tony Kaye", genre: "Drama", summary: "Derek Vineyard is paroled after serving 3 years in prison for killing two African-American men. Through his brother, Danny Vineyard\\'s narration, we learn that before going to prison, Derek was a skinhead and the leader of a violent white supremacist gang that committed acts of racial crime throughout L.A. and his actions greatly influenced Danny. Reformed and fresh out of prison, Derek severs contact with the gang and becomes determined to keep Danny from going down the same violent path as he did.", poster: "https://image.tmdb.org/t/p/w500/c2gsmSQ2Cqv8zosqKOCwRS0GFBS.jpg" },
+    { rank: "39", title: "The Departed", rating: 8.5, year: 2006, director: "Martin Scorsese", genre: "Drama, Thriller, Crime", summary: "To take down South Boston\\'s Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there\\'s a mole among them.", poster: "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg" },
+    { rank: "40", title: "Whiplash", rating: 8.5, year: 2014, director: "Damien Chazelle", genre: "Drama, Music", summary: "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.", poster: "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg" },
+    { rank: "41", title: "The Prestige", rating: 8.5, year: 2006, director: "Christopher Nolan", genre: "Drama, Mystery, Science Fiction", summary: "A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences.", poster: "https://image.tmdb.org/t/p/w500/bdN3gXuIZYaJP7ftKK2sU0nPtEA.jpg" },
+    { rank: "42", title: "The Usual Suspects", rating: 8.5, year: 1995, director: "Bryan Singer", genre: "Drama, Crime, Thriller", summary: "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord\\'s almost supernatural prowess.", poster: "https://image.tmdb.org/t/p/w500/bUPmtQzrRhzqYySeiMpv7GurAfm.jpg" },
+    { rank: "43", title: "Casablanca", rating: 8.5, year: 1942, director: "Michael Curtiz", genre: "Drama, Romance", summary: "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.", poster: "https://image.tmdb.org/t/p/w500/5K7cOHoay2mZusSLezBOY0Qxh8a.jpg" },
+    { rank: "44", title: "Grave of the Fireflies", rating: 8.5, year: 1988, director: "Isao Takahata", genre: "Animation, Drama, War", summary: "In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive.", poster: "https://image.tmdb.org/t/p/w500/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg" },
+    { rank: "45", title: "Harakiri", rating: 8.5, year: 1962, director: "Masaki Kobayashi", genre: "Action, Drama, History", summary: "Down-on-his-luck veteran Tsugumo Hanshirō enters the courtyard of the prosperous House of Iyi. Unemployed, and with no family, he hopes to find a place to commit seppuku—and a worthy second to deliver the coup de grâce in his suicide ritual. The senior counselor for the Iyi clan questions the ronin’s resolve and integrity, suspecting Hanshirō of seeking charity rather than an honorable end. What follows is a pair of interlocking stories which lay bare the difference between honor and respect, and promises to examine the legendary foundations of the Samurai code.", poster: "https://image.tmdb.org/t/p/w500/5konZnIbcAxZjP616Cz5o9bKEfW.jpg" },
+    { rank: "46", title: "The Intouchables", rating: 8.5, year: 2011, director: "Éric Toledano", genre: "Drama, Comedy", summary: "A true story of two men who should never have met – a quadriplegic aristocrat who was injured in a paragliding accident and a young man from the projects.", poster: "https://image.tmdb.org/t/p/w500/323BP0itpxTsO0skTwdnVmf7YC9.jpg" },
+    { rank: "47", title: "Modern Times", rating: 8.4, year: 1936, director: "Charlie Chaplin", genre: "Comedy, Drama", summary: "The Tramp struggles to live in modern industrial society with the help of a young homeless woman.", poster: "https://image.tmdb.org/t/p/w500/smggAeGHRjKy85h6BzF0eTeDrFW.jpg" },
+    { rank: "48", title: "Once Upon a Time in the West", rating: 8.4, year: 1968, director: "Sergio Leone", genre: "Drama, Western", summary: "As the railroad builders advance unstoppably through the Arizona desert on their way to the sea, Jill arrives in the small town of Flagstone with the intention of starting a new life.", poster: "https://image.tmdb.org/t/p/w500/qbYgqOczabWNn2XKwgMtVrntD6P.jpg" },
+    { rank: "49", title: "Cinema Paradiso", rating: 8.4, year: 1988, director: "Giuseppe Tornatore", genre: "Drama, Romance", summary: "A filmmaker recalls his childhood, when he fell in love with the movies at his village\\'s theater and formed a deep friendship with the theater\\'s projectionist.", poster: "https://image.tmdb.org/t/p/w500/8SRUfRUi6x4O68n0VCbDNRa6iGL.jpg" },
+    { rank: "50", title: "Rear Window", rating: 8.4, year: 1954, director: "Alfred Hitchcock", genre: "Thriller, Mystery", summary: "A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.", poster: "https://image.tmdb.org/t/p/w500/qitnZcLP7C9DLRuPpmvZ7GiEjJN.jpg" },
+    { rank: "51", title: "Alien", rating: 8.4, year: 1979, director: "Ridley Scott", genre: "Horror, Science Fiction", summary: "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.", poster: "https://image.tmdb.org/t/p/w500/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg" },
+    { rank: "52", title: "City Lights", rating: 8.4, year: 1931, director: "Charlie Chaplin", genre: "Comedy, Romance, Drama", summary: "In this sound-era silent film, a tramp falls in love with a beautiful blind flower seller.", poster: "https://image.tmdb.org/t/p/w500/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg" },
+    { rank: "53", title: "Apocalypse Now", rating: 8.4, year: 1979, director: "Francis Ford Coppola", genre: "Drama, War", summary: "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.", poster: "https://image.tmdb.org/t/p/w500/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg" },
+    { rank: "54", title: "Memento", rating: 8.4, year: 2000, director: "Christopher Nolan", genre: "Mystery, Thriller", summary: "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife\\'s killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he\\'s going, or why.", poster: "https://image.tmdb.org/t/p/w500/yuNs09hvpHVU1cBTCAk9zxsL2oW.jpg" },
+    { rank: "55", title: "Django Unchained", rating: 8.4, year: 2012, director: "Quentin Tarantino", genre: "Drama, Western", summary: "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.", poster: "https://image.tmdb.org/t/p/w500/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg" },
+    { rank: "56", title: "Indiana Jones and the Raiders of the Lost Ark", rating: 8.4, year: 1981, director: "Steven Spielberg", genre: "Adventure, Action", summary: "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.", poster: "https://image.tmdb.org/t/p/w500/ceG9VzoRAVGwivFU403Wc3AHRys.jpg" },
+    { rank: "57", title: "WALL·E", rating: 8.4, year: 2008, director: "Andrew Stanton", genre: "Animation, Family, Science Fiction", summary: "WALL·E is the last robot left on an Earth that has been overrun with garbage and all humans have fled to outer space. For 700 years he has continued to try and clean up the mess, but has developed some rather interesting human-like qualities. When a ship arrives with a sleek new type of robot, WALL·E thinks he\\'s finally found a friend and stows away on the ship when it leaves.", poster: "https://image.tmdb.org/t/p/w500/Agc6lw8pb6BIGVeguvdjDT0p9Mb.jpg" },
+    { rank: "58", title: "The Lives of Others", rating: 8.4, year: 2006, director: "Florian Henckel von Donnersmarck", genre: "Drama, Thriller", summary: "In 1984 East Berlin, an agent of the secret police, conducting surveillance on a writer and his lover, finds himself becoming increasingly absorbed by their lives.", poster: "https://image.tmdb.org/t/p/w500/pUKnhEQvQJI7SAIMbDsmrXUAMVE.jpg" },
+    { rank: "59", title: "Sunset Blvd.", rating: 8.4, year: 1950, director: "Billy Wilder", genre: "Drama", summary: "A hack screenwriter writes a screenplay for a former silent film star who has faded into Hollywood obscurity.", poster: "https://image.tmdb.org/t/p/w500/sC4Dpmn87oz9AuxZ15Lmip0Ftgr.jpg" },
+    { rank: "60", title: "Paths of Glory", rating: 8.4, year: 1957, director: "Stanley Kubrick", genre: "Drama, War", summary: "A commanding officer defends three scapegoats on trial for a failed offensive that occurred within the French Army in 1916.", poster: "https://image.tmdb.org/t/p/w500/l2IY0gOHHmCWM90LjteFssxIV1G.jpg" },
+    { rank: "61", title: "The Shining", rating: 8.4, year: 1980, director: "Stanley Kubrick", genre: "Horror, Thriller", summary: "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren\\'t prepared for the madness that lurks within.", poster: "https://image.tmdb.org/t/p/w500/nRj5511mZdTl4saWEPoj9QroTIu.jpg" },
+    { rank: "62", title: "The Great Dictator", rating: 8.4, year: 1940, director: "Charlie Chaplin", genre: "Comedy, War", summary: "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel\\'s regime.", poster: "https://image.tmdb.org/t/p/w500/1QpO9wo7JWecZ4NiBuu625FiY1j.jpg" },
+    { rank: "63", title: "Avengers: Infinity War", rating: 8.4, year: 2018, director: "Anthony Russo", genre: "Adventure, Action, Science Fiction", summary: "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.", poster: "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg" },
+    { rank: "64", title: "Witness for the Prosecution", rating: 8.4, year: 1957, director: "Billy Wilder", genre: "Drama, Mystery, Crime", summary: "When Leonard Vole is arrested for the sensational murder of a rich, middle-aged widow, the famous Sir Wilfrid Robarts agrees to appear on his behalf. Sir Wilfrid, recovering from a near-fatal heart attack, is supposed to be on a diet of bland, civil suits—but the lure of the criminal courts is too much for him, especially when the case is so difficult.", poster: "https://image.tmdb.org/t/p/w500/mM5Cad2ESBprh6ucPnMzMfI34Cu.jpg" },
+    { rank: "65", title: "Aliens", rating: 8.3, year: 1986, director: "James Cameron", genre: "Action, Thriller, Science Fiction", summary: "When Ripley\\'s lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story—all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers.", poster: "https://image.tmdb.org/t/p/w500/r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg" },
+    { rank: "66", title: "Spider-Man: Into the Spider-Verse", rating: 8.3, year: 2018, director: "Rodney Rothman", genre: "Action, Adventure, Animation, Science Fiction", summary: "Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson \"Kingpin\" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.", poster: "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg" },
+    { rank: "67", title: "American Beauty", rating: 8.3, year: 1999, director: "Sam Mendes", genre: "Drama", summary: "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter\\'s attractive friend.", poster: "https://image.tmdb.org/t/p/w500/wby9315QzVKdW9BonAefg8jGTTb.jpg" },
+    { rank: "68", title: "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", rating: 8.3, year: 1964, director: "Stanley Kubrick", genre: "Drama, Comedy, War", summary: "After the insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike.", poster: "https://image.tmdb.org/t/p/w500/7SixLzxcqezkZEYU8pcHZgbkmjp.jpg" },
+    { rank: "69", title: "The Dark Knight Rises", rating: 8.3, year: 2012, director: "Christopher Nolan", genre: "Action, Crime, Drama, Thriller", summary: "Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent\\'s crimes to protect the late attorney\\'s reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham\\'s finest. The Dark Knight resurfaces to protect a city that has branded him an enemy.", poster: "https://image.tmdb.org/t/p/w500/85cWkCVftiVs0BVey6pxX8uNmLt.jpg" },
+    { rank: "70", title: "Inglourious Basterds", rating: 8.3, year: 2009, director: "Quentin Tarantino", genre: "Drama, Thriller, War", summary: "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as \"The Basterds\" are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.", poster: "https://image.tmdb.org/t/p/w500/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg" },
+    { rank: "71", title: "Oldboy", rating: 8.3, year: 2003, director: "Park Chan-wook", genre: "Drama, Thriller, Mystery, Action", summary: "With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate businessman seeks revenge on his captors.", poster: "https://image.tmdb.org/t/p/w500/kKMuZ5hOXSbesbM1Ba1hGugJEro.jpg" },
+    { rank: "72", title: "Amadeus", rating: 8.3, year: 1984, director: "Miloš Forman", genre: "History, Music, Drama", summary: "Wolfgang Amadeus Mozart is a remarkably talented young Viennese composer who unwittingly finds a fierce rival in the disciplined and determined Antonio Salieri. Resenting Mozart for both his hedonistic lifestyle and his undeniable talent, the highly religious Salieri is gradually consumed by his jealousy and becomes obsessed with Mozart\\'s downfall, leading to a devious scheme that has dire consequences for both men.", poster: "https://image.tmdb.org/t/p/w500/1n5VUlCqgmVax1adxGZm8oCFaKc.jpg" },
+    { rank: "73", title: "Coco", rating: 8.3, year: 2017, director: "Lee Unkrich", genre: "Family, Animation, Fantasy, Music, Comedy, Adventure", summary: "Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel\\'s family history.", poster: "https://image.tmdb.org/t/p/w500/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg" },
+    { rank: "74", title: "Toy Story", rating: 8.3, year: 1995, director: "John Lasseter", genre: "Animation, Adventure, Family, Comedy", summary: "Led by Woody, Andy\\'s toys live happily in his room until Andy\\'s birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy\\'s heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.", poster: "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg" },
+    { rank: "75", title: "Braveheart", rating: 8.3, year: 1995, director: "Mel Gibson", genre: "Action, Drama, History, War", summary: "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord\\'s soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.", poster: "https://image.tmdb.org/t/p/w500/or1gBugydmjToAEq7OZY0owwFk.jpg" },
+    { rank: "76", title: "Joker", rating: 8.3, year: 2019, director: "Todd Phillips", genre: "Crime, Thriller, Drama", summary: "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.", poster: "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg" },
+    { rank: "77", title: "Das Boot", rating: 8.3, year: 1981, director: "Wolfgang Petersen", genre: "Drama, History, War", summary: "A German submarine hunts allied ships during the Second World War, but it soon becomes the hunted. The crew tries to survive below the surface, while stretching both the boat and themselves to their limits.", poster: "https://image.tmdb.org/t/p/w500/fSI5yoee0mBxwNyCvf8m3B5tFMu.jpg" },
+    { rank: "78", title: "Avengers: Endgame", rating: 8.3, year: 2019, director: "Anthony Russo", genre: "Adventure, Science Fiction, Action", summary: "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos\\' actions and restore order to the universe once and for all, no matter what consequences may be in store.", poster: "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg" },
+    { rank: "79", title: "Princess Mononoke", rating: 8.3, year: 1997, director: "Hayao Miyazaki", genre: "Adventure, Fantasy, Animation", summary: "Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.", poster: "https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg" },
+    { rank: "80", title: "Good Will Hunting", rating: 8.3, year: 1997, director: "Gus Van Sant", genre: "Drama", summary: "Will Hunting has a genius-level IQ but chooses to work as a janitor at MIT. When he solves a difficult graduate-level math problem, his talents are discovered by Professor Gerald Lambeau, who decides to help the misguided youth reach his potential. When Will is arrested for attacking a police officer, Professor Lambeau makes a deal to get leniency for him if he will get treatment from therapist Sean Maguire.", poster: "https://image.tmdb.org/t/p/w500/bABCBKYBK7A5G1x0FzoeoNfuj2.jpg" },
+    { rank: "81", title: "Once Upon a Time in America", rating: 8.3, year: 1984, director: "Sergio Leone", genre: "Drama, Crime", summary: "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.", poster: "https://image.tmdb.org/t/p/w500/i0enkzsL5dPeneWnjl1fCWm6L7k.jpg" },
+    { rank: "82", title: "Your Name.", rating: 8.3, year: 2016, director: "Makoto Shinkai", genre: "Romance, Animation, Drama", summary: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.", poster: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg" },
+    { rank: "83", title: "Singin\\' in the Rain", rating: 8.3, year: 1952, director: "Stanley Donen", genre: "Comedy, Music, Romance, Drama", summary: "In 1927 Hollywood, a silent film production company and cast make a difficult transition to sound.", poster: "https://image.tmdb.org/t/p/w500/zjrpWniKbzu0zFR5sUI1Ptdfl9y.jpg" },
+    { rank: "84", title: "3 Idiots", rating: 8.3, year: 2009, director: "Rajkumar Hirani", genre: "Drama, Comedy", summary: "Rascal. Joker. Dreamer. Genius... You\\'ve never met a college student quite like \"Rancho.\" From the moment he arrives at India\\'s most prestigious university, Rancho\\'s outlandish schemes turn the campus upside down—along with the lives of his two newfound best friends. Together, they make life miserable for \"Virus,\" the school’s uptight and heartless dean. But when Rancho catches the eye of the dean\\'s sexy daughter, Virus sets his sights on flunking out the \"3 idiots\" once and for all.", poster: "https://image.tmdb.org/t/p/w500/66A9MqXOyVFCssoloscw79z8Tew.jpg" },
+    { rank: "85", title: "Requiem for a Dream", rating: 8.3, year: 2000, director: "Darren Aronofsky", genre: "Crime, Drama", summary: "The hopes and dreams of four ambitious people are shattered when their drug addictions begin spiraling out of control. A look into addiction and how it overcomes the mind and body.", poster: "https://image.tmdb.org/t/p/w500/nOd6vjEmzCT0k4VYqsA2hwyi87C.jpg" },
+    { rank: "86", title: "High and Low", rating: 8.3, year: 1963, director: "Akira Kurosawa", genre: "Crime, Drama, Mystery, Thriller", summary: "A shoe company executive who has mortgaged everything he has becomes a victim of extortion when his chauffeur\\'s son is kidnapped and is conflicted over whether he should pay the ransom.", poster: "https://image.tmdb.org/t/p/w500/tgNjemQPG96uIezpiUiXFcer5ga.jpg" },
+    { rank: "87", title: "Toy Story 3", rating: 8.3, year: 2010, director: "Lee Unkrich", genre: "Animation, Family, Comedy", summary: "Woody, Buzz, and the rest of Andy\\'s toys haven\\'t been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.", poster: "https://image.tmdb.org/t/p/w500/AbbXspMOwdvwWZgVN0nabZq03Ec.jpg" },
+    { rank: "88", title: "Capernaum", rating: 8.3, year: 2018, director: "Nadine Labaki", genre: "Drama", summary: "Zain, a 12-year-old boy scrambling to survive on the streets of Beirut, sues his parents for having brought him into such an unjust world, where being a refugee with no documents means that your rights can easily be denied.", poster: "https://image.tmdb.org/t/p/w500/cqkqrIDzvkFRWVbRRQLqtkXQoPu.jpg" },
+    { rank: "89", title: "Star Wars: Episode VI - Return of the Jedi", rating: 8.3, year: 1983, director: "Richard Marquand", genre: "Adventure, Action, Science Fiction", summary: "Luke Skywalker leads a mission to rescue his friend Han Solo from the clutches of Jabba the Hutt, while the Emperor seeks to destroy the Rebellion once and for all with a second dreaded Death Star.", poster: "https://image.tmdb.org/t/p/w500/xxCnFmRZ83jHTZsBiceG4IBUGoq.jpg" },
+    { rank: "90", title: "2001: A Space Odyssey", rating: 8.3, year: 1968, director: "Stanley Kubrick", genre: "Science Fiction, Mystery, Adventure", summary: "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world\\'s most advanced super computer.", poster: "https://image.tmdb.org/t/p/w500/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg" },
+    { rank: "91", title: "Eternal Sunshine of the Spotless Mind", rating: 8.3, year: 2004, director: "Michel Gondry", genre: "Science Fiction, Drama, Romance", summary: "Joel Barish, heartbroken that his girlfriend underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realises that he still loves her, and may be too late to correct his mistake.", poster: "https://image.tmdb.org/t/p/w500/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg" },
+    { rank: "92", title: "Come and See", rating: 8.3, year: 1985, director: "Elem Klimov", genre: "Drama, War", summary: "The invasion of a village in Byelorussia by German forces sends young Florya into the forest to join the weary Resistance fighters, against his family\\'s wishes. There he meets a girl, Glasha, who accompanies him back to his village. On returning home, Florya finds his family and fellow peasants massacred. His continued survival amidst the brutal debris of war becomes increasingly nightmarish, a battle between despair and hope.", poster: "https://image.tmdb.org/t/p/w500/qNbMsKVzigERgJUbwf8pKyZogpb.jpg" },
+    { rank: "93", title: "Reservoir Dogs", rating: 8.3, year: 1992, director: "Quentin Tarantino", genre: "Crime, Thriller", summary: "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.", poster: "https://image.tmdb.org/t/p/w500/n8O9WOAL1DVOMEQJpYatNqpNauK.jpg" },
+    { rank: "94", title: "The Hunt", rating: 8.3, year: 2012, director: "Thomas Vinterberg", genre: "Drama", summary: "A teacher lives a lonely life, all the while struggling over his son’s custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie.", poster: "https://image.tmdb.org/t/p/w500/jkixsXzRh28q3PCqFoWcf7unghT.jpg" },
+    { rank: "95", title: "Lawrence of Arabia", rating: 8.2, year: 1962, director: "David Lean", genre: "Adventure, Drama, History, War", summary: "The story of British officer T.E. Lawrence\\'s mission to aid the Arab tribes in their revolt against the Ottoman Empire during the First World War. Lawrence becomes a flamboyant, messianic figure in the cause of Arab unity but his psychological instability threatens to undermine his achievements.", poster: "https://image.tmdb.org/t/p/w500/AiAm0EtDvyGqNpVoieRw4u65vD1.jpg" },
+    { rank: "96", title: "Citizen Kane", rating: 8.2, year: 1941, director: "Orson Welles", genre: "Mystery, Drama", summary: "Newspaper magnate, Charles Foster Kane is taken from his mother as a boy and made the ward of a rich industrialist. As a result, every well-meaning, tyrannical or self-destructive move he makes for the rest of his life appears in some way to be a reaction to that deeply wounding event.", poster: "https://image.tmdb.org/t/p/w500/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg" },
+    { rank: "97", title: "M", rating: 8.2, year: 1931, director: "Fritz Lang", genre: "Drama, Action, Thriller, Crime", summary: "In this classic German thriller, Hans Beckert, a serial killer who preys on children, becomes the focus of a massive Berlin police manhunt. Beckert\\'s heinous crimes are so repellant and disruptive to city life that he is even targeted by others in the seedy underworld network. With both cops and criminals in pursuit, the murderer soon realizes that people are on his trail, sending him into a tense, panicked attempt to escape justice.", poster: "https://image.tmdb.org/t/p/w500/slsS6jT6SXjcTPOrsFcLIrHboXA.jpg" },
+    { rank: "98", title: "Ikiru", rating: 8.2, year: 1952, director: "Akira Kurosawa", genre: "Drama", summary: "Kanji Watanabe is a middle-aged man who has worked in the same monotonous bureaucratic position for decades. Learning he has cancer, he starts to look for the meaning of his life.", poster: "https://image.tmdb.org/t/p/w500/dgNTS4EQDDVfkzJI5msKuHu2Ei3.jpg" },
+    { rank: "99", title: "North by Northwest", rating: 8.2, year: 1959, director: "Alfred Hitchcock", genre: "Mystery, Thriller", summary: "Advertising man Roger Thornhill is mistaken for a spy, triggering a deadly cross-country chase.", poster: "https://image.tmdb.org/t/p/w500/ay0dOKJgyK4VEh3xakV15UgvJMF.jpg" },
+    { rank: "100", title: "The Apartment", rating: 8.2, year: 1960, director: "Billy Wilder", genre: "Comedy, Drama, Romance", summary: "Bud Baxter is a minor clerk in a huge New York insurance company, until he discovers a quick way to climb the corporate ladder. He lends out his apartment to the executives as a place to take their mistresses. Although he often has to deal with the aftermath of their visits, one night he\\'s left with a major problem to solve.", poster: "https://image.tmdb.org/t/p/w500/dmaRf8ROeSmg4duvFeMLq2ULnk3.jpg" },
+    { rank: "101", title: "Vertigo", rating: 8.2, year: 1958, director: "Alfred Hitchcock", genre: "Mystery, Romance, Thriller", summary: "A retired San Francisco detective suffering from acrophobia investigates the strange activities of an old friend\\'s wife, all the while becoming dangerously obsessed with her.", poster: "https://image.tmdb.org/t/p/w500/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg" },
+    { rank: "102", title: "Amélie", rating: 8.2, year: 2001, director: "Jean-Pierre Jeunet", genre: "Comedy, Romance", summary: "At a tiny Parisian café, the adorable yet painfully shy Amélie accidentally discovers a gift for helping others. Soon Amelie is spending her days as a matchmaker, guardian angel, and all-around do-gooder. But when she bumps into a handsome stranger, will she find the courage to become the star of her very own love story?", poster: "https://image.tmdb.org/t/p/w500/oTKduWL2tpIKEmkAqF4mFEAWAsv.jpg" },
+    { rank: "103", title: "Double Indemnity", rating: 8.2, year: 1944, director: "Billy Wilder", genre: "Crime, Drama, Mystery, Thriller", summary: "A rich woman and a calculating insurance agent plot to kill her unsuspecting husband after he signs a double indemnity policy. Against a backdrop of distinctly Californian settings, the partners in crime plan the perfect murder to collect the insurance, which pays double if the death is accidental.", poster: "https://image.tmdb.org/t/p/w500/kkfKLeOTo7RjS9TxHKpknlL7huS.jpg" },
+    { rank: "104", title: "A Clockwork Orange", rating: 8.2, year: 1971, director: "Stanley Kubrick", genre: "Science Fiction, Drama", summary: "In a near-future Britain, young Alexander DeLarge and his pals get their kicks beating and raping anyone they please. When not destroying the lives of others, Alex swoons to the music of Beethoven. The state, eager to crack down on juvenile crime, gives an incarcerated Alex the option to undergo an invasive procedure that\\'ll rob him of all personal agency. In a time when conscience is a commodity, can Alex change his tune?", poster: "https://image.tmdb.org/t/p/w500/4sHeTAp65WrSSuc05nRBKddhBxO.jpg" },
+    { rank: "105", title: "Full Metal Jacket", rating: 8.2, year: 1987, director: "Stanley Kubrick", genre: "Drama, War", summary: "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.", poster: "https://image.tmdb.org/t/p/w500/kMKyx1k8hWWscYFnPbnxxN4Eqo4.jpg" },
+    { rank: "106", title: "Scarface", rating: 8.2, year: 1983, director: "Brian De Palma", genre: "Action, Crime, Drama", summary: "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall.", poster: "https://image.tmdb.org/t/p/w500/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg" },
+    { rank: "107", title: "Incendies", rating: 8.2, year: 2010, director: "Denis Villeneuve", genre: "Drama, War, Mystery", summary: "A mother\\'s last wishes send twins Jeanne and Simon on a journey to Middle East in search of their tangled roots. Adapted from Wajdi Mouawad\\'s acclaimed play, Incendies tells the powerful and moving tale of two young adults\\' voyage to the core of deep-rooted hatred, never-ending wars and enduring love.", poster: "https://image.tmdb.org/t/p/w500/eULmcIWvkWYifAJcQr7dzt9maPh.jpg" },
+    { rank: "108", title: "Heat", rating: 8.2, year: 1995, director: "Michael Mann", genre: "Action, Crime, Drama, Thriller", summary: "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence.", poster: "https://image.tmdb.org/t/p/w500/umSVjVdbVwtx5ryCA2QXL44Durm.jpg" },
+    { rank: "109", title: "Hamilton", rating: 8.2, year: 2020, director: "Thomas Kail", genre: "History, Drama", summary: "Presenting the tale of American founding father Alexander Hamilton, this filmed version of the original Broadway smash hit is the story of America then, told by America now.", poster: "https://image.tmdb.org/t/p/w500/h1B7tW0t399VDjAcWJh8m87469b.jpg" },
+    { rank: "110", title: "Up", rating: 8.2, year: 2009, director: "Pete Docter", genre: "Animation, Comedy, Family, Adventure", summary: "Carl Fredricksen spent his entire life dreaming of exploring the globe and experiencing life to its fullest. But at age 78, life seems to have passed him by, until a twist of fate (and a persistent 8-year old Wilderness Explorer named Russell) gives him a new lease on life.", poster: "https://image.tmdb.org/t/p/w500/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg" },
+    { rank: "111", title: "To Kill a Mockingbird", rating: 8.2, year: 1962, director: "Robert Mulligan", genre: "Drama, Crime", summary: "Scout Finch, 6, and her older brother Jem live in sleepy Maycomb, Alabama, spending much of their time with their friend Dill and spying on their reclusive and mysterious neighbor, Boo Radley. When Atticus, their widowed father and a respected lawyer, defends a black man named Tom Robinson against fabricated rape charges, the trial and tangent events expose the children to evils of racism and stereotyping.", poster: "https://image.tmdb.org/t/p/w500/o5icF9TCe8Ld5bWy19rPwsNyLLv.jpg" },
+    { rank: "112", title: "The Sting", rating: 8.2, year: 1973, director: "George Roy Hill", genre: "Comedy, Crime, Drama", summary: "A novice con man teams up with an acknowledged master to avenge the murder of a mutual friend by pulling off the ultimate big con and swindling a fortune from a big-time mobster.", poster: "https://image.tmdb.org/t/p/w500/ckmYng37zey8INYf6d10cVgIG93.jpg" },
+    { rank: "113", title: "A Separation", rating: 8.2, year: 2011, director: "Asghar Farhadi", genre: "Drama", summary: "A married couple are faced with a difficult decision - to improve the life of their child by moving to another country or to stay in Iran and look after a deteriorating parent who has Alzheimer\\'s disease.", poster: "https://image.tmdb.org/t/p/w500/wQVvASmpm8jGhJBQU20OkoMcNzi.jpg" },
+    { rank: "114", title: "Metropolis", rating: 8.2, year: 1927, director: "Fritz Lang", genre: "Drama, Science Fiction", summary: "In a futuristic city sharply divided between the rich and the poor, the son of the city\\'s mastermind meets a prophet who predicts the coming of a savior to mediate their differences.", poster: "https://image.tmdb.org/t/p/w500/pxbGZewX327IbTvrCVRJgcLJTSQ.jpg" },
+    { rank: "115", title: "Die Hard", rating: 8.2, year: 1988, director: "John McTiernan", genre: "Action, Thriller", summary: "NYPD cop John McClane\\'s plan to reconcile with his estranged wife is thrown for a serious loop when, minutes after he arrives at her office, the entire building is overtaken by a group of terrorists. With little help from the LAPD, wisecracking McClane sets out to single-handedly rescue the hostages and bring the bad guys down.", poster: "https://image.tmdb.org/t/p/w500/yFihWxQcmqcaBR31QM6Y8gT6aYV.jpg" },
+    { rank: "116", title: "L.A. Confidential", rating: 8.2, year: 1997, director: "Curtis Hanson", genre: "Crime, Mystery, Thriller", summary: "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.", poster: "https://image.tmdb.org/t/p/w500/Rzope4Pk93Rg1Q2Ae8H0FYwa7n.jpg" },
+    { rank: "117", title: "Indiana Jones and the Last Crusade", rating: 8.2, year: 1989, director: "Steven Spielberg", genre: "Adventure, Action", summary: "In 1938, an art collector appeals to eminent archaeologist Dr. Indiana Jones to embark on a search for the Holy Grail. Indy learns that a medieval historian has vanished while searching for it, and the missing man is his own father, Dr. Henry Jones Sr.. He sets out to rescue his father by following clues in the old man\\'s notebook, which his father had mailed to him before he went missing. Indy arrives in Venice, where he enlists the help of a beautiful academic, Dr. Elsa Schneider, along with Marcus Brody and Sallah. Together they must stop the Nazis from recovering the power of eternal life and taking over the world!", poster: "https://image.tmdb.org/t/p/w500/sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg" },
+    { rank: "118", title: "Taxi Driver", rating: 8.2, year: 1976, director: "Martin Scorsese", genre: "Crime, Drama", summary: "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feed his urge for violent action.", poster: "https://image.tmdb.org/t/p/w500/ekstpH614fwDX8DUln1a2Opz0N8.jpg" },
+    { rank: "119", title: "Snatch", rating: 8.2, year: 2000, director: "Guy Ritchie", genre: "Crime, Comedy", summary: "Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.", poster: "https://image.tmdb.org/t/p/w500/56mOJth6DJ6JhgoE2jtpilVqJO.jpg" },
+    { rank: "120", title: "Bicycle Thieves", rating: 8.2, year: 1948, director: "Vittorio De Sica", genre: "Drama", summary: "Unemployed Antonio is elated when he finally finds work hanging posters around war-torn Rome. However on his first day, his bicycle—essential to his work—gets stolen. His job is doomed unless he can find the thief. With the help of his son, Antonio combs the city, becoming desperate for justice.", poster: "https://image.tmdb.org/t/p/w500/ihLPR2hiHljvvdTzHk6NeNTVMXf.jpg" },
+    { rank: "121", title: "Like Stars on Earth", rating: 8.2, year: 2007, director: "Aamir Khan", genre: "Drama", summary: "Ishaan Awasthi is an eight-year-old whose world is filled with wonders that no one else seems to appreciate. Colours, fish, dogs, and kites don\\'t seem important to the adults, who are much more interested in things like homework, marks, and neatness. Ishaan cannot seem to get anything right in class; he is then sent to boarding school, where his life changes forever.", poster: "https://image.tmdb.org/t/p/w500/fwXhw9bERqKrJfJK6WGakPIh3FS.jpg" },
+    { rank: "122", title: "1917", rating: 8.2, year: 2019, director: "Sam Mendes", genre: "War, Drama, History", summary: "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers.", poster: "https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFLCCrMi9.jpg" },
+    { rank: "123", title: "Top Gun: Maverick", rating: 8.2, year: 2022, director: "Joseph Kosinski", genre: "Action, Drama", summary: "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.", poster: "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg" },
+    { rank: "124", title: "Downfall", rating: 8.2, year: 2004, director: "Oliver Hirschbiegel", genre: "Drama, History, War", summary: "In April of 1945, Germany stands at the brink of defeat with the Russian Army closing in from the east and the Allied Expeditionary Force attacking from the west. In Berlin, capital of the Third Reich, Adolf Hitler proclaims that Germany will still achieve victory and orders his generals and advisers to fight to the last man. When the end finally does come, and Hitler lies dead by his own hand, what is left of his military must find a way to end the killing that is the Battle of Berlin, and lay down their arms in surrender.", poster: "https://image.tmdb.org/t/p/w500/cP1ElGjBhbZAAqmueXjHDKlSwiP.jpg" },
+    { rank: "125", title: "Dangal", rating: 8.2, year: 2016, director: "Nitesh Tiwari", genre: "Drama, Family, Comedy, Action", summary: "Dangal is an extraordinary true story based on the life of Mahavir Singh and his two daughters, Geeta and Babita Phogat. The film traces the inspirational journey of a father who trains his daughters to become world class wrestlers.", poster: "https://image.tmdb.org/t/p/w500/p2lVAcPuRPSO8Al6hDDGw0OgMi8.jpg" },
+    { rank: "126", title: "For a Few Dollars More", rating: 8.2, year: 1965, director: "Sergio Leone", genre: "Western", summary: "Two bounty hunters are in pursuit of \"El Indio,\" one of the most wanted fugitives in the western territories, and his gang.", poster: "https://image.tmdb.org/t/p/w500/ooqASvA7qxlTVKL3KwOzBwy57Dh.jpg" },
+    { rank: "127", title: "Batman Begins", rating: 8.2, year: 2005, director: "Christopher Nolan", genre: "Action, Crime, Drama", summary: "Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City.  Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman.", poster: "https://image.tmdb.org/t/p/w500/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg" },
+    { rank: "128", title: "The Kid", rating: 8.2, year: 1921, director: "Charlie Chaplin", genre: "Comedy, Drama", summary: "A tramp cares for a boy after he\\'s abandoned as a newborn by his mother. Later the mother has a change of heart and aches to be reunited with her son.", poster: "https://image.tmdb.org/t/p/w500/drgMcyTsySQBnUPGaBThCHGdlWT.jpg" },
+    { rank: "129", title: "Some Like It Hot", rating: 8.2, year: 1959, director: "Billy Wilder", genre: "Comedy, Music, Romance, Crime", summary: "Two musicians witness a mob hit and struggle to find a way out of the city before they are found by the gangsters. Their only opportunity is to join an all-girl band as they leave on a tour. To make their getaway they must first disguise themselves as women, then keep their identities secret and deal with the problems this brings - such as an attractive bandmate and a very determined suitor.", poster: "https://image.tmdb.org/t/p/w500/hVIKyTK13AvOGv7ICmJjK44DTzp.jpg" },
+    { rank: "130", title: "The Father", rating: 8.2, year: 2020, director: "Florian Zeller", genre: "Drama", summary: "A man refuses all assistance from his daughter as he ages and, as he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality.", poster: "https://image.tmdb.org/t/p/w500/pr3bEQ517uMb5loLvjFQi8uLAsp.jpg" },
+    { rank: "131", title: "All About Eve", rating: 8.2, year: 1950, director: "Joseph L. Mankiewicz", genre: "Drama", summary: "From the moment she glimpses her idol at the stage door, Eve Harrington is determined to take the reins of power away from the great actress Margo Channing. Eve maneuvers her way into Margo\\'s Broadway role, becomes a sensation and even causes turmoil in the lives of Margo\\'s director boyfriend, her playwright and his wife. Only the cynical drama critic sees through Eve, admiring her audacity and perfect pattern of deceit.", poster: "https://image.tmdb.org/t/p/w500/6numIZH6uR3NlJgY9m7nGH0jhs.jpg" },
+    { rank: "132", title: "The Wolf of Wall Street", rating: 8.2, year: 2013, director: "Martin Scorsese", genre: "Crime, Drama, Comedy", summary: "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort\\'s autobiography.", poster: "https://image.tmdb.org/t/p/w500/34m2tygAYBGqA9MXKhRDtzYd4MR.jpg" },
+    { rank: "133", title: "Green Book", rating: 8.2, year: 2018, director: "Peter Farrelly", genre: "Drama, Comedy", summary: "Tony Lip, a bouncer in 1962, is hired to drive pianist Don Shirley on a tour through the Deep South in the days when African Americans, forced to find alternate accommodations and services due to segregation laws below the Mason-Dixon Line, relied on a guide called The Negro Motorist Green Book.", poster: "https://image.tmdb.org/t/p/w500/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg" },
+    { rank: "134", title: "Judgment at Nuremberg", rating: 8.2, year: 1961, director: "Stanley Kramer", genre: "Drama, History, War", summary: "In 1947, four German judges who served on the bench during the Nazi regime face a military tribunal to answer charges of crimes against humanity. Chief Justice Haywood hears evidence and testimony not only from lead defendant Ernst Janning and his defense attorney Hans Rolfe, but also from the widow of a Nazi general, an idealistic U.S. Army captain and reluctant witness Irene Wallner.", poster: "https://image.tmdb.org/t/p/w500/cqumfgd74ftVzOKJpFGOG64WlXL.jpg" },
+    { rank: "135", title: "Ran", rating: 8.2, year: 1985, director: "Akira Kurosawa", genre: "Action, Drama, History", summary: "With Ran, legendary director Akira Kurosawa reimagines Shakespeare\\'s King Lear as a singular historical epic set in sixteenth-century Japan. Majestic in scope, the film is Kurosawa\\'s late-life masterpiece, a profound examination of the folly of war and the crumbling of one family under the weight of betrayal, greed, and the insatiable thirst for power.", poster: "https://image.tmdb.org/t/p/w500/jQnUtWaHYfqnXPOIf77K7Ycqk4M.jpg" },
+    { rank: "136", title: "Casino", rating: 8.2, year: 1995, director: "Martin Scorsese", genre: "Crime, Drama, History", summary: "In early-1970s Las Vegas, Sam \"Ace\" Rothstein gets tapped by his bosses to head the Tangiers Casino. At first, he\\'s a great success in the job, but over the years, problems with his loose-cannon enforcer Nicky Santoro, his ex-hustler wife Ginger, her con-artist ex Lester Diamond and a handful of corrupt politicians put Sam in ever-increasing danger.", poster: "https://image.tmdb.org/t/p/w500/6zEZY1htzRos2w0W3T7o7W1WJhp.jpg" },
+    { rank: "137", title: "The Truman Show", rating: 8.2, year: 1998, director: "Peter Weir", genre: "Comedy, Drama", summary: "Truman Burbank is the star of The Truman Show, a 24-hour-a-day reality TV show that broadcasts every aspect of his life without his knowledge. His entire life has been an unending soap opera for consumption by the rest of the world. And everyone he knows, including his wife and his best friend is really an actor, paid to be part of his life.", poster: "https://image.tmdb.org/t/p/w500/vuza0WqY239yBXOadKlGwJsZJFE.jpg" },
+    { rank: "138", title: "There Will Be Blood", rating: 8.2, year: 2007, director: "Paul Thomas Anderson", genre: "Drama", summary: "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview\\'s motives and intentions, starting a slow-burning feud that threatens both their lives.", poster: "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg" },
+    { rank: "139", title: "Pan\\'s Labyrinth", rating: 8.2, year: 2006, director: "Guillermo del Toro", genre: "Fantasy, Drama, War", summary: "Living with her tyrannical stepfather in a new home with her pregnant mother, 10-year-old Ofelia feels alone until she explores a decaying labyrinth guarded by a mysterious faun who claims to know her destiny. If she wishes to return to her real father, Ofelia must complete three terrifying tasks.", poster: "https://image.tmdb.org/t/p/w500/s8C4whhKtDaJvMDcyiMvx3BIF5F.jpg" },
+    { rank: "140", title: "Unforgiven", rating: 8.2, year: 1992, director: "Clint Eastwood", genre: "Western", summary: "William Munny is a retired, once-ruthless killer turned gentle widower and hog farmer. To help support his two motherless children, he accepts one last bounty-hunter mission to find the men who brutalized a prostitute. Joined by his former partner and a cocky greenhorn, he takes on a corrupt sheriff.", poster: "https://image.tmdb.org/t/p/w500/54roTwbX9fltg85zjsmrooXAs12.jpg" },
+    { rank: "141", title: "Shutter Island", rating: 8.2, year: 2010, director: "Martin Scorsese", genre: "Drama, Thriller, Mystery", summary: "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.", poster: "https://image.tmdb.org/t/p/w500/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg" },
+    { rank: "142", title: "The Sixth Sense", rating: 8.2, year: 1999, director: "M. Night Shyamalan", genre: "Mystery, Thriller, Drama", summary: "Following an unexpected tragedy, child psychologist Malcolm Crowe meets a nine year old boy named Cole Sear, who is hiding a dark secret.", poster: "https://image.tmdb.org/t/p/w500/4AfSDjjCy6T5LA1TMz0Lh2HlpRh.jpg" },
+    { rank: "143", title: "Guardians of the Galaxy Vol. 3", rating: 8.2, year: 2023, director: "James Gunn", genre: "Science Fiction, Adventure, Action", summary: "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.", poster: "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg" },
+    { rank: "144", title: "Jurassic Park", rating: 8.2, year: 1993, director: "Steven Spielberg", genre: "Adventure, Science Fiction", summary: "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.", poster: "https://image.tmdb.org/t/p/w500/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg" },
+    { rank: "145", title: "A Beautiful Mind", rating: 8.2, year: 2001, director: "Ron Howard", genre: "Drama, Romance", summary: "John Nash is a brilliant but asocial mathematician fighting schizophrenia. After he accepts secret work in cryptography, his life takes a turn for the nightmarish.", poster: "https://image.tmdb.org/t/p/w500/zwzWCmH72OSC9NA0ipoqw5Zjya8.jpg" },
+    { rank: "146", title: "Yojimbo", rating: 8.1, year: 1961, director: "Akira Kurosawa", genre: "Drama, Thriller", summary: "A nameless ronin, or samurai with no master, enters a small village in feudal Japan where two rival businessmen are struggling for control of the local gambling trade. Taking the name Sanjuro Kuwabatake, the ronin convinces both silk merchant Tazaemon and sake merchant Tokuemon to hire him as a personal bodyguard, then artfully sets in motion a full-scale gang war between the two ambitious and unscrupulous men.", poster: "https://image.tmdb.org/t/p/w500/tN7kYPjRhDolpui9sc9Eq9n5b2O.jpg" },
+    { rank: "147", title: "The Treasure of the Sierra Madre", rating: 8.1, year: 1948, director: "John Huston", genre: "Adventure, Drama, Western", summary: "Fred C. Dobbs and Bob Curtin, both down on their luck in Tampico, Mexico in 1925, meet up with a grizzled prospector named Howard and decide to join with him in search of gold in the wilds of central Mexico. Through enormous difficulties, they eventually succeed in finding gold, but bandits, the elements, and most especially greed threaten to turn their success into disaster.", poster: "https://image.tmdb.org/t/p/w500/pWcst7zVbi8Z8W6GFrdNE7HHRxL.jpg" },
+    { rank: "148", title: "Monty Python and the Holy Grail", rating: 8.1, year: 1975, director: "Terry Gilliam", genre: "Adventure, Comedy, Fantasy", summary: "King Arthur, accompanied by his squire, recruits his Knights of the Round Table, including Sir Bedevere the Wise, Sir Lancelot the Brave, Sir Robin the Not-Quite-So-Brave-As-Sir-Lancelot and Sir Galahad the Pure. On the way, Arthur battles the Black Knight who, despite having had all his limbs chopped off, insists he can still fight. They reach Camelot, but Arthur decides not  to enter, as \"it is a silly place\".", poster: "https://image.tmdb.org/t/p/w500/xZ0rC0kuIsjk6RncpNK73kwstEP.jpg" },
+    { rank: "149", title: "No Country for Old Men", rating: 8.1, year: 2007, director: "Joel Coen", genre: "Crime, Drama, Thriller", summary: "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.", poster: "https://image.tmdb.org/t/p/w500/bj1v6YKF8yHqA489VFfnQvOJpnc.jpg" },
+    { rank: "150", title: "Kill Bill: Vol. 1", rating: 8.1, year: 2003, director: "Quentin Tarantino", genre: "Action, Crime", summary: "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.", poster: "https://image.tmdb.org/t/p/w500/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg" },
+    { rank: "151", title: "The Great Escape", rating: 8.1, year: 1963, director: "John Sturges", genre: "Adventure, Drama, History, Thriller, War", summary: "The Nazis, exasperated at the number of escapes from their prison camps by a relatively small number of Allied prisoners, relocate them to a high-security \\'escape-proof\\' camp to sit out the remainder of the war. Undaunted, the prisoners plan one of the most ambitious escape attempts of World War II. Based on a true story.", poster: "https://image.tmdb.org/t/p/w500/gBH4H8UMFxl139HaLz6lRuvsel8.jpg" },
+    { rank: "152", title: "Rashomon", rating: 8.1, year: 1950, director: "Akira Kurosawa", genre: "Crime, Drama, Mystery", summary: "Brimming with action while incisively examining the nature of truth, \"Rashomon\" is perhaps the finest film ever to investigate the philosophy of justice. Through an ingenious use of camera and flashbacks, Kurosawa reveals the complexities of human nature as four people recount different versions of the story of a man\\'s murder and the rape of his wife.", poster: "https://image.tmdb.org/t/p/w500/vL7Xw04nFMHwnvXRFCmYYAzMUvY.jpg" },
+    { rank: "153", title: "The Thing", rating: 8.1, year: 1982, director: "John Carpenter", genre: "Horror, Mystery, Science Fiction", summary: "A team of American scientists investigate the empty, destroyed base of their Norwegian counterparts in Antarctica, only to discover a terrifying life force that can take the form of its prey.", poster: "https://image.tmdb.org/t/p/w500/tzGY49kseSE9QAKk47uuDGwnSCu.jpg" },
+    { rank: "154", title: "Finding Nemo", rating: 8.1, year: 2003, director: "Andrew Stanton", genre: "Animation, Family", summary: "Nemo, an adventurous young clownfish, is unexpectedly taken from his Great Barrier Reef home to a dentist\\'s office aquarium. It\\'s up to his worrisome father Marlin and a friendly but forgetful fish Dory to bring Nemo home -- meeting vegetarian sharks, surfer dude turtles, hypnotic jellyfish, hungry seagulls, and more along the way.", poster: "https://image.tmdb.org/t/p/w500/5lc6nQc0VhWFYFbNv016xze8Jvy.jpg" },
+    { rank: "155", title: "Spider-Man: No Way Home", rating: 8.1, year: 2021, director: "Jon Watts", genre: "Action, Adventure, Science Fiction", summary: "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.", poster: "https://image.tmdb.org/t/p/w500/uJYYizSuA9Y3DCs0qS4qWvHfZg4.jpg" },
+    { rank: "156", title: "The Elephant Man", rating: 8.1, year: 1980, director: "David Lynch", genre: "Drama, History", summary: "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity. Based on the true story of Joseph Merrick (called John Merrick in the film), a severely deformed man in 19th century London.", poster: "https://image.tmdb.org/t/p/w500/rk2lKgEtjF9HO9N2UFMRc2cMGdj.jpg" },
+    { rank: "157", title: "Chinatown", rating: 8.1, year: 1974, director: "Roman Polanski", genre: "Crime, Drama, Mystery, Thriller", summary: "Private eye Jake Gittes lives off of the murky moral climate of sunbaked, pre-World War II Southern California. Hired by a beautiful socialite to investigate her husband\\'s extra-marital affair, Gittes is swept into a maelstrom of double dealings and deadly deceits, uncovering a web of personal and political scandals that come crashing together.", poster: "https://image.tmdb.org/t/p/w500/mQJz8J4naOA7RmCtypTPjgXZIMY.jpg" },
+    { rank: "158", title: "V for Vendetta", rating: 8.1, year: 2006, director: "James McTeigue", genre: "Action, Thriller, Science Fiction", summary: "In a world in which Great Britain has become a fascist state, a masked vigilante known only as “V” conducts guerrilla warfare against the oppressive British government. When V rescues a young woman from the secret police, he finds in her an ally with whom he can continue his fight to free the people of Britain.", poster: "https://image.tmdb.org/t/p/w500/1avD1JeaRiJX5M4ahPdZPypGoGN.jpg" },
+    { rank: "159", title: "Raging Bull", rating: 8.1, year: 1980, director: "Martin Scorsese", genre: "Drama, History", summary: "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.", poster: "https://image.tmdb.org/t/p/w500/rEviyDWNbAFmvvCPlkMRPAGUElG.jpg" },
+    { rank: "160", title: "Gone with the Wind", rating: 8.1, year: 1939, director: "Victor Fleming", genre: "Drama, War, Romance", summary: "The spoiled daughter of a Georgia plantation owner conducts a tumultuous romance with a cynical profiteer during the American Civil War and Reconstruction Era.", poster: "https://image.tmdb.org/t/p/w500/lNz2Ow0wGCAvzckW7EOjE03KcYv.jpg" },
+    { rank: "161", title: "Dial M for Murder", rating: 8.1, year: 1954, director: "Alfred Hitchcock", genre: "Crime, Thriller", summary: "An ex-tennis pro carries out a plot to have his wife murdered after discovering she is having an affair, and assumes she will soon leave him for the other man anyway. When things go wrong, he improvises a new plan—to frame her for murder instead.", poster: "https://image.tmdb.org/t/p/w500/2gDCAgl2iBQNuJuk6p2xtuS1ewg.jpg" },
+    { rank: "162", title: "Lock, Stock and Two Smoking Barrels", rating: 8.1, year: 1998, director: "Guy Ritchie", genre: "Comedy, Crime", summary: "A card shark and his unwillingly-enlisted friends need to make a lot of cash quick after losing a sketchy poker match. To do this they decide to pull a heist on a small-time gang who happen to be operating out of the flat next door.", poster: "https://image.tmdb.org/t/p/w500/8kSerJrhrJWKLk1LViesGcnrUPE.jpg" },
+    { rank: "163", title: "Inside Out", rating: 8.1, year: 2015, director: "Pete Docter", genre: "Animation, Family, Adventure, Drama, Comedy", summary: "Growing up can be a bumpy road, and it\\'s no exception for Riley, who is uprooted from her Midwest life when her father starts a new job in San Francisco. Riley\\'s guiding emotions— Joy, Fear, Anger, Disgust and Sadness—live in Headquarters, the control centre inside Riley\\'s mind, where they help advise her through everyday life and tries to keep things positive, but the emotions conflict on how best to navigate a new city, house and school.", poster: "https://image.tmdb.org/t/p/w500/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg" },
+    { rank: "164", title: "Howl\\'s Moving Castle", rating: 8.1, year: 2004, director: "Hayao Miyazaki", genre: "Fantasy, Animation, Adventure", summary: "When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.", poster: "https://image.tmdb.org/t/p/w500/yeJ5Nj1k2NA0bBZjkZ10PvQKjTD.jpg" },
+    { rank: "165", title: "The Secret in Their Eyes", rating: 8.1, year: 2009, director: "Juan José Campanella", genre: "Crime, Mystery, Thriller, Romance, Drama", summary: "A retired legal counselor writes a novel hoping to find closure for one of his past unresolved homicide cases and for his unreciprocated love with his superior - both of which still haunt him decades later.", poster: "https://image.tmdb.org/t/p/w500/r3FctmAMk2tbrwxuWdpeLrZLwIz.jpg" },
+    { rank: "166", title: "Three Billboards Outside Ebbing, Missouri", rating: 8.1, year: 2017, director: "Martin McDonagh", genre: "Crime, Drama", summary: "After seven months have passed without a culprit in her daughter\\'s murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at Bill Willoughby, the town\\'s revered chief of police. When his second-in-command Officer Jason Dixon, an immature mother\\'s boy with a penchant for violence, gets involved, the battle between Mildred and Ebbing\\'s law enforcement is only exacerbated.", poster: "https://image.tmdb.org/t/p/w500/pZRhqJj0DBy4ghB7g6pU7MGHsWJ.jpg" },
+    { rank: "167", title: "Trainspotting", rating: 8.1, year: 1996, director: "Danny Boyle", genre: "Drama, Crime", summary: "Heroin addict Mark Renton stumbles through bad ideas and sobriety attempts with his unreliable friends -- Sick Boy, Begbie, Spud and Tommy. He also has an underage girlfriend, Diane, along for the ride. After cleaning up and moving from Edinburgh to London, Mark finds he can\\'t escape the life he left behind when Begbie shows up at his front door on the lam, and a scheming Sick Boy follows.", poster: "https://image.tmdb.org/t/p/w500/bhY62Dw8iW54DIhxPQerbuB9DOP.jpg" },
+    { rank: "168", title: "The Bridge on the River Kwai", rating: 8.1, year: 1957, director: "David Lean", genre: "Drama, History, War", summary: "The classic story of English POWs in Burma forced to build a bridge to aid the war effort of their Japanese captors. British and American intelligence officers conspire to blow up the structure, but Col. Nicholson , the commander who supervised the bridge\\'s construction, has acquired a sense of pride in his creation and tries to foil their plans.", poster: "https://image.tmdb.org/t/p/w500/7paXMt2e3Tr5dLmEZOGgFEn2Vo7.jpg" },
+    { rank: "169", title: "Prisoners", rating: 8.1, year: 2013, director: "Denis Villeneuve", genre: "Drama, Thriller, Crime", summary: "Keller Dover faces a parent\\'s worst nightmare when his 6-year-old daughter, Anna, and her friend go missing. The only lead is an old motorhome that had been parked on their street. The head of the investigation, Detective Loki, arrests the driver, but a lack of evidence forces Loki to release his only suspect. Dover, knowing that his daughter\\'s life is at stake, decides that he has no choice but to take matters into his own hands.", poster: "https://image.tmdb.org/t/p/w500/tuZhZ6biFMr5n9YSVuHOJnNL1uU.jpg" },
+    { rank: "170", title: "Fargo", rating: 8.1, year: 1996, director: "Joel Coen", genre: "Crime, Drama, Thriller", summary: "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he\\'s got a plan. He\\'s going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It\\'s going to be a snap and nobody\\'s going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who\\'ll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!", poster: "https://image.tmdb.org/t/p/w500/rt7cpEr1uP6RTZykBFhBTcRaKvG.jpg" },
+    { rank: "171", title: "Warrior", rating: 8.1, year: 2011, director: "Gavin O\\'Connor", genre: "Drama, Action", summary: "The youngest son of an alcoholic former boxer returns home, where he\\'s trained by his father for competition in a mixed martial arts tournament – a path that puts the fighter on a collision course with his estranged, older brother.", poster: "https://image.tmdb.org/t/p/w500/iM8n4nZJPR2abpnyZ36FUgHiRjr.jpg" },
+    { rank: "172", title: "Gran Torino", rating: 8.1, year: 2008, director: "Clint Eastwood", genre: "Drama", summary: "Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, Thao Lor, a Hmong teenager who tried to steal Kowalski\\'s prized possession: a 1972 Gran Torino.", poster: "https://image.tmdb.org/t/p/w500/zUybYvxWdAJy5hhYovsXtHSWI1l.jpg" },
+    { rank: "173", title: "Catch Me If You Can", rating: 8.1, year: 2002, director: "Steven Spielberg", genre: "Drama, Crime", summary: "A true story about Frank Abagnale Jr. who, before his 19th birthday, successfully conned millions of dollars worth of checks as a Pan Am pilot, doctor, and legal prosecutor. An FBI agent makes it his mission to put him behind bars. But Frank not only eludes capture, he revels in the pursuit.", poster: "https://image.tmdb.org/t/p/w500/sdYgEkKCDPWNU6KnoL4qd8xZ4w7.jpg" },
+    { rank: "174", title: "My Neighbor Totoro", rating: 8.1, year: 1988, director: "Hayao Miyazaki", genre: "Fantasy, Animation, Family", summary: "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.", poster: "https://image.tmdb.org/t/p/w500/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg" },
+    { rank: "175", title: "Million Dollar Baby", rating: 8.1, year: 2004, director: "Clint Eastwood", genre: "Drama", summary: "Despondent over a painful estrangement from his daughter, trainer Frankie Dunn isn\\'t prepared for boxer Maggie Fitzgerald to enter his life. But Maggie\\'s determined to go pro and to convince Dunn and his cohort to help her.", poster: "https://image.tmdb.org/t/p/w500/2ti3l1OeB8G94yyqfAI7nmMZUbA.jpg" },
+    { rank: "176", title: "Children of Heaven", rating: 8.1, year: 1997, director: "Majid Majidi", genre: "Drama, Family", summary: "Zohre\\'s shoes are gone; her older brother Ali lost them. They are poor, there are no shoes for Zohre until they come up with an idea: they will share one pair of shoes. School awaits.", poster: "https://image.tmdb.org/t/p/w500/jWqh1CJWAEcxckMRrf6ARhIEh0R.jpg" },
+    { rank: "177", title: "Blade Runner", rating: 8.1, year: 1982, director: "Ridley Scott", genre: "Science Fiction, Drama, Thriller", summary: "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.", poster: "https://image.tmdb.org/t/p/w500/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg" },
+    { rank: "178", title: "The Gold Rush", rating: 8.1, year: 1925, director: "Charlie Chaplin", genre: "Adventure, Comedy, Drama", summary: "A gold prospector in Alaska struggles to survive the elements and win the heart of a dance hall girl.", poster: "https://image.tmdb.org/t/p/w500/eQRFo1qwRREYwj47Yoe1PisgOle.jpg" },
+    { rank: "179", title: "Klaus", rating: 8.1, year: 2019, director: "Sergio Pablos", genre: "Animation, Family, Adventure, Comedy, Fantasy", summary: "When Jesper distinguishes himself as the Postal Academy\\'s worst student, he is sent to Smeerensburg, a small village located on an icy island above the Arctic Circle, where grumpy inhabitants barely exchange words, let alone letters. Jesper is about to give up and abandon his duty as a postman when he meets local teacher Alva and Klaus, a mysterious carpenter who lives alone in a cabin full of handmade toys.", poster: "https://image.tmdb.org/t/p/w500/q125RHUDgR4gjwh1QkfYuJLYkL.jpg" },
+    { rank: "180", title: "Harry Potter and the Deathly Hallows: Part 2", rating: 8.1, year: 2011, director: "David Yates", genre: "Fantasy, Adventure", summary: "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort\\'s formidable skills.", poster: "https://image.tmdb.org/t/p/w500/c54HpQmuwXjHq2C9wmoACjxoom3.jpg" },
+    { rank: "181", title: "Before Sunrise", rating: 8.1, year: 1995, director: "Richard Linklater", genre: "Drama, Romance", summary: "A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together.", poster: "https://image.tmdb.org/t/p/w500/kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg" },
+    { rank: "182", title: "12 Years a Slave", rating: 8.1, year: 2013, director: "Steve McQueen", genre: "Drama, History", summary: "In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty as well as unexpected kindnesses Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon’s chance meeting with a Canadian abolitionist will forever alter his life.", poster: "https://image.tmdb.org/t/p/w500/xdANQijuNrJaw1HA61rDccME4Tm.jpg" },
+    { rank: "183", title: "Ben-Hur", rating: 8.1, year: 1959, director: "William Wyler", genre: "Action, Drama, History", summary: "In 25 AD, Judah Ben-Hur, a Jew in ancient Judea, opposes the occupying Roman empire.  Falsely accused by a Roman childhood friend-turned-overlord of trying to kill the Roman governor, he is put into slavery and his mother and sister are taken away as prisoners.  Three years later and freed by a grateful Roman galley commander whom he has rescued from drowning, he becomes an expert charioteer for Rome, all the while plotting to return to Judea, find and rescue his family, and avenge himself on his former friend.  All the while, the form and work of Jesus move in the background of his life...", poster: "https://image.tmdb.org/t/p/w500/m4WQ1dBIrEIHZNCoAjdpxwSKWyH.jpg" },
+    { rank: "184", title: "The Grand Budapest Hotel", rating: 8.1, year: 2014, director: "Wes Anderson", genre: "Comedy, Drama", summary: "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.", poster: "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg" },
+    { rank: "185", title: "On the Waterfront", rating: 8.1, year: 1954, director: "Elia Kazan", genre: "Crime, Drama", summary: "Terry Malloy dreams about being a prize fighter, while tending his pigeons and running errands at the docks for Johnny Friendly, the corrupt boss of the dockers union. Terry witnesses a murder by two of Johnny\\'s thugs, and later meets the dead man\\'s sister and feels responsible for his death. She introduces him to Father Barry, who tries to force him to provide information for the courts that will smash the dock racketeers.", poster: "https://image.tmdb.org/t/p/w500/fKjLZy9W8VxMOp5OoyWojmLVCQw.jpg" },
+    { rank: "186", title: "Gone Girl", rating: 8.1, year: 2014, director: "David Fincher", genre: "Mystery, Thriller, Drama", summary: "With his wife\\'s disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it\\'s suspected that he may not be innocent.", poster: "https://image.tmdb.org/t/p/w500/qymaJhucquUwjpb8oiqynMeXnID.jpg" },
+    { rank: "187", title: "The General", rating: 8.1, year: 1926, director: "Buster Keaton", genre: "Comedy, War", summary: "During America’s Civil War, Union spies steal engineer Johnnie Gray\\'s beloved locomotive, \\'The General\\'—with Johnnie\\'s lady love aboard an attached boxcar—and he single-handedly must do all in his power to both get The General back and to rescue Annabelle.", poster: "https://image.tmdb.org/t/p/w500/nIp4gIXogCjfB1QABNsWwa9gSca.jpg" },
+    { rank: "188", title: "Barry Lyndon", rating: 8.1, year: 1975, director: "Stanley Kubrick", genre: "Drama, Romance, War", summary: "An Irish rogue uses his cunning and wit to work his way up the social classes of 18th century England, transforming himself from the humble Redmond Barry into the noble Barry Lyndon.", poster: "https://image.tmdb.org/t/p/w500/3YJEv83HWWgCKezTiQ9LhdR7cFU.jpg" },
+    { rank: "189", title: "Wild Strawberries", rating: 8.1, year: 1957, director: "Ingmar Bergman", genre: "Drama", summary: "Crotchety retired doctor Isak Borg travels from Stockholm to Lund, Sweden, with his pregnant and unhappy daughter-in-law, Marianne, in order to receive an honorary degree from his alma mater. Along the way, they encounter a series of hitchhikers, each of whom causes the elderly doctor to muse upon the pleasures and failures of his own life. These include the vivacious young Sara, a dead ringer for the doctor\\'s own first love.", poster: "https://image.tmdb.org/t/p/w500/iyTD2QnySNMPUPE3IedZQipSWfz.jpg" },
+    { rank: "190", title: "In the Name of the Father", rating: 8.1, year: 1993, director: "Jim Sheridan", genre: "Drama", summary: "A small time thief from Belfast, Gerry Conlon, is falsely implicated in the IRA bombing of a pub that kills several people while he is in London. He and his four friends are coerced by British police into confessing their guilt. Gerry\\'s father and other relatives in London are also implicated in the crime. He spends fifteen years in prison with his father trying to prove his innocence.", poster: "https://image.tmdb.org/t/p/w500/5HaQacOMOjA2wX1XnwnDd2VaXCf.jpg" },
+    { rank: "191", title: "The Deer Hunter", rating: 8.1, year: 1978, director: "Michael Cimino", genre: "Drama, War", summary: "A group of working-class friends decide to enlist in the Army during the Vietnam War and finds it to be hellish chaos -- not the noble venture they imagined. Before they left, Steven married his pregnant girlfriend -- and Michael and Nick were in love with the same woman. But all three are different men upon their return.", poster: "https://image.tmdb.org/t/p/w500/bbGtogDZOg09bm42KIpCXUXICkh.jpg" },
+    { rank: "192", title: "Hacksaw Ridge", rating: 8.1, year: 2016, director: "Mel Gibson", genre: "Drama, History, War", summary: "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first Conscientious Objector in American history to receive the Congressional Medal of Honor.", poster: "https://image.tmdb.org/t/p/w500/jhWbYeUNOA5zAb6ufK6pXQFXqTX.jpg" },
+    { rank: "193", title: "The Third Man", rating: 8.1, year: 1949, director: "Carol Reed", genre: "Thriller, Mystery", summary: "In postwar Vienna, Austria, Holly Martins, a writer of pulp Westerns, arrives penniless as a guest of his childhood chum Harry Lime, only to learn he has died. Martins develops a conspiracy theory after learning of a \"third man\" present at the time of Harry\\'s death, running into interference from British officer Major Calloway, and falling head-over-heels for Harry\\'s grief-stricken lover, Anna.", poster: "https://image.tmdb.org/t/p/w500/oIF3l7Dxp7Eyye10BNyM611wtKa.jpg" },
+    { rank: "194", title: "The Wages of Fear", rating: 8.1, year: 1953, director: "Henri-Georges Clouzot", genre: "Drama, Thriller, Adventure", summary: "In a run-down South American town, four men are paid to drive trucks loaded with nitroglycerin into the jungle through to the oil field. Friendships are tested and rivalries develop as they embark upon the perilous journey.", poster: "https://image.tmdb.org/t/p/w500/dZyZSosIlWcpQkV0f7pXcrV2TQV.jpg" },
+    { rank: "195", title: "Memories of Murder", rating: 8.1, year: 2003, director: "Bong Joon-ho", genre: "Crime, Drama, Thriller", summary: "During the late 1980s, two detectives in a South Korean province attempt to solve the nation\\'s first series of rape-and-murder cases.", poster: "https://image.tmdb.org/t/p/w500/jcgUjx1QcupGzjntTVlnQ15lHqy.jpg" },
+    { rank: "196", title: "Sherlock Jr.", rating: 8.1, year: 1924, director: "Buster Keaton", genre: "Action, Comedy, Mystery", summary: "A film projectionist longs to be a detective, and puts his meagre skills to work when he is framed by a rival for stealing his girlfriend\\'s father\\'s pocketwatch.", poster: "https://image.tmdb.org/t/p/w500/1G9r3rqtbFAQuyWKOZm4Y5J5s7Q.jpg" },
+    { rank: "197", title: "Wild Tales", rating: 8.1, year: 2014, director: "Damián Szifron", genre: "Drama, Thriller, Comedy", summary: "Six deadly stories that explore the extremities of human behaviour involving distressed people seeking revenge.", poster: "https://image.tmdb.org/t/p/w500/pvSty5MCAxdj8LlAEXCDfM1YNOl.jpg" },
+    { rank: "198", title: "Mr. Smith Goes to Washington", rating: 8.1, year: 1939, director: "Frank Capra", genre: "Comedy, Drama", summary: "Naive and idealistic Jefferson Smith, leader of the Boy Rangers, is appointed to the United States Senate by the puppet governor of his state. He soon discovers, upon going to Washington, many shortcomings of the political process as his earnest goal of a national boys\\' camp leads to a conflict with the state political boss.", poster: "https://image.tmdb.org/t/p/w500/nDjg1fbNyq15excNDl3acd2IqAk.jpg" },
+    { rank: "199", title: "Mad Max: Fury Road", rating: 8.1, year: 2015, director: "George Miller", genre: "Action, Adventure, Science Fiction", summary: "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.", poster: "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg" },
+    { rank: "200", title: "Mary and Max", rating: 8.1, year: 2009, director: "Adam Elliot", genre: "Animation, Comedy, Drama", summary: "A tale of friendship between two unlikely pen pals: Mary, a lonely, eight-year-old girl living in the suburbs of Melbourne, and Max, a forty-four-year old, severely obese man living in New York.", poster: "https://image.tmdb.org/t/p/w500/b4LKlquh0ls5Rgb27QLPlkC7Oya.jpg" },
+    { rank: "201", title: "John Wick: Chapter 4", rating: 8.1, year: 2023, director: "Chad Stahelski", genre: "Action, Thriller, Crime", summary: "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.", poster: "https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg" },
+    { rank: "202", title: "How to Train Your Dragon", rating: 8.1, year: 2010, director: "Chris Sanders", genre: "Fantasy, Adventure, Animation, Family", summary: "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father.", poster: "https://image.tmdb.org/t/p/w500/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg" },
+    { rank: "203", title: "Dead Poets Society", rating: 8.1, year: 1989, director: "Peter Weir", genre: "Drama", summary: "At an elite, old-fashioned boarding school in New England, a passionate English teacher inspires his students to rebel against convention and seize the potential of every day, courting the disdain of the stern headmaster.", poster: "https://image.tmdb.org/t/p/w500/ai40gM7SUaGA6fthvsd87o8IQq4.jpg" },
+    { rank: "204", title: "Monsters, Inc.", rating: 8.1, year: 2001, director: "Pete Docter", genre: "Animation, Comedy, Family", summary: "James Sullivan and Mike Wazowski are monsters, they earn their living scaring children and are the best in the business... even though they\\'re more afraid of the children than they are of them. When a child accidentally enters their world, James and Mike suddenly find that kids are not to be afraid of and they uncover a conspiracy that could threaten all children across the world.", poster: "https://image.tmdb.org/t/p/w500/sgheSKxZkttIe8ONsf2sWXPgip3.jpg" },
+    { rank: "205", title: "The Seventh Seal", rating: 8.1, year: 1957, director: "Ingmar Bergman", genre: "Fantasy, Drama", summary: "When disillusioned Swedish knight Antonius Block returns home from the Crusades to find his country in the grips of the Black Death, he challenges Death to a chess match for his life. Tormented by the belief that God does not exist, Block sets off on a journey, meeting up with traveling players Jof and his wife, Mia, and becoming determined to evade Death long enough to commit one redemptive act while he still lives.", poster: "https://image.tmdb.org/t/p/w500/wcZ21zrOsy0b52AfAF50XpTiv75.jpg" },
+    { rank: "206", title: "Jaws", rating: 8.1, year: 1975, director: "Steven Spielberg", genre: "Horror, Thriller, Adventure", summary: "When an insatiable great white shark terrorizes the townspeople of Amity Island, the police chief, an oceanographer and a grizzled shark hunter seek to destroy the blood-thirsty beast.", poster: "https://image.tmdb.org/t/p/w500/lxM6kqilAdpdhqUl2biYp5frUxE.jpg" },
+    { rank: "207", title: "Room", rating: 8.1, year: 2015, director: "Lenny Abrahamson", genre: "Drama, Thriller", summary: "Held captive for 7 years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time.", poster: "https://image.tmdb.org/t/p/w500/pCURNjeomWbMSdiP64gj8NVVHTQ.jpg" },
+    { rank: "208", title: "The Big Lebowski", rating: 8.1, year: 1998, director: "Joel Coen", genre: "Comedy, Crime", summary: "Jeffrey \\'The Dude\\' Lebowski, a Los Angeles slacker who only wants to bowl and drink White Russians, is mistaken for another Jeffrey Lebowski, a wheelchair-bound millionaire, and finds himself dragged into a strange series of events involving nihilists, adult film producers, ferrets, errant toes, and large sums of money.", poster: "https://image.tmdb.org/t/p/w500/97Ryzu1OXNvb36dxSt5tmz4EKEC.jpg" },
+    { rank: "209", title: "Tokyo Story", rating: 8.1, year: 1953, director: "Yasujirō Ozu", genre: "Drama", summary: "The elderly Shukishi and his wife, Tomi, take the long journey from their small seaside village to visit their adult children in Tokyo. Their elder son, Koichi, a doctor, and their daughter, Shige, a hairdresser, don\\'t have much time to spend with their aged parents, and so it falls to Noriko, the widow of their younger son who was killed in the war, to keep her in-laws company.", poster: "https://image.tmdb.org/t/p/w500/g2YbTYKpY7N2yDSk7BfXZ18I5QV.jpg" },
+    { rank: "210", title: "Ford v Ferrari", rating: 8.1, year: 2019, director: "James Mangold", genre: "Drama, Action, History", summary: "American car designer Carroll Shelby and the British-born driver Ken Miles work together to battle corporate interference, the laws of physics, and their own personal demons to build a revolutionary race car for Ford Motor Company and take on the dominating race cars of Enzo Ferrari at the 24 Hours of Le Mans in France in 1966.", poster: "https://image.tmdb.org/t/p/w500/dR1Ju50iudrOh3YgfwkAU1g2HZe.jpg" },
+    { rank: "211", title: "The Passion of Joan of Arc", rating: 8.1, year: 1928, director: "Carl Theodor Dreyer", genre: "Drama, History", summary: "A classic of the silent age, this film tells the story of the doomed but ultimately canonized 15th-century teenage warrior. On trial for claiming she\\'d spoken to God, Jeanne d\\'Arc is subjected to inhumane treatment and scare tactics at the hands of church court officials. Initially bullied into changing her story, Jeanne eventually opts for what she sees as the truth. Her punishment, a famously brutal execution, earns her perpetual martyrdom.", poster: "https://image.tmdb.org/t/p/w500/8OYGtQlO8k9PcOm49apV62eVJQo.jpg" },
+    { rank: "212", title: "Hotel Rwanda", rating: 8.0, year: 2004, director: "Terry George", genre: "Drama, History, War", summary: "Inspired by true events, this film takes place in Rwanda in the 1990s when more than a million Tutsis were killed in a genocide that went mostly unnoticed by the rest of the world. Hotel owner Paul Rusesabagina houses over a thousand refuges in his hotel in attempt to save their lives.", poster: "https://image.tmdb.org/t/p/w500/p3pHw85UMZPegfMZBA6dZ06yarm.jpg" },
+    { rank: "213", title: "Rocky", rating: 8.0, year: 1976, director: "John G. Avildsen", genre: "Drama, Romance", summary: "An uneducated collector for a Philadelphia loan shark is given a once-in-a-lifetime opportunity to fight against the world heavyweight boxing champion.", poster: "https://image.tmdb.org/t/p/w500/hEjK9A9BkNXejFW4tfacVAEHtkn.jpg" },
+    { rank: "214", title: "Ratatouille", rating: 8.0, year: 2007, director: "Brad Bird", genre: "Animation, Comedy, Family, Fantasy", summary: "Remy, a resident of Paris, appreciates good food and has quite a sophisticated palate. He would love to become a chef so he can create and enjoy culinary masterpieces to his heart\\'s delight. The only problem is, Remy is a rat. When he winds up in the sewer beneath one of Paris\\' finest restaurants, the rodent gourmet finds himself ideally placed to realize his dream.", poster: "https://image.tmdb.org/t/p/w500/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg" },
+    { rank: "215", title: "Platoon", rating: 8.0, year: 1986, director: "Oliver Stone", genre: "Drama, War, Action", summary: "As a young and naive recruit in Vietnam, Chris Taylor faces a moral crisis when confronted with the horrors of war and the duality of man.", poster: "https://image.tmdb.org/t/p/w500/8hDlxJZYCJJLRHbSk7hsRQ9SNp7.jpg" },
+    { rank: "216", title: "Logan", rating: 8.0, year: 2017, director: "James Mangold", genre: "Action, Drama, Science Fiction", summary: "In the near future, a weary Logan cares for an ailing Professor X in a hideout on the Mexican border. But Logan\\'s attempts to hide from the world and his legacy are upended when a young mutant arrives, pursued by dark forces.", poster: "https://image.tmdb.org/t/p/w500/fnbjcRDYn6YviCcePDnGdyAkYsB.jpg" },
+    { rank: "217", title: "Spotlight", rating: 8.0, year: 2015, director: "Tom McCarthy", genre: "Drama, History", summary: "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.", poster: "https://image.tmdb.org/t/p/w500/gWkgMnIsd8Od7iyhEEKL5G4Qq6J.jpg" },
+    { rank: "218", title: "The Terminator", rating: 8.0, year: 1984, director: "James Cameron", genre: "Action, Thriller, Science Fiction", summary: "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?", poster: "https://image.tmdb.org/t/p/w500/kdYu7YJJP0uuGEuhUX5toqvBSog.jpg" },
+    { rank: "219", title: "Stand by Me", rating: 8.0, year: 1986, director: "Rob Reiner", genre: "Crime, Drama", summary: "Gordie, Chris, Teddy and Vern are four friends who decide to hike to find the corpse of Ray Brower, a local teenager, who was hit by a train while plucking blueberries in the wild.", poster: "https://image.tmdb.org/t/p/w500/vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg" },
+    { rank: "220", title: "Rush", rating: 8.0, year: 2013, director: "Ron Howard", genre: "Drama, Action", summary: "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda during the 1976 Formula One motor-racing season.", poster: "https://image.tmdb.org/t/p/w500/5akKFgS7eeXUw9rKTEujryKrH17.jpg" },
+    { rank: "221", title: "Network", rating: 8.0, year: 1976, director: "Sidney Lumet", genre: "Drama", summary: "When veteran anchorman Howard Beale is forced to retire his 25-year post because of his age, he announces to viewers that he will kill himself during his farewell broadcast. Network executives rethink their decision when his fanatical tirade results in a spike in ratings.", poster: "https://image.tmdb.org/t/p/w500/qZomlHsaALUtkFeMDwdYmwS2Pbo.jpg" },
+    { rank: "222", title: "Before Sunset", rating: 8.0, year: 2004, director: "Richard Linklater", genre: "Drama, Romance", summary: "Nine years later, Jesse travels across Europe giving readings from a book he wrote about the night he spent in Vienna with Celine. After his reading in Paris, Celine finds him, and they spend part of the day together before Jesse has to again leave for a flight. They are both in relationships now, and Jesse has a son, but as their strong feelings for each other start to return, both confess a longing for more.", poster: "https://image.tmdb.org/t/p/w500/gycdE1ARByGQcK4fYR2mgpU6OO.jpg" },
+    { rank: "223", title: "The Wizard of Oz", rating: 8.0, year: 1939, director: "Victor Fleming", genre: "Adventure, Fantasy, Family", summary: "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.", poster: "https://image.tmdb.org/t/p/w500/bSA6DbAC5gdkaooU164lQUX6rVs.jpg" },
+    { rank: "224", title: "Into the Wild", rating: 8.0, year: 2007, director: "Sean Penn", genre: "Adventure, Drama", summary: "After graduating from Emory University in 1992, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity, and hitchhikes to Alaska to live in the wilderness.", poster: "https://image.tmdb.org/t/p/w500/2MSGZEE6XZd2r4ODNziwAw7Hpw0.jpg" },
+    { rank: "225", title: "The Best Years of Our Lives", rating: 8.0, year: 1946, director: "William Wyler", genre: "Drama, Romance, War", summary: "It\\'s the hope that sustains the spirit of every GI: the dream of the day when he will finally return home. For three WWII veterans, the day has arrived. But for each man, the dream is about to become a nightmare.", poster: "https://image.tmdb.org/t/p/w500/gd5EoAU4MM57sW3vlWxJ0NMM8cV.jpg" },
+    { rank: "226", title: "The Exorcist", rating: 8.0, year: 1973, director: "William Friedkin", genre: "Horror", summary: "12-year-old Regan MacNeil begins to adapt an explicit new personality as strange events befall the local area of Georgetown. Her mother becomes torn between science and superstition in a desperate bid to save her daughter, and ultimately turns to her last hope: Father Damien Karras, a troubled priest who is struggling with his own faith.", poster: "https://image.tmdb.org/t/p/w500/4ucLGcXVVSVnsfkGtbLY4XAius8.jpg" },
+    { rank: "227", title: "Groundhog Day", rating: 8.0, year: 1993, director: "Harold Ramis", genre: "Romance, Fantasy, Drama, Comedy", summary: "A narcissistic TV weatherman, along with his attractive-but-distant producer, and his mawkish cameraman, is sent to report on Groundhog Day in the small town of Punxsutawney, where he finds himself repeating the same day over and over.", poster: "https://image.tmdb.org/t/p/w500/qIwyDf5k0eNsrfQjd0HCkeraNGD.jpg" },
+    { rank: "228", title: "The Incredibles", rating: 8.0, year: 2004, director: "Brad Bird", genre: "Action, Adventure, Animation, Family", summary: "Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it\\'s time to get back into costume.", poster: "https://image.tmdb.org/t/p/w500/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg" },
+    { rank: "229", title: "La haine", rating: 8.0, year: 1995, director: "Mathieu Kassovitz", genre: "Drama", summary: "After a chaotic night of rioting in a marginal suburb of Paris, three young friends, Vinz, Hubert and Saïd, wander around unoccupied waiting for news about the state of health of a mutual friend who has been seriously injured when confronting the police.", poster: "https://image.tmdb.org/t/p/w500/8rgPyWjYZhsphSSxbXguMnhN7H0.jpg" },
+    { rank: "230", title: "To Be or Not to Be", rating: 8.0, year: 1942, director: "Ernst Lubitsch", genre: "Comedy, War", summary: "During the Nazi occupation of Poland, an acting troupe becomes embroiled in a Polish soldier\\'s efforts to track down a German spy.", poster: "https://image.tmdb.org/t/p/w500/dDQRpEoyjHT4fzw9cNklIvZuXYg.jpg" },
+    { rank: "231", title: "Pirates of the Caribbean: The Curse of the Black Pearl", rating: 8.0, year: 2003, director: "Gore Verbinski", genre: "Adventure, Fantasy, Action", summary: "Jack Sparrow, a freewheeling 18th-century pirate, quarrels with a rival pirate bent on pillaging Port Royal. When the governor\\'s daughter is kidnapped, Sparrow decides to help the girl\\'s love save her.", poster: "https://image.tmdb.org/t/p/w500/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg" },
+    { rank: "232", title: "Hachi: A Dog\\'s Tale", rating: 8.0, year: 2009, director: "Lasse Hallström", genre: "Drama, Family", summary: "A drama based on the true story of a college professor\\'s bond with the abandoned dog he takes into his home.", poster: "https://image.tmdb.org/t/p/w500/lsy3aEsEfYIHdLRk4dontZ4s85h.jpg" },
+    { rank: "233", title: "The Grapes of Wrath", rating: 8.0, year: 1940, director: "John Ford", genre: "Drama", summary: "Tom Joad returns to his home after a jail sentence to find his family kicked out of their farm due to foreclosure. He catches up with them on his Uncle’s farm, and joins them the next day as they head for California and a new life... Hopefully.", poster: "https://image.tmdb.org/t/p/w500/eUcxMVBIA0Jg8l1RGUqycrc3eIQ.jpg" },
+    { rank: "234", title: "The Battle of Algiers", rating: 8.0, year: 1966, director: "Gillo Pontecorvo", genre: "Drama, War, History", summary: "Tracing the struggle of the Algerian Front de Liberation Nationale to gain freedom from French colonial rule as seen through the eyes of Ali from his start as a petty thief to his rise to prominence in the organisation and capture by the French in 1957. The film traces the rebels\\' struggle and the increasingly extreme measures taken by the French government to quell the revolt.", poster: "https://image.tmdb.org/t/p/w500/1eEN4ubAFB4N2Rl9syqPVCcwrGG.jpg" },
+    { rank: "235", title: "Pather Panchali", rating: 8.0, year: 1955, director: "Satyajit Ray", genre: "Drama, History", summary: "Impoverished priest Harihar Ray, dreaming of a better life for himself and his family, leaves his rural Bengal village in search of work.", poster: "https://image.tmdb.org/t/p/w500/frZj5djlU9hFEjMcL21RJZVuG5O.jpg" },
+    { rank: "236", title: "Jai Bhim", rating: 8.0, year: 2021, director: "T. J. Gnanavel", genre: "Crime, Drama, Mystery", summary: "A pregnant woman from a primitive tribal community, searches desperately for her husband, who is missing from police custody. So as to find her husband and seek justice for them, as their voice, a High Court advocate rises in support. Will their battle for justice succeed?", poster: "https://image.tmdb.org/t/p/w500/zb9QBUn5AZzoKCS2jsnhp6ySSGp.jpg" },
+    { rank: "237", title: "Amores Perros", rating: 8.0, year: 2000, director: "Alejandro González Iñárritu", genre: "Drama, Thriller", summary: "A fatalistic car crash in Mexico city sets off a chain of events in the lives of three people: a supermodel, a young man wanting to run off with his sister-in-law, and a homeless man. Their lives are catapulted into unforeseen situations instigated by the seemingly inconsequential destiny of a dog.", poster: "https://image.tmdb.org/t/p/w500/vV4vlD4ool5JSsS1rB82qjCF6z8.jpg" },
+    { rank: "238", title: "My Father and My Son", rating: 8.0, year: 2005, director: "Çağan Irmak", genre: "Drama", summary: "A left-wing journalist whose wife died while giving birth to his son during a military coup returns to his family\\'s farm. Estranged from his father for turning his back on the family and wasting his life with political activism instead, he tries to reconnect with him so that his son will have a place to live as his health is deteriorating due to the extensive torture he had to endure.", poster: "https://image.tmdb.org/t/p/w500/dcKY23xowYTU9B1cagUdHQwsxOB.jpg" },
+    { rank: "239", title: "The Handmaiden", rating: 8.0, year: 2016, director: "Park Chan-wook", genre: "Thriller, Drama, Romance", summary: "In 1930s Korea, a swindler and a young woman pose as a Japanese count and a handmaiden to seduce a Japanese heiress and steal her fortune.", poster: "https://image.tmdb.org/t/p/w500/x2lZKoKPqVodhYTYbVaCC3NjhdK.jpg" },
+    { rank: "240", title: "Rebecca", rating: 8.0, year: 1940, director: "Alfred Hitchcock", genre: "Mystery, Drama, Thriller, Romance", summary: "Story of a young woman who marries a fascinating widower only to find out that she must live in the shadow of his former wife, Rebecca, who died mysteriously several years earlier. The young wife must come to grips with the terrible secret of her handsome, cold husband, Max De Winter. She must also deal with the jealous, obsessed Mrs. Danvers, the housekeeper, who will not accept her as the mistress of the house.", poster: "https://image.tmdb.org/t/p/w500/1qz3qUOHnVy7dL7M7G8jSErxE4b.jpg" },
+    { rank: "241", title: "Cool Hand Luke", rating: 8.0, year: 1967, director: "Stuart Rosenberg", genre: "Crime, Drama", summary: "When petty criminal Luke Jackson is sentenced to two years in a Florida prison farm, he doesn\\'t play by the rules of either the sadistic warden or the yard\\'s resident heavy, Dragline, who ends up admiring the new guy\\'s unbreakable will. Luke\\'s bravado, even in the face of repeated stints in the prison\\'s dreaded solitary confinement cell, \"the box,\" make him a rebel hero to his fellow convicts and a thorn in the side of the prison officers.", poster: "https://image.tmdb.org/t/p/w500/4ykzTiHKLamh3eZJ8orVICtU2Jp.jpg" },
+    { rank: "242", title: "The Sound of Music", rating: 8.0, year: 1965, director: "Robert Wise", genre: "Drama, Family, Music, Romance", summary: "In the years before the Second World War, a tomboyish postulant at an Austrian abbey is hired as a governess in the home of a widowed naval captain with seven children, and brings a new love of life and music into the home.", poster: "https://image.tmdb.org/t/p/w500/xvXiJggaxRrU4jLjTXCmqnqEsGd.jpg" },
+    { rank: "243", title: "The 400 Blows", rating: 8.0, year: 1959, director: "François Truffaut", genre: "Drama", summary: "For young Parisian boy Antoine Doinel, life is one difficult situation after another. Surrounded by inconsiderate adults, including his neglectful parents, Antoine spends his days with his best friend, Rene, trying to plan for a better life. When one of their schemes goes awry, Antoine ends up in trouble with the law, leading to even more conflicts with unsympathetic authority figures.", poster: "https://image.tmdb.org/t/p/w500/12PuU23kkDLvTd0nb8hMlE3oShB.jpg" },
+    { rank: "244", title: "It Happened One Night", rating: 8.0, year: 1934, director: "Frank Capra", genre: "Comedy, Romance", summary: "A renegade reporter and a young heiress meet on a bus heading for New York, and end up stuck with each other when the bus leaves them behind at one of the stops.", poster: "https://image.tmdb.org/t/p/w500/2PNUGWAflH6UUumas0POMmokHlc.jpg" },
+    { rank: "245", title: "Persona", rating: 8.0, year: 1966, director: "Ingmar Bergman", genre: "Drama", summary: "A young nurse, Alma, is put in charge of Elisabeth Vogler: an actress who is seemingly healthy in all respects, but will not talk. As they spend time together, Alma speaks to Elisabeth constantly, never receiving any answer. The time they spend together only strengthens the crushing realization that one does not exist.", poster: "https://image.tmdb.org/t/p/w500/bdXbfUir63TQHA5NTNcXPICZCW8.jpg" },
+    { rank: "246", title: "Life of Brian", rating: 8.0, year: 1979, director: "Terry Jones", genre: "Comedy", summary: "Brian Cohen is an average young Jewish man, but through a series of ridiculous events, he gains a reputation as the Messiah. When he\\'s not dodging his followers or being scolded by his shrill mother, the hapless Brian has to contend with the pompous Pontius Pilate and acronym-obsessed members of a separatist movement. Rife with Monty Python\\'s signature absurdity, the tale finds Brian\\'s life paralleling Biblical lore, albeit with many more laughs.", poster: "https://image.tmdb.org/t/p/w500/lSSA64WF0M0BXnjwr2quMh6shCl.jpg" },
+    { rank: "247", title: "The Iron Giant", rating: 8.0, year: 1999, director: "Brad Bird", genre: "Family, Animation, Science Fiction, Drama", summary: "In the small town of Rockwell, Maine in October 1957, a giant metal machine befriends a nine-year-old boy and ultimately finds its humanity by unselfishly saving people from their own fears and prejudices.", poster: "https://image.tmdb.org/t/p/w500/mThOw5rXLtdbY3WmuTsS9zsQBMG.jpg" },
+    { rank: "248", title: "The Help", rating: 8.0, year: 2011, director: "Tate Taylor", genre: "Drama", summary: "Aibileen Clark is a middle-aged African-American maid who has spent her life raising white children and has recently lost her only son; Minny Jackson is an African-American maid who has often offended her employers despite her family\\'s struggles with money and her desperate need for jobs; and Eugenia \"Skeeter\" Phelan is a young white woman who has recently moved back home after graduating college to find out her childhood maid has mysteriously disappeared. These three stories intertwine to explain how life in Jackson, Mississippi revolves around \"the help\"; yet they are always kept at a certain distance because of racial lines.", poster: "https://image.tmdb.org/t/p/w500/3kmfoWWEc9Vtyuaf9v5VipRgdjx.jpg" },
+    { rank: "249", title: "Aladdin", rating: 8.0, year: 1992, director: "Ron Clements", genre: "Animation, Family, Adventure, Fantasy, Romance", summary: "Disney’s animated take on the classic Arabian tale, featuring Oscar-winning music and Robin Williams as a wise-cracking blue genie. Young \\'street rat\\' Aladdin has dreams of being something nobler than a small marketplace thief. He discovers a bond with Princess Jasmine during a chance encounter, but is arrested for thievery by the palace guards soon after. In custody, Aladdin learns of a magical lamp that will grant him any wish he desires. Escaping from prison, he heads for the promised land in search of the mythical treasure, completely unaware that he is being manipulated by the Sultan’s sinister Grand Vizier, Jafar.", poster: "https://image.tmdb.org/t/p/w500/x5LLRJ2WSSDSb2kvq9zNQ4GS37q.jpg" },
+    { rank: "250", title: "Dances with Wolves", rating: 8.0, year: 1990, director: "Kevin Costner", genre: "Adventure, Drama, Western", summary: "Wounded Civil War soldier, John Dunbar tries to commit suicide—and becomes a hero instead. As a reward, he\\'s assigned to his dream post, a remote junction on the Western frontier, and soon makes unlikely friends with the local Sioux tribe.", poster: "https://image.tmdb.org/t/p/w500/cvaBVpS0GzKqBd63pFT8f1E8OKv.jpg" },
+];
 

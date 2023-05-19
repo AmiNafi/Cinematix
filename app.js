@@ -34,6 +34,7 @@ app.get('/movielist/newmovie', async (req, res) => {
 });
 app.get('/movielist/:id', async (req, res) => {
     const curmovie = await singleMovie.findById(req.params.id);
+    console.log(" got current movies " + req.params.id);
     res.render('movielist/showmovie', { curmovie });
 });
 app.get('/movielist/:id/editmovie', async (req, res) => {

@@ -14,10 +14,10 @@
         <a href="/movielist/newmovie"> Add movie</a>
     </div>
     <ul>
-        <% for (let movie of movielist) {%>
+        <% for (let curmovie of movielist) {%>
             <li>
-                <a href="/movielist/<%= movie._id%>">
-                    <%= movie.title %>
+                <a href="/movielist/<%= curmovie._id%>">
+                    <%= curmovie.title %>
                 </a>
             </li>
             <% } %>

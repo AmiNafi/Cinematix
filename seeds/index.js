@@ -17,8 +17,10 @@ const seedDB = async () => {
             title: `${movielist[i].title}`,
             director: `${movielist[i].director}`,
             rating: `${movielist[i].rating}`,
-            description: `${movielist[i].description}`,
-            poster: `${movielist[i].poster}`
+            summary: `${movielist[i].summary}`,
+            poster: `${movielist[i].poster}`,
+            year: `${movielist[i].year}`,
+            genre: `${movielist[i].genre}`
             // rating: parseFloat((`${movielist[i].rating}`).toString()),
         })
         await curmovie.save();
