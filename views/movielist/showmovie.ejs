@@ -25,6 +25,11 @@
     <p>
         <%= curmovie.summary%>
     </p>
+    <p>
+    <form action="/movielist/<%=curmovie._id%>?_method=DELETE" method="POST">
+        <button>Delte</button>
+    </form>
+    </p>
     <footer>
         <a href="/movielist">All Movies</a>
         <a href="/movielist/<%= curmovie._id %>/editmovie">Edit</a>

@@ -34,22 +34,28 @@ app.get('/movielist/newmovie', async (req, res) => {
 });
 app.get('/movielist/:id', async (req, res) => {
     const curmovie = await singleMovie.findById(req.params.id);
-    console.log(" got current movies " + req.params.id);
     res.render('movielist/showmovie', { curmovie });
 });
 app.get('/movielist/:id/editmovie', async (req, res) => {
     const curmovie = await singleMovie.findById(req.params.id);
     res.render('movielist/editmovie', { curmovie });
 });
+
+app.post('/movielist', async (req, res) => {
+    const curmovie = new singleMovie(req.body.movie);
+    await curmovie.save();
+    res.redirect(`/movielist/${curmovie._id}`);
+});
 app.put('/movielist/:id', async (req, res) => {
     const { id } = req.params;
     const curmovie = await singleMovie.findByIdAndUpdate(id, { ...req.body.movie });
     res.redirect(`/movielist/${curmovie._id}`)
 });
-app.post('/movielist', async (req, res) => {
-    const curmovie = new singleMovie(req.body.movie);
-    await curmovie.save();
-    res.redirect(`/movielist/${curmovie._id}`);
+app.delete('/movielist/:id', async (req, res) => {
+    console.log(" got really here though");
+    const { id } = req.params;
+    await singleMovie.findByIdAndDelete(id);
+    res.redirect('/movielist');
 });
 app.listen(3000, () => {
     console.log('Serving on port 3000');
