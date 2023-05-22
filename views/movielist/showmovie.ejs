@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        <%= curmovie.title %>
-    </title>
-</head>
-
-
-<body>
+<%- layout('layouts/boilerplate') %>
     <h1>
         <%= curmovie.title %> <br>
     </h1>
@@ -27,13 +14,10 @@
     </p>
     <p>
     <form action="/movielist/<%=curmovie._id%>?_method=DELETE" method="POST">
-        <button>Delte</button>
+        <button>Delete</button>
     </form>
     </p>
     <footer>
         <a href="/movielist">All Movies</a>
         <a href="/movielist/<%= curmovie._id %>/editmovie">Edit</a>
     </footer>
-</body>
-
-</html>

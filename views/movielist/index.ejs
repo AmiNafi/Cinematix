@@ -1,27 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie List</title>
-</head>
-
-<body>
+<%- layout('layouts/boilerplate') %>
     <h1>All Movie List</h1>
-    <div>
+    <!-- <div>
         <a href="/movielist/newmovie"> Add movie</a>
-    </div>
-    <ul>
-        <% for (let curmovie of movielist) {%>
-            <li>
-                <a href="/movielist/<%= curmovie._id%>">
-                    <%= curmovie.title %>
-                </a>
-            </li>
-            <% } %>
-    </ul>
-</body>
+    </div> -->
+    <div class="py-5">
+        <div class="container">
+            <div class="row hidden-md-up">
+                <% for (let curmovie of movielist) {%>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="<%=curmovie.poster%>" class="card-img-top" alt="<%=curmovie.title%>">
+                                </div>
+                                <div class="col-md-8 card-body">
+                                    <h5 class="card-title">
+                                        <%= curmovie.title %>
+                                    </h5>
+                                    <p class="card-text">
+                                        <% let des=curmovie.summary.toString();%>
+                                            <% if (des.length> 70) {
+                                                %><%=des.slice(0, 70) %>...
+                                                    <%} else { %>
+                                                        <%=des%>
+                                                            <% } %>
+                                    </p>
+                                    <a href="/movielist/<%=curmovie._id%>" class="stretched-link"></a>
+                                </div>
+                            </div>
 
-</html>
+
+
+                        </div>
+                    </div>
+                    <% } %>
+            </div>
+        </div>
+    </div>

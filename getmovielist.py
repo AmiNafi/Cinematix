@@ -17,7 +17,7 @@ def generate_imdb_top_250_module():
         rank = rank_element.get_text(strip=True).split('.')[0] if rank_element else ''
 
         title_element = movie.select_one('.titleColumn a')
-        title = title_element.text.replace("'", "\\'") if title_element else ''
+        title = title_element.text.replace("'", "\'") if title_element else ''
 
         rating_element = movie.select_one('.imdbRating strong')
         rating = float(rating_element.text) if rating_element else 0.0
@@ -65,8 +65,8 @@ def fetch_movie_details(movie_id):
 
     movie_details['year'] = data.get('release_date', '').split('-')[0] if data.get('release_date') else ''
     movie_details['director'] = get_director(data)
-    movie_details['genres'] = [genre['name'].replace("'", "\\'") for genre in data.get('genres', [])]
-    movie_details['summary'] = data.get('overview', '').replace("'", "\\'")
+    movie_details['genres'] = [genre['name'].replace("'", "\'") for genre in data.get('genres', [])]
+    movie_details['summary'] = data.get('overview', '').replace("'", "\'")
     movie_details['poster'] = f"https://image.tmdb.org/t/p/w500{data.get('poster_path', '')}"
 
     return movie_details
@@ -75,7 +75,7 @@ def get_director(data):
     crew = data.get('credits', {}).get('crew', [])
     for member in crew:
         if member.get('job') == 'Director':
-            return member.get('name', '').replace("'", "\\'")
+            return member.get('name', '').replace("'", "\'")
     return ''
 
 # Generate the JavaScript module
