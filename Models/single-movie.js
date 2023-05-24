@@ -8,5 +8,6 @@ const SingleMovieSchema = new Schema({
     genre: String,
     summary: String,
     poster: String,
+    scenesnap: String
 });
 module.exports = mongoose.model('SingleMovie', SingleMovieSchema);

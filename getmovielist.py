@@ -36,25 +36,26 @@ def generate_imdb_top_250_module():
             'director': director,
             'genre': ', '.join(movie_details.get('genres', [])),
             'summary': movie_details.get('summary', ''),
-            'poster': movie_details.get('poster', '')
+            'poster': movie_details.get('poster', ''),
+            'scenesnap': movie_details.get('scenesnap', '')
         }
 
         movie_list.append(movie_data)
 
-    js_module = 'const movies = [\n'
+    js_module = 'module.exports = [\n'
     for movie in movie_list:
         js_module += '\t{ '
-        js_module += ', '.join(f"{key}: {json.dumps(value, ensure_ascii=False)}" for key, value in movie.items())
+        js_module += ', '.join(f'{key}: {json.dumps(value, ensure_ascii=False)}' for key, value in movie.items())
         js_module += ' },\n'
-    js_module += '];\n\nexport default movies;'
+    js_module += '];'
 
     return js_module
 
 def fetch_movie_details(movie_id):
     # Add your TMDB API key here
-    tmdb_api_key = 'TMDB_API_KEY'
+    tmdb_api_key = 'Your API Key'
 
-    url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={tmdb_api_key}&append_to_response=credits'
+    url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={tmdb_api_key}&append_to_response=credits,images'
     response = requests.get(url)
     data = response.json()
 
@@ -68,6 +69,7 @@ def fetch_movie_details(movie_id):
     movie_details['genres'] = [genre['name'].replace("'", "\'") for genre in data.get('genres', [])]
     movie_details['summary'] = data.get('overview', '').replace("'", "\'")
     movie_details['poster'] = f"https://image.tmdb.org/t/p/w500{data.get('poster_path', '')}"
+    movie_details['scenesnap'] = f"https://image.tmdb.org/t/p/original{data.get('images', {}).get('backdrops', [{}])[0].get('file_path', '')}"
 
     return movie_details
 

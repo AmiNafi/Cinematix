@@ -36,6 +36,7 @@ app.get('/movielist/newmovie', async (req, res) => {
 });
 app.get('/movielist/:id', async (req, res) => {
     const curmovie = await singleMovie.findById(req.params.id);
+    // console.log(curmovie);
     res.render('movielist/showmovie', { curmovie });
 });
 app.get('/movielist/:id/editmovie', async (req, res) => {
@@ -54,7 +55,6 @@ app.put('/movielist/:id', async (req, res) => {
     res.redirect(`/movielist/${curmovie._id}`)
 });
 app.delete('/movielist/:id', async (req, res) => {
-    console.log(" got really here though");
     const { id } = req.params;
     await singleMovie.findByIdAndDelete(id);
     res.redirect('/movielist');
