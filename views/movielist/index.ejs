@@ -1,12 +1,12 @@
 <%- layout('layouts/boilerplate') %>
-    <h1>All Movie List</h1>
+    <!-- <h1>Movies</h1> -->
     <!-- <div>
         <a href="/movielist/newmovie"> Add movie</a>
     </div> -->
     <div class="py-5">
         <div class="container">
             <div class="row hidden-md-up">
-                <% for (let curmovie of movielist) {%>
+                <% for (let curmovie of data.movielist) {%>
                     <div class="col-md-4 mb-3">
                         <div class="card h-100">
                             <div class="row">
@@ -17,24 +17,57 @@
                                     <h5 class="card-title">
                                         <%= curmovie.title %>
                                     </h5>
-                                    <p class="card-text">
-                                        <% let des=curmovie.summary.toString();%>
-                                            <% if (des.length> 70) {
-                                                %><%=des.slice(0, 70) %>...
-                                                    <%} else { %>
-                                                        <%=des%>
-                                                            <% } %>
-                                    </p>
-                                    <a href="/movielist/<%=curmovie._id%>" class="stretched-link"></a>
+                                    <% if (curmovie.genre !=null) { let genres=(curmovie.genre).split(','); for (let
+                                        genre of genres) { %>
+                                        <span class="badge text-bg-secondary">
+                                            <%=genre%>
+                                        </span>
+
+                                        <% }} %>
+
+
+                                            <p class="card-text">
+                                                <% if (curmovie.summary !=null) { let des=curmovie.summary.toString();%>
+                                                    <% if (des.length> 70) {
+                                                        %><%=des.slice(0, 70) %>...
+                                                            <%} else { %>
+                                                                <%=des%>
+                                                                    <% } }%>
+                                            </p>
+                                            <a href="/movielist/<%=curmovie._id%>" class="stretched-link"></a>
                                 </div>
                             </div>
-
-
-
                         </div>
                     </div>
                     <% } %>
             </div>
         </div>
     </div>
-    
+    <nav aria-label="Page navigation example ">
+        <ul class="pagination justify-content-center">
+            <% let totpage=Math.floor((data.totalmovies + data.lim - 1) / data.lim); let curpage=parseInt(data.page); if
+                (curpage !=NaN) { if (curpage> 1) { %>
+                <li class="page-item">
+                    <a class="page-link" href="?page=<%= curpage - 1 %>" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">
+                        </span>
+                    </a>
+                </li>
+                <%}%>
+                    <% for (let i=curpage; i <=Math.min(curpage + 3, totpage); i++) {%>
+                        <li class="page-item"><a class="page-link" href="?page=<%=i%>">
+                                <%=i%>
+                            </a></li>
+                        <%} if (curpage + 3 < totpage) {%>
+                            <li class="page-item">
+                                <a class="page-link" href="?page=<%=curpage + 4%>" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">
+
+                                    </span>
+                                </a>
+                            </li>
+                            <%}}%>
+        </ul>
+    </nav>
