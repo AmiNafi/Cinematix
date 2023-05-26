@@ -1,24 +1,44 @@
 <%- layout('layouts/boilerplate') %>
-    <h1>
-        <%= curmovie.title %> <br>
-    </h1>
-    <img src="<%= curmovie.scenesnap %>" alt="Image not loaded" class="img-fluid">
-    <p>
-        <b>Rating: </b>
-        <%= curmovie.rating %> <br>
-            <b>Director: </b>
-            <%= curmovie.director %>
-    </p>
-    </p>
-    <p>
-        <%= curmovie.summary%>
-    </p>
-    <p>
-    <form action="/movielist/<%=curmovie._id%>?_method=DELETE" method="POST">
-        <button>Delete</button>
-    </form>
-    </p>
-    <footer>
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card mb-3">
+                <img class="card-img-top" src="<%= curmovie.scenesnap %>" alt="Image not loading">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <%= curmovie.title %>
+                    </h5>
+                    <p class="card-text">
+                        <%= curmovie.summary%>
+                    </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><b>Genres: </b>
+                        <%= curmovie.genre %>
+                    </li>
+                    <li class="list-group-item"><b>Director: </b>
+                        <%= curmovie.director %>
+                    </li>
+                    <li class="list-group-item"><b>Rating: </b>
+                        <%= curmovie.rating %> <br>
+                    </li>
+
+                </ul>
+                <div class="card-body">
+                    <a class="card-link btn btn-secondary" href="/movielist/<%= curmovie._id %>/editmovie">Edit</a>
+                    <form class="d-inline" action="/movielist/<%=curmovie._id%>?_method=DELETE" method="POST">
+                        <button class="btn btn-danger">Delete</button>
+                    </form>
+
+                </div>
+                <div class="card-footer text-muted">
+                    2 days ago
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- <footer>
         <a href="/movielist">All Movies</a>
-        <a href="/movielist/<%= curmovie._id %>/editmovie">Edit</a>
-    </footer>
+
+    </footer> -->

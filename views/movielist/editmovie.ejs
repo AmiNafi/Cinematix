@@ -1,14 +1,48 @@
 <%- layout('layouts/boilerplate') %>
-    <h1>Edit Movi   e</h1>
-    <form action="/movielist/<%=curmovie._id%>?_method=PUT" method="POST">
-        <div>
-            <label for="title">Title</label>
-            <input type="text" id="title" name="movie[title]" value="<%= curmovie.title %>">
+    <div class="row">
+        <h1 class="text-center">Update Movies</h1>
+        <div class="col-6 offset-3">
+            <form action="/movielist" method="POST">
+                <div class="mb-3">
+                    <label class="form-label" for="title">Title</label>
+                    <input class="form-control" type="text" id="title" name="movie[title]"
+                        value="<%= curmovie.title %>">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="director">Director</label>
+                    <input class="form-control" type="text" id="director" name="movie[director]"
+                        value="<%= curmovie.director %>">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="poster"> Image Url(for all movies page) </label>
+                    <input class="form-control" type="text" id="poster" name="movie[poster]"
+                        value="<%= curmovie.poster %>">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="scenesnap"> Image Url(for Single Movie page) </label>
+                    <input class="form-control" type="text" id="scenesnap" name="movie[scenesnap]"
+                        value="<%= curmovie.scenesnap %>">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="genre"> Genres </label>
+                    <input class="form-control" type="text" id="genre" name="movie[genre]"
+                        value="<%= curmovie.genre %>">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="rating"> IMDB Rating </label>
+                    <input class="form-control" type="number" step="0.1" id="rating" name="movie[rating]"
+                        value="<%= curmovie.rating %>">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="summary"> Description </label>
+                    <textarea class="form-control" type="text" id="summary"
+                        name="movie[summary]"><%= curmovie.summary %></textarea>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-success">Update Movie</button>
+                </div>
+
+            </form>
+            <a href="/movielist/<%= curmovie._id %>">Back to movie </a>
         </div>
-        <div>
-            <label for="director">Director</label>
-            <input type="text" id="director" name="movie[director]" value="<%= curmovie.director %>">
-        </div>
-        <button>Update Movie</button>
-    </form>
-    <a href="/movielist/<%= curmovie._id %>">Back to movie </a>
+    </div>

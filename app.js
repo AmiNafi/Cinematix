@@ -30,7 +30,7 @@ app.get('/', async (req, res) => {
 app.get('/movielist', async (req, res) => {
     const { page = 1 } = req.query, lim = 21;
     const totalmovies = await singleMovie.count();
-    console.log(totalmovies);
+    // console.log(totalmovies);
     const movielist = await singleMovie.find({}).limit(lim).skip((page - 1) * lim);;
     res.render('movielist/index', { data: { movielist, page, totalmovies, lim } });
 })
