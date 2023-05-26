@@ -46,25 +46,26 @@
     <nav aria-label="Page navigation example ">
         <ul class="pagination justify-content-center">
             <% let totpage=Math.floor((data.totalmovies + data.lim - 1) / data.lim); let curpage=parseInt(data.page); if
-                (curpage !=NaN) { if (curpage> 1) { %>
+                (curpage !=NaN) { let firstpage=Math.max(1, curpage - 1); if (firstpage> 1) { %>
                 <li class="page-item">
-                    <a class="page-link" href="?page=<%= curpage - 1 %>" aria-label="Previous">
+                    <a class="page-link" href="?page=1" aria-label="Previous">
                         <span aria-hidden="true">&laquo;</span>
                         <span class="sr-only">
                         </span>
                     </a>
                 </li>
                 <%}%>
-                    <% for (let i=curpage; i <=Math.min(curpage + 3, totpage); i++) {%>
-                        <li class="page-item"><a class="page-link" href="?page=<%=i%>">
+                    <% if (curpage==totpage) firstpage=Math.max(1, curpage - 2); let lastpage=Math.min(totpage,
+                        firstpage + 2); for (let i=firstpage; i <=lastpage; i++) {%>
+                        <li class="page-item"><a class="page-link <%if(curpage == i) {%>bg-primary text-white<%}%>"
+                                href="?page=<%=i%>">
                                 <%=i%>
                             </a></li>
-                        <%} if (curpage + 3 < totpage) {%>
+                        <%} if (lastpage < totpage) {%>
                             <li class="page-item">
-                                <a class="page-link" href="?page=<%=curpage + 4%>" aria-label="Next">
+                                <a class="page-link" href="?page=<%=totpage%>" aria-label="Next">
                                     <span aria-hidden="true">&raquo;</span>
                                     <span class="sr-only">
-
                                     </span>
                                 </a>
                             </li>
